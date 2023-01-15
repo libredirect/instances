@@ -1,0 +1,18 @@
+{
+    "clearnet": {
+        "tld": "org",
+        "name": "Clearnet"
+    },
+    "tor": {
+        "tld": "onion",
+        "name": "Tor"
+    },
+    "i2p": {
+        "tld": "i2p",
+        "name": "I2P"
+    },
+    "loki": {
+        "tld": "loki",
+        "name": "Lokinet"
+    }
+}
