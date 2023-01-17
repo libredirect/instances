@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: get repo content
-        uses: actions/checkout@v2
-
+        uses: actions/checkout@v3.3.0
+        
       - name: setup python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4.5.0
         with:
-          python-version: '3.8' # install the python version needed
+          python-version: '3.8'
 
       - name: install python packages
         run: |
@@ -34,7 +34,7 @@ jobs:
           git commit -m "Update instances" -a || :
       
       - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
