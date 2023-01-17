@@ -19,9 +19,6 @@ i2pRegex = startRegex + "i2p" + endRegex
 lokiRegex = startRegex + "loki" + endRegex
 authRegex = r"https?:\/{2}\S+:\S+@(?:[^\s\/]+\.)*[a-zA-Z0-9]+" + endRegex
 
-# 2.0 because Libredirect is currently on version 2.x.x
-headers = {'User-Agent': 'Libredirect-instance-fetcher/2.0'}
-
 with open('networks.json', 'rt') as tmp:
     networks = json.load(tmp)
 
@@ -101,22 +98,6 @@ def is_cloudflare(url):
     return False
 
 
-def is_authenticate(url):
-    try:
-        if re.match(authRegex, url):
-            print(url + ' requires ' + Fore.RED +
-                  'authentication' + Style.RESET_ALL)
-            return True
-        r = requests.get(url, timeout=5, headers=headers)
-        if 'www-authenticate' in r.headers:
-            print(url + ' requires ' + Fore.RED +
-                  'authentication' + Style.RESET_ALL)
-            return True
-    except Exception:
-        return False
-    return False
-
-
 def fetchCache(frontend, name):
     try:
         with open('./data.json') as file:
@@ -134,7 +115,7 @@ def fetchFromFile(frontend, name):
 
 def fetchJsonList(frontend, name, url, urlItem, jsonObject):
     try:
-        r = requests.get(url, headers=headers)
+        r = requests.get(url)
         rJson = json.loads(r.text)
         if jsonObject:
             rJson = rJson['instances']
@@ -173,7 +154,7 @@ def fetchJsonList(frontend, name, url, urlItem, jsonObject):
 
 def fetchRegexList(frontend, name, url, regex):
     try:
-        r = requests.get(url, headers=headers)
+        r = requests.get(url)
         _list = {}
         for network in networks:
             _list[network] = []
@@ -207,13 +188,13 @@ def fetchTextList(frontend, name, url, prepend):
         if type(url) == dict:
             for network in networks:
                 if url[network] is not None:
-                    r = requests.get(url[network], headers=headers)
+                    r = requests.get(url[network])
                     tmp = r.text.strip().split('\n')
                     for item in tmp:
                         item = prepend[network] + item
                         _list[network].append(item)
         else:
-            r = requests.get(url, headers=headers)
+            r = requests.get(url)
             tmp = r.text.strip().split('\n')
 
             for item in tmp:
@@ -243,7 +224,7 @@ def invidious():
         _list['tor'] = []
         _list['i2p'] = []
         _list['loki'] = []
-        r = requests.get(url, headers=headers)
+        r = requests.get(url)
         rJson = json.loads(r.text)
         for instance in rJson:
             if instance[1]['type'] == 'https':
@@ -269,13 +250,13 @@ def piped():
         _list['i2p'] = []
         _list['loki'] = []
         r = requests.get(
-            'https://raw.githubusercontent.com/wiki/TeamPiped/Piped/Instances.md', headers=headers)
+            'https://raw.githubusercontent.com/wiki/TeamPiped/Piped/Instances.md')
 
         tmp = re.findall(
-            r'(?:[^\s\/]+\.)+[a-zA-Z]+ (?:\(Official\) )?\| (https:\/{2}(?:[^\s\/]+\.)+[a-zA-Z]+) \| ', r.text)
+            r' \| (https:\/{2}(?:[^\s\/]+\.)+[a-zA-Z]+) \| ', r.text)
         for item in tmp:
             try:
-                url = requests.get(item, timeout=5, headers=headers).url
+                url = requests.get(item, timeout=5).url
                 if url.strip("/") == item:
                     continue
                 else:
@@ -343,11 +324,6 @@ def libremdb():
                    r"\| \[.*\]\(([-a-zA-Z0-9@:%_\+.~#?&//=]{2,}\.[a-z0-9]{2,}\b(?:\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?)\)*\|*[A-Z]{0,}.*\|.*\|")
 
 
-def simpleertube():
-    fetchTextList('simpleertube', 'SimpleerTube', {'clearnet': 'https://simple-web.org/instances/simpleertube', 'tor': 'https://simple-web.org/instances/simpleertube_onion',
-                  'i2p': 'https://simple-web.org/instances/simpleertube_i2p', 'loki': None}, {'clearnet': 'https://', 'tor': 'http://', 'i2p': 'http://', 'loki': 'http://'})
-
-
 def simplytranslate():
     fetchTextList('simplyTranslate', 'SimplyTranslate', {'clearnet': 'https://simple-web.org/instances/simplytranslate', 'tor': 'https://simple-web.org/instances/simplytranslate_onion',
                   'i2p': 'https://simple-web.org/instances/simplytranslate_i2p', 'loki': 'https://simple-web.org/instances/simplytranslate_loki'}, {'clearnet': 'https://', 'tor': 'http://', 'i2p': 'http://', 'loki': 'http://'})
@@ -360,7 +336,7 @@ def linvgatranslate():
 
 def searx_searxng():
     r = requests.get(
-        'https://searx.space/data/instances.json', headers=headers)
+        'https://searx.space/data/instances.json')
     rJson = json.loads(r.text)
     searxList = {}
     searxList['clearnet'] = []
@@ -479,14 +455,12 @@ beatbump()
 hyperpipe()
 facil()
 osm()
-simpleertube()
 breezeWiki()
-privateBin()
+# privateBin()
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
 
 cloudflare = []
-authenticate = []
 for k1, v1 in mightyList.items():
     if type(mightyList[k1]) is dict:
         for k2, v2 in mightyList[k1].items():
@@ -497,11 +471,8 @@ for k1, v1 in mightyList.items():
                 else:
                     if not instance.endswith('.onion') and not instance.endswith('.i2p') and not instance.endswith('.loki') and is_cloudflare(instance):
                         cloudflare.append(instance)
-                    if not instance.endswith('.onion') and not instance.endswith('.i2p') and not instance.endswith('.loki') and is_authenticate(instance):
-                        authenticate.append(instance)
 blacklist = {
-    'cloudflare': cloudflare,
-    'authenticate': authenticate,
+    'cloudflare': cloudflare
 }
 
 # Writing to file
