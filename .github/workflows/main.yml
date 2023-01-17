@@ -34,7 +34,7 @@ jobs:
           git commit -m "Update instances" -a || :
       
       - name: push changes
-        uses: ad-m/github-push-action@v1
+        uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
