@@ -294,11 +294,6 @@ def nitter():
     fetchRegexList('nitter', 'Nitter', 'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md',
                    r"(?:(?:\| )|(?:-   ))\[(?:(?:\S+\.)+[a-zA-Z0-9]+)\/?\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]+)\/?\)(?:(?: (?:\((?:\S+ ?\S*)\) )? *\| [^❌]{1,4} +\|(?:(?:\n)|(?: ❌)|(?: ✅)|(?: ❓)|(?: \[)))|(?:\n))")
 
-
-def bibliogram():
-    fetchFromFile('bibliogram', 'Bibliogram')
-
-
 def libreddit():
     fetchJsonList('libreddit', 'Libreddit', 'https://github.com/libreddit/libreddit-instances/raw/master/instances.json',
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, True)
@@ -437,7 +432,6 @@ cloudtube()
 proxitok()
 send()
 nitter()
-bibliogram()
 libreddit()
 teddit()
 scribe()
