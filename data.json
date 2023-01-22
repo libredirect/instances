@@ -24,12 +24,12 @@
       "https://iv.ggtyler.dev",
       "https://invidious.epicsite.xyz",
       "https://yt.oelrichsgarcia.de",
-      "https://invidious.slipfox.xyz",
       "https://invidious.dhusch.de",
       "https://invidious.weblibre.org",
       "https://invidious.esmailelbob.xyz",
       "https://iv.melmac.space",
       "https://invidious.privacydev.net",
+      "https://invidious.slipfox.xyz",
       "https://invidious.lidarshield.cloud",
       "https://invidious.namazso.eu"
     ],
@@ -56,6 +56,7 @@
   "piped": {
     "clearnet": [
       "https://piped.video",
+      "https://piped.tokhmi.xyz",
       "https://piped.moomoo.me",
       "https://piped.mha.fi",
       "https://watch.whatever.social",
@@ -284,6 +285,7 @@
       "http://codeine3hsqnnkb3dsu6ft4tunlomr3lmuml5hcoqmfkgiqfv2brdqqd.onion",
       "http://nitter.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion",
       "http://jdadsqkjereqronxzovgvd453snh5jsvo7mukfwt2feth353nobqotad.onion",
+      "http://oawb4ub2x2jehgg7k7ll4uoay34re5nbbnwnztpphdec6wkcxgarwbad.onion",
       "http://nitter.pjsfkvpxlinjamtawaksbnnaqs2fc2mtvmozrzckxh7f3kis6yea25ad.onion"
     ],
     "i2p": [
@@ -292,7 +294,8 @@
       "http://gseczlzmiv23p5vhsktyd7whquq2uy3c5fgkmdohh453qp3daoua.b32.i2p",
       "http://tm4rwkeysv3zz3q5yacyr4rlmca2c4etkdobfvuqzt6vsfsu4weq.b32.i2p",
       "http://vernzdedoxuflrrxc4vbatbkpjh4k22ecgiqgimdiif62onhagva.b32.i2p",
-      "http://pxrhfmieeeqdu5pi4duscycsxqefqphaxgvvrvdtc3ckqn2mcora.b32.i2p"
+      "http://pxrhfmieeeqdu5pi4duscycsxqefqphaxgvvrvdtc3ckqn2mcora.b32.i2p",
+      "http://4kzgzonccxuv4ctforjqx565jgd4bocgnzsy3dg4fmdf3ye2iciq.b32.i2p"
     ],
     "loki": [
       "http://nitter.priv.loki"
@@ -579,7 +582,6 @@
     ],
     "tor": [
       "http://3afisqjw2rxm6z7mmstyt5rx75qfqrgxnkzftknbp2vhipr2nrmrjdyd.onion",
-      "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
       "http://z5vawdol25vrmorm4yydmohsd4u6rdoj2sylvoi3e3nqvxkvpqul7bqd.onion",
       "http://zbuc3bbzbfdqqo2x46repx2ddajbha6fpsjeeptjhhhhzji3zopxdqyd.onion",
       "http://f4qfqajszpx5b7itzxt6mb7kj4ktpgbdq7lq6xaiqyqx6a7de3epptad.onion",
@@ -680,6 +682,7 @@
     "tor": [
       "http://w5rl6wsd7mzj4bdkbuqvzidet5osdsm5jhg2f7nvfidakfq5exda5wid.onion",
       "http://4n53nafyi77iplnbrpmxnp3x4exbswwxigujaxy3b37fvr7bvlopxeyd.onion",
+      "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
       "http://searxyqdegtqksicnwpxa24ipnb2ylmp6iutnnwtazbhup4dit4eeyqd.onion",
       "http://searchvrzxoqa4k76duqh4wtzpr553hfl53qpytclxf7zci53lwklfyd.onion",
       "http://gbat2pbpg7ys3fi3pbp64667tt5x66mg45xok35bxdw7v55brm7a27yd.onion",
