@@ -23,6 +23,7 @@
       "https://vid.priv.au",
       "https://iv.ggtyler.dev",
       "https://invidious.epicsite.xyz",
+      "https://yt.oelrichsgarcia.de",
       "https://invidious.slipfox.xyz",
       "https://invidious.dhusch.de",
       "https://invidious.weblibre.org",
@@ -30,8 +31,7 @@
       "https://iv.melmac.space",
       "https://invidious.privacydev.net",
       "https://invidious.lidarshield.cloud",
-      "https://invidious.namazso.eu",
-      "https://yt.oelrichsgarcia.de"
+      "https://invidious.namazso.eu"
     ],
     "tor": [
       "http://w6ijuptxiku4xpnnaetxvnkc5vqcdu7mgns2u77qefoixi63vbvnpnqd.onion",
@@ -55,7 +55,6 @@
   },
   "piped": {
     "clearnet": [
-      "https://piped.video",
       "https://piped.tokhmi.xyz",
       "https://piped.moomoo.me",
       "https://piped.mha.fi",
@@ -537,10 +536,7 @@
   "libreTranslate": {
     "clearnet": [
       "https://libretranslate.com",
-      "https://libretranslate.de",
       "https://translate.argosopentech.com",
-      "https://translate.api.skitzen.com",
-      "https://translate.fortytwo-it.com",
       "https://translate.terraprint.co",
       "https://lt.vern.cc"
     ],
@@ -555,6 +551,7 @@
   "searx": {
     "clearnet": [
       "https://jsearch.pw",
+      "https://search.privacyguides.net",
       "https://search.stinpriza.org",
       "https://search.trom.tf",
       "https://searx.bissisoft.com",
@@ -574,7 +571,6 @@
       "https://searx.win",
       "https://searx.xyz",
       "https://searx.zapashcanon.fr",
-      "https://spot.murena.io",
       "https://suche.tromdienste.de",
       "https://sx.catgirl.cloud"
     ],
@@ -583,6 +579,7 @@
       "http://z5vawdol25vrmorm4yydmohsd4u6rdoj2sylvoi3e3nqvxkvpqul7bqd.onion",
       "http://zbuc3bbzbfdqqo2x46repx2ddajbha6fpsjeeptjhhhhzji3zopxdqyd.onion",
       "http://f4qfqajszpx5b7itzxt6mb7kj4ktpgbdq7lq6xaiqyqx6a7de3epptad.onion",
+      "http://searx.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
       "http://searx.micohauwkjbyw5meacrb4ipicwvwg4xtzl7y7viv53kig2mdcsvwkyyd.onion"
     ],
     "i2p": [
@@ -628,7 +625,6 @@
       "https://search.mpx.wtf",
       "https://search.neet.works",
       "https://search.ononoki.org",
-      "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
@@ -671,6 +667,7 @@
       "https://searxng.diadz.de",
       "https://searxng.fingerbib.xyz",
       "https://searxng.nicfab.eu",
+      "https://spot.murena.io",
       "https://srx.cosmohub.io",
       "https://swag.pw",
       "https://www.gruble.de",
@@ -686,7 +683,6 @@
       "http://gbat2pbpg7ys3fi3pbp64667tt5x66mg45xok35bxdw7v55brm7a27yd.onion",
       "http://qyyb5xsar7gp4q3agxnrxgajx4nnnihptqhmyee5nolidtkhxjks6ayd.onion",
       "http://searxdr3pqz4nydgnqocsia2xbywptxbkympa2emn7zlgggrir4bkfad.onion",
-      "http://searx.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
       "http://searxfilowxokbogygrigir4wqxfxqzuxofxgdon7dg6rsii4yxzytyd.onion",
       "http://searx.privpw3tndpkw6pnp3g727zfgfdzbu3k6a7chv226s3xymv2p4eiuqyd.onion",
       "http://rq2w52kyrif3xpfihkgjnhqm3a5aqhoikpv72z3drpjglfzc2wr5z4yd.onion",
