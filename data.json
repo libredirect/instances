@@ -3,7 +3,6 @@
     "clearnet": [
       "https://yewtu.be",
       "https://vid.puffyan.us",
-      "https://inv.riverside.rocks",
       "https://invidious.kavin.rocks",
       "https://watch.thekitty.zone",
       "https://y.com.sb",
@@ -20,9 +19,9 @@
       "https://yt.funami.tech",
       "https://invidious.drivet.xyz",
       "https://invidious.silur.me",
-      "https://vid.priv.au",
       "https://iv.ggtyler.dev",
       "https://invidious.epicsite.xyz",
+      "https://vid.priv.au",
       "https://yt.oelrichsgarcia.de",
       "https://invidious.slipfox.xyz",
       "https://invidious.dhusch.de",
@@ -30,6 +29,7 @@
       "https://invidious.esmailelbob.xyz",
       "https://iv.melmac.space",
       "https://invidious.privacydev.net",
+      "https://inv.riverside.rocks",
       "https://invidious.lidarshield.cloud",
       "https://invidious.namazso.eu"
     ],
@@ -55,6 +55,7 @@
   },
   "piped": {
     "clearnet": [
+      "https://piped.video",
       "https://piped.tokhmi.xyz",
       "https://piped.moomoo.me",
       "https://piped.mha.fi",
@@ -73,7 +74,6 @@
       "https://piped.adminforge.de",
       "https://piped.qdi.fi",
       "https://piped.hostux.net",
-      "https://pd.vern.cc",
       "https://piped.chauvet.pro"
     ],
     "tor": [],
@@ -105,7 +105,6 @@
       "https://tok.habedieeh.re",
       "https://proxitok.esmailelbob.xyz",
       "https://proxitok.privacydev.net",
-      "https://proxitok.odyssey346.dev",
       "https://tok.artemislena.eu",
       "https://tok.adminforge.de",
       "https://proxitok.manasiwibi.com",
@@ -249,7 +248,8 @@
       "https://twitter.moe.ngo",
       "https://nitter.freedit.eu",
       "https://ntr.frail.duckdns.org",
-      "https://nitter.us.projectsegfau.lt"
+      "https://nitter.us.projectsegfau.lt",
+      "https://nitter.librenode.org"
     ],
     "tor": [
       "http://nitter7bryz3jv7e3uekphigvmoyoem4al3fynerxkj22dmoxoq553qd.onion",
@@ -450,13 +450,15 @@
       "https://quetre.blackdrgn.nl",
       "https://quetre.pufe.org",
       "https://quetre.lunar.icu",
-      "https://que.wilbvr.me"
+      "https://que.wilbvr.me",
+      "https://quora.femboy.hu"
     ],
     "tor": [
       "http://quetre.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
       "http://qr.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion",
       "http://ask.habeehrhadazsw3izbrbilqajalfyqqln54mrja3iwpqxgcuxnus7eid.onion",
-      "http://quetre.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion"
+      "http://quetre.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion",
+      "http://quora.cepyxplublbyw2f4axy4pyztfbxmf63lrt2c7uwv6wl4iixz53czload.onion"
     ],
     "i2p": [
       "http://vernnflenvsqccuanaun7yydnmturi4jkyxlyzhn6ultpje66c3q.b32.i2p"
@@ -472,7 +474,8 @@
       "https://libremdb.esmailelbob.xyz",
       "https://ld.vern.cc",
       "https://binge.whatever.social",
-      "https://libremdb.lunar.icu"
+      "https://libremdb.lunar.icu",
+      "https://libremdb.jeikobu.net"
     ],
     "tor": [
       "http://libremdb.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
@@ -726,6 +729,7 @@
       "https://lx.sesu.cc",
       "https://librex.mikata.ru",
       "https://librex.terryiscool160.xyz",
+      "https://librex.nekus.gay",
       "https://search.davidovski.xyz",
       "https://search.funami.tech",
       "https://search.madreyk.xyz",
@@ -740,11 +744,12 @@
       "https://search.mascotboi.xyz"
     ],
     "tor": [
-      "http://librex.2356uhnbpv5nk3bni5bv6jg2cd6lgj664kwx3lhyelstpttpyv4kk2qd.onion",
+      "http://search.cepyxplublbyw2f4axy4pyztfbxmf63lrt2c7uwv6wl4iixz53czload.onion",
       "http://lx.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion",
       "http://lx.swxoebbpeqiiixyhbuh3vbw53pdrmtbiaj2sqveol6kkn5rpapfi4aad.onion",
       "http://f7ssz7l3biu4fugwctfpcx4txg5yq4gqhrt473ledsuc3ivtd3omniid.onion",
-      "http://librex.n53wt4ivvfdfaqkwldgdzfsubszukie2an6auja6x2wp3e3oa7v2gqyd.onion"
+      "http://librex.n53wt4ivvfdfaqkwldgdzfsubszukie2an6auja6x2wp3e3oa7v2gqyd.onion",
+      "http://5yblccekvswxl4n43bn5eg4pr7c4xygvu5lhhdb6ulzmislvahmhitad.onion"
     ],
     "i2p": [
       "http://vernziqfqvweijfaacmwazohgpdo2bt2ib2jlupt2pwwu27bhgxq.b32.i2p",
