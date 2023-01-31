@@ -3,6 +3,7 @@
     "clearnet": [
       "https://yewtu.be",
       "https://vid.puffyan.us",
+      "https://inv.riverside.rocks",
       "https://invidious.kavin.rocks",
       "https://watch.thekitty.zone",
       "https://y.com.sb",
@@ -13,23 +14,22 @@
       "https://inv.bp.projectsegfau.lt",
       "https://inv.vern.cc",
       "https://inv.odyssey346.dev",
-      "https://invidious.snopyta.org",
       "https://invidious.baczek.me",
+      "https://invidious.snopyta.org",
       "https://invidious.sethforprivacy.com",
       "https://yt.funami.tech",
       "https://invidious.drivet.xyz",
-      "https://invidious.silur.me",
-      "https://iv.ggtyler.dev",
       "https://invidious.epicsite.xyz",
-      "https://vid.priv.au",
+      "https://iv.ggtyler.dev",
+      "https://invidious.silur.me",
       "https://yt.oelrichsgarcia.de",
+      "https://vid.priv.au",
       "https://invidious.slipfox.xyz",
       "https://invidious.dhusch.de",
       "https://invidious.weblibre.org",
       "https://invidious.esmailelbob.xyz",
       "https://iv.melmac.space",
       "https://invidious.privacydev.net",
-      "https://inv.riverside.rocks",
       "https://invidious.lidarshield.cloud",
       "https://invidious.namazso.eu"
     ],
@@ -56,8 +56,6 @@
   "piped": {
     "clearnet": [
       "https://piped.video",
-      "https://piped.tokhmi.xyz",
-      "https://piped.moomoo.me",
       "https://piped.mha.fi",
       "https://watch.whatever.social",
       "https://piped.garudalinux.org",
@@ -74,6 +72,7 @@
       "https://piped.adminforge.de",
       "https://piped.qdi.fi",
       "https://piped.hostux.net",
+      "https://pd.vern.cc",
       "https://piped.chauvet.pro"
     ],
     "tor": [],
@@ -114,7 +113,8 @@
       "https://proxitok.pufe.org",
       "https://proxitok.marcopisco.com",
       "https://cringe.whatever.social",
-      "https://proxitok.lunar.icu"
+      "https://proxitok.lunar.icu",
+      "https://tok.thekitty.zone"
     ],
     "tor": [],
     "i2p": [],
@@ -140,7 +140,8 @@
       "https://send.epsilonrecords.nl",
       "https://transfer.fm",
       "https://send.datenpost.app",
-      "https://transferer.seinetransfert.fr"
+      "https://transferer.seinetransfert.fr",
+      "https://send.angelic.icu"
     ],
     "tor": [],
     "i2p": [],
@@ -237,7 +238,6 @@
       "https://nitter.marcopisco.com",
       "https://nitter.arcticfoxes.net",
       "https://t.com.sb",
-      "https://nitter.selfhostable.net",
       "https://nitter.kling.gg",
       "https://twt.funami.tech",
       "http://nitter.ktachibana.party",
@@ -310,9 +310,9 @@
       "https://reddit.simo.sh",
       "https://lr.riverside.rocks",
       "https://libreddit.strongthany.cc",
+      "https://libreddit.privacy.com.de",
       "https://libreddit.domain.glass",
       "https://r.nf",
-      "https://reddit.stuehieyr.com",
       "https://lr.mint.lgbt",
       "https://libreddit.drivet.xyz",
       "https://libreddit.de",
@@ -321,17 +321,17 @@
       "https://libreddit.totaldarkness.net",
       "https://libreddit.esmailelbob.xyz",
       "https://lr.vern.cc",
-      "https://libreddit.nl",
       "https://reddi.tk",
       "https://r.walkx.fyi",
       "https://libreddit.kylrth.com",
       "https://libreddit.tiekoetter.com",
       "https://reddit.rtrace.io",
       "https://libreddit.privacydev.net",
+      "https://r.ahwx.org",
       "https://bob.fr.to",
       "https://libreddit.dcs0.hu",
       "https://reddit.dr460nf1r3.org",
-      "https://rd.jae.su",
+      "https://rd.777.tf",
       "https://libreddit.foss.wtf",
       "https://l.opnxng.com",
       "https://libreddit.cachyos.org",
@@ -343,10 +343,7 @@
       "https://libreddit.freedit.eu",
       "https://libreddit.mha.fi",
       "https://libreddit.garudalinux.org",
-      "https://libreddit.mask.sh",
-      "https://lr.4201337.xyz",
       "https://lr.odyssey346.dev",
-      "https://reddit.selfhostable.net",
       "https://lr.artemislena.eu",
       "https://discuss.whatever.social",
       "https://libreddit.pufe.org",
@@ -355,7 +352,13 @@
       "https://libreddit.bus-hit.me",
       "https://reddit.leptons.xyz",
       "https://libreddit.lunar.icu",
-      "https://lbr.frail.duckdns.org"
+      "https://lbr.frail.duckdns.org",
+      "https://reddit.thekitty.zone",
+      "https://reddit.moe.ngo",
+      "https://r.darklab.sh",
+      "https://lr.rfl890.cf",
+      "https://libreddit.albr.to",
+      "https://snoo.habedieeh.re"
     ],
     "tor": [
       "http://ojwp2gtj7dq7scd7gnbac6wp53tklgsicteabrnx2pr7zai64wriiaad.onion",
@@ -363,9 +366,12 @@
       "http://libreddit.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
       "http://ojwp2gtj7dq7scd7gnbac6wp53tklgsicteabrnx2pr7zai64wriiaad.onion",
       "http://lr.lpoaj7z2zkajuhgnlltpeqh3zyq7wk2iyeggqaduhgxhyajtdt2j7wad.onion",
-      "http://libreddit.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion"
+      "http://libreddit.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion",
+      "http://snoo.habeehrhadazsw3izbrbilqajalfyqqln54mrja3iwpqxgcuxnus7eid.onion"
     ],
-    "i2p": [],
+    "i2p": [
+      "http://wilr7fk4bx3lnubdhxgwxg37oubmkyiqkamgfoivrz5ldtjwyitq.b32.i2p"
+    ],
     "loki": []
   },
   "teddit": {
@@ -554,7 +560,6 @@
   "searx": {
     "clearnet": [
       "https://jsearch.pw",
-      "https://search.privacyguides.net",
       "https://search.stinpriza.org",
       "https://search.trom.tf",
       "https://searx.bissisoft.com",
@@ -582,7 +587,7 @@
       "http://z5vawdol25vrmorm4yydmohsd4u6rdoj2sylvoi3e3nqvxkvpqul7bqd.onion",
       "http://zbuc3bbzbfdqqo2x46repx2ddajbha6fpsjeeptjhhhhzji3zopxdqyd.onion",
       "http://f4qfqajszpx5b7itzxt6mb7kj4ktpgbdq7lq6xaiqyqx6a7de3epptad.onion",
-      "http://searx.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
+      "http://searxfilowxokbogygrigir4wqxfxqzuxofxgdon7dg6rsii4yxzytyd.onion",
       "http://searx.micohauwkjbyw5meacrb4ipicwvwg4xtzl7y7viv53kig2mdcsvwkyyd.onion"
     ],
     "i2p": [
@@ -628,6 +633,7 @@
       "https://search.mpx.wtf",
       "https://search.neet.works",
       "https://search.ononoki.org",
+      "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
@@ -686,7 +692,7 @@
       "http://gbat2pbpg7ys3fi3pbp64667tt5x66mg45xok35bxdw7v55brm7a27yd.onion",
       "http://qyyb5xsar7gp4q3agxnrxgajx4nnnihptqhmyee5nolidtkhxjks6ayd.onion",
       "http://searxdr3pqz4nydgnqocsia2xbywptxbkympa2emn7zlgggrir4bkfad.onion",
-      "http://searxfilowxokbogygrigir4wqxfxqzuxofxgdon7dg6rsii4yxzytyd.onion",
+      "http://searx.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
       "http://searx.privpw3tndpkw6pnp3g727zfgfdzbu3k6a7chv226s3xymv2p4eiuqyd.onion",
       "http://rq2w52kyrif3xpfihkgjnhqm3a5aqhoikpv72z3drpjglfzc2wr5z4yd.onion",
       "http://fub6vgedgeadlu3ctskrpkcqjruh76tckwtj5swfhyblgml2tzgzckqd.onion/searx",
@@ -709,7 +715,9 @@
       "https://whoogle.privacydev.net",
       "https://wg.vern.cc",
       "https://www.indexia.gq",
-      "https://whoogle.lunar.icu"
+      "https://whoogle.lunar.icu",
+      "https://whoogle.rhyshl.live",
+      "https://wgl.frail.duckdns.org"
     ],
     "tor": [
       "http://whoglqjdkgt2an4tdepberwqz3hk7tjo4kqgdnuj77rt7nshw2xqhqad.onion",
@@ -741,7 +749,8 @@
       "https://librex.ratakor.com",
       "https://search.tildevarsh.in",
       "https://librex.myroware.eu",
-      "https://search.mascotboi.xyz"
+      "https://search.mascotboi.xyz",
+      "https://lx.drain.win"
     ],
     "tor": [
       "http://search.cepyxplublbyw2f4axy4pyztfbxmf63lrt2c7uwv6wl4iixz53czload.onion",
