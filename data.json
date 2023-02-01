@@ -22,14 +22,14 @@
       "https://invidious.epicsite.xyz",
       "https://iv.ggtyler.dev",
       "https://invidious.silur.me",
-      "https://yt.oelrichsgarcia.de",
       "https://vid.priv.au",
-      "https://invidious.slipfox.xyz",
-      "https://invidious.dhusch.de",
+      "https://yt.oelrichsgarcia.de",
       "https://invidious.weblibre.org",
       "https://invidious.esmailelbob.xyz",
       "https://iv.melmac.space",
+      "https://invidious.dhusch.de",
       "https://invidious.privacydev.net",
+      "https://invidious.slipfox.xyz",
       "https://invidious.lidarshield.cloud",
       "https://invidious.namazso.eu"
     ],
@@ -58,11 +58,10 @@
       "https://piped.video",
       "https://piped.tokhmi.xyz",
       "https://piped.moomoo.me",
-      "https://piped.syncpundit.io",
       "https://piped.mha.fi",
       "https://watch.whatever.social",
       "https://piped.garudalinux.org",
-      "https://efy.piped.pages.dev",
+      "https://watch.leptons.xyz",
       "https://piped.lunar.icu",
       "https://piped.video",
       "https://yt.jae.fi",
@@ -563,7 +562,6 @@
   "searx": {
     "clearnet": [
       "https://jsearch.pw",
-      "https://search.privacyguides.net",
       "https://search.stinpriza.org",
       "https://search.trom.tf",
       "https://searx.bissisoft.com",
@@ -591,9 +589,11 @@
       "http://z5vawdol25vrmorm4yydmohsd4u6rdoj2sylvoi3e3nqvxkvpqul7bqd.onion",
       "http://zbuc3bbzbfdqqo2x46repx2ddajbha6fpsjeeptjhhhhzji3zopxdqyd.onion",
       "http://f4qfqajszpx5b7itzxt6mb7kj4ktpgbdq7lq6xaiqyqx6a7de3epptad.onion",
+      "http://searx.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
       "http://searxfilowxokbogygrigir4wqxfxqzuxofxgdon7dg6rsii4yxzytyd.onion",
       "http://searx.micohauwkjbyw5meacrb4ipicwvwg4xtzl7y7viv53kig2mdcsvwkyyd.onion",
-      "http://rq2w52kyrif3xpfihkgjnhqm3a5aqhoikpv72z3drpjglfzc2wr5z4yd.onion"
+      "http://searx.privpw3tndpkw6pnp3g727zfgfdzbu3k6a7chv226s3xymv2p4eiuqyd.onion",
+      "http://lgmekfnpealdqhnctyg3p5fuelpdwnbqbwnl2ickpdoodzatzgz27ryd.onion"
     ],
     "i2p": [
       "http://ransack.i2p",
@@ -638,6 +638,7 @@
       "https://search.mpx.wtf",
       "https://search.neet.works",
       "https://search.ononoki.org",
+      "https://search.privacyguides.net",
       "https://search.rabbit-company.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
@@ -696,11 +697,9 @@
       "http://gbat2pbpg7ys3fi3pbp64667tt5x66mg45xok35bxdw7v55brm7a27yd.onion",
       "http://qyyb5xsar7gp4q3agxnrxgajx4nnnihptqhmyee5nolidtkhxjks6ayd.onion",
       "http://searxdr3pqz4nydgnqocsia2xbywptxbkympa2emn7zlgggrir4bkfad.onion",
-      "http://searx.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
-      "http://searx.privpw3tndpkw6pnp3g727zfgfdzbu3k6a7chv226s3xymv2p4eiuqyd.onion",
+      "http://rq2w52kyrif3xpfihkgjnhqm3a5aqhoikpv72z3drpjglfzc2wr5z4yd.onion",
       "http://fub6vgedgeadlu3ctskrpkcqjruh76tckwtj5swfhyblgml2tzgzckqd.onion/searx",
-      "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion",
-      "https://lgmekfnpealdqhnctyg3p5fuelpdwnbqbwnl2ickpdoodzatzgz27ryd.onion"
+      "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion"
     ],
     "i2p": [],
     "loki": []
@@ -737,7 +736,7 @@
     "clearnet": [
       "https://search.femboy.hu",
       "https://lx.vern.cc",
-      "https://lx.sesu.cc",
+      "https://librex.sesu.cc",
       "https://librex.mikata.ru",
       "https://librex.terryiscool160.xyz",
       "https://librex.nekus.gay",
@@ -758,7 +757,7 @@
     "tor": [
       "http://search.cepyxplublbyw2f4axy4pyztfbxmf63lrt2c7uwv6wl4iixz53czload.onion",
       "http://lx.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion",
-      "http://lx.swxoebbpeqiiixyhbuh3vbw53pdrmtbiaj2sqveol6kkn5rpapfi4aad.onion",
+      "http://librex.swxoebbpeqiiixyhbuh3vbw53pdrmtbiaj2sqveol6kkn5rpapfi4aad.onion",
       "http://f7ssz7l3biu4fugwctfpcx4txg5yq4gqhrt473ledsuc3ivtd3omniid.onion",
       "http://librex.n53wt4ivvfdfaqkwldgdzfsubszukie2an6auja6x2wp3e3oa7v2gqyd.onion",
       "http://5yblccekvswxl4n43bn5eg4pr7c4xygvu5lhhdb6ulzmislvahmhitad.onion"
