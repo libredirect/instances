@@ -416,6 +416,8 @@ def privateBin():
     fetchJsonList('privateBin', 'PrivateBin',
                   'https://privatebin.info/directory/api?top=100&https_redirect=true&min_rating=A&csp_header=true&min_uptime=100&attachments=true', 'url', False)
 
+def neuters():
+    fetchFromFile('neuters', 'Neuters')
 
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
@@ -451,6 +453,8 @@ facil()
 osm()
 breezeWiki()
 # privateBin()
+neuters()
+
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
 
