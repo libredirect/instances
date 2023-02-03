@@ -127,7 +127,11 @@ def fetchJsonList(frontend, name, url, urlItem, jsonObject):
                 for network in networks:
                     if urlItem[network] is not None:
                         if urlItem[network] in item and item[urlItem[network]] is not None:
-                            if item[urlItem[network]].strip() != '':
+                            if type(item[urlItem[network]]) == list:
+                                for i in item[urlItem[network]]:
+                                    if i.strip() != '':
+                                        _list[network].append(i)
+                            elif item[urlItem[network]].strip() != '':
                                 _list[network].append(item[urlItem[network]])
         else:
             for item in rJson:
@@ -294,6 +298,7 @@ def nitter():
     fetchRegexList('nitter', 'Nitter', 'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md',
                    r"(?:(?:\| )|(?:-   ))\[(?:(?:\S+\.)+[a-zA-Z0-9]+)\/?\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]+)\/?\)(?:(?: (?:\((?:\S+ ?\S*)\) )? *\| [^❌]{1,4} +\|(?:(?:\n)|(?: ❌)|(?: ✅)|(?: ❓)|(?: \[)))|(?:\n))")
 
+
 def libreddit():
     fetchJsonList('libreddit', 'Libreddit', 'https://github.com/libreddit/libreddit-instances/raw/master/instances.json',
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, True)
@@ -416,8 +421,14 @@ def privateBin():
     fetchJsonList('privateBin', 'PrivateBin',
                   'https://privatebin.info/directory/api?top=100&https_redirect=true&min_rating=A&csp_header=true&min_uptime=100&attachments=true', 'url', False)
 
+
 def neuters():
     fetchFromFile('neuters', 'Neuters')
+
+
+def ruralDictionary():
+    fetchJsonList('ruralDictionary', 'Rural Dictionary', 'https://codeberg.org/zortazert/rural-dictionary/raw/branch/master/instances.json', 'clearnet', False)
+
 
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
@@ -454,6 +465,7 @@ osm()
 breezeWiki()
 # privateBin()
 neuters()
+ruralDictionary()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
