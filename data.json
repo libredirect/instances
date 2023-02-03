@@ -21,7 +21,6 @@
       "https://iv.ggtyler.dev",
       "https://invidious.epicsite.xyz",
       "https://invidious.silur.me",
-      "https://yt.oelrichsgarcia.de",
       "https://vid.priv.au",
       "https://invidious.slipfox.xyz",
       "https://inv.vern.cc",
@@ -30,6 +29,7 @@
       "https://iv.melmac.space",
       "https://invidious.dhusch.de",
       "https://invidious.privacydev.net",
+      "https://invidious.slipfox.xyz",
       "https://invidious.lidarshield.cloud",
       "https://invidious.namazso.eu"
     ],
@@ -61,7 +61,7 @@
       "https://piped.mha.fi",
       "https://watch.whatever.social",
       "https://piped.garudalinux.org",
-      "https://efy.piped.pages.dev",
+      "https://watch.leptons.xyz",
       "https://piped.lunar.icu",
       "https://piped.video",
       "https://yt.jae.fi",
@@ -698,8 +698,7 @@
       "http://searx.privpw3tndpkw6pnp3g727zfgfdzbu3k6a7chv226s3xymv2p4eiuqyd.onion",
       "http://rq2w52kyrif3xpfihkgjnhqm3a5aqhoikpv72z3drpjglfzc2wr5z4yd.onion",
       "http://fub6vgedgeadlu3ctskrpkcqjruh76tckwtj5swfhyblgml2tzgzckqd.onion/searx",
-      "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion",
-      "https://lgmekfnpealdqhnctyg3p5fuelpdwnbqbwnl2ickpdoodzatzgz27ryd.onion"
+      "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion"
     ],
     "i2p": [],
     "loki": []
