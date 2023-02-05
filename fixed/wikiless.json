@@ -1,0 +1,30 @@
+{
+    "clearnet": [
+        "https://wikiless.org",
+        "https://wiki.604kph.xyz",
+        "https://wiki.froth.zone",
+        "https://wikiless.esmailelbob.xyz",
+        "https://wikiless.northboot.xyz",
+        "https://wikiless.tiekoetter.com",
+        "https://wiki.slipfox.xyz",
+        "https://wl.vern.cc",
+        "https://wiki.privacytools.io",
+        "https://wikiless.rawbit.ninja",
+        "https://wiki.adminforge.de"
+    ],
+    "tor": [
+        "http://dj2tbh2nqfxyfmvq33cjmhuw7nb6am7thzd3zsjvizeqf374fixbrxyd.onion",
+        "http://wikiless.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
+        "http://ybgg2evrcdz37y2qes23ff3wjqjdn33tthgoagi76vhxytu4mpxiz5qd.onion",
+        "http://c2pesewpalbi6lbfc5hf53q4g3ovnxe4s7tfa6k2aqkf7jd7a7dlz5ad.onion",
+        "http://wl.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion",
+        "http://7lvwsn4fohcnaw5ije6j52aurmwaovqdzj4drfrj5aqget3nwwneshid.onion",
+        "http://tdx37ew3oke5rxn3yi5r5665ka7ozvehnd4xmnjxxdvqorias2nyl4qd.onion"
+    ],
+    "i2p": [
+        "http://wikiless.i2p",
+        "http://hflqp2ejxygpj6cdwo3ogfieqmxw3b56w7dblt7bor2ltwk6kcfa.b32.i2p",
+        "http://vernesciy2defjsputrjrv6pa5ll6qzrckfffi5lgkumstdojyga.b32.i2p"
+    ],
+    "loki": []
+}

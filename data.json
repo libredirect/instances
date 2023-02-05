@@ -23,13 +23,13 @@
       "https://inv.vern.cc",
       "https://invidious.slipfox.xyz",
       "https://invidious.esmailelbob.xyz",
-      "https://invidious.dhusch.de",
       "https://invidious.weblibre.org",
       "https://iv.melmac.space",
       "https://invidious.silur.me",
       "https://invidious.lidarshield.cloud",
       "https://invidious.drivet.xyz",
       "https://invidious.privacydev.net",
+      "https://invidious.dhusch.de",
       "https://invidious.flokinet.to",
       "https://invidious.namazso.eu"
     ],
@@ -61,6 +61,7 @@
       "https://watch.whatever.social",
       "https://piped.garudalinux.org",
       "https://efy.piped.pages.dev",
+      "https://watch.leptons.xyz",
       "https://piped.lunar.icu",
       "https://piped.video",
       "https://yt.jae.fi",
@@ -559,6 +560,7 @@
   "searx": {
     "clearnet": [
       "https://jsearch.pw",
+      "https://search.affusio.com",
       "https://search.stinpriza.org",
       "https://search.trom.tf",
       "https://searx.bissisoft.com",
@@ -587,7 +589,9 @@
       "http://zbuc3bbzbfdqqo2x46repx2ddajbha6fpsjeeptjhhhhzji3zopxdqyd.onion",
       "http://f4qfqajszpx5b7itzxt6mb7kj4ktpgbdq7lq6xaiqyqx6a7de3epptad.onion",
       "http://searxfilowxokbogygrigir4wqxfxqzuxofxgdon7dg6rsii4yxzytyd.onion",
-      "http://searx.micohauwkjbyw5meacrb4ipicwvwg4xtzl7y7viv53kig2mdcsvwkyyd.onion"
+      "http://searx.micohauwkjbyw5meacrb4ipicwvwg4xtzl7y7viv53kig2mdcsvwkyyd.onion",
+      "http://searx.privpw3tndpkw6pnp3g727zfgfdzbu3k6a7chv226s3xymv2p4eiuqyd.onion",
+      "http://lgmekfnpealdqhnctyg3p5fuelpdwnbqbwnl2ickpdoodzatzgz27ryd.onion"
     ],
     "i2p": [
       "http://ransack.i2p",
@@ -617,7 +621,6 @@
       "https://s.zhaocloud.net",
       "https://search.0relay.com",
       "https://search.0xgingi.com",
-      "https://search.affusio.com",
       "https://search.bus-hit.me",
       "https://search.charleseroop.com",
       "https://search.chemicals-in-the-water.eu",
@@ -678,6 +681,7 @@
       "https://spot.murena.io",
       "https://srx.cosmohub.io",
       "https://swag.pw",
+      "https://sx.fukt.lol",
       "https://www.gruble.de",
       "https://www.jabber-germany.de/searx",
       "https://xo.wtf"
@@ -692,11 +696,9 @@
       "http://qyyb5xsar7gp4q3agxnrxgajx4nnnihptqhmyee5nolidtkhxjks6ayd.onion",
       "http://searxdr3pqz4nydgnqocsia2xbywptxbkympa2emn7zlgggrir4bkfad.onion",
       "http://searx.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
-      "http://searx.privpw3tndpkw6pnp3g727zfgfdzbu3k6a7chv226s3xymv2p4eiuqyd.onion",
       "http://rq2w52kyrif3xpfihkgjnhqm3a5aqhoikpv72z3drpjglfzc2wr5z4yd.onion",
       "http://fub6vgedgeadlu3ctskrpkcqjruh76tckwtj5swfhyblgml2tzgzckqd.onion/searx",
-      "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion",
-      "https://lgmekfnpealdqhnctyg3p5fuelpdwnbqbwnl2ickpdoodzatzgz27ryd.onion"
+      "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion"
     ],
     "i2p": [],
     "loki": []
@@ -739,7 +741,6 @@
       "https://librex.terryiscool160.xyz",
       "https://librex.nekus.gay",
       "https://search.davidovski.xyz",
-      "https://search.funami.tech",
       "https://search.madreyk.xyz",
       "https://search.pabloferreiro.es",
       "https://buscar.weblibre.org",
@@ -937,6 +938,36 @@
     ],
     "i2p": [
       "http://vernmzgraj6aaoafmehupvtkkynpaa67rxcdj2kinwiy6konn6rq.b32.i2p"
+    ],
+    "loki": []
+  },
+  "wikiless": {
+    "clearnet": [
+      "https://wikiless.org",
+      "https://wiki.604kph.xyz",
+      "https://wiki.froth.zone",
+      "https://wikiless.esmailelbob.xyz",
+      "https://wikiless.northboot.xyz",
+      "https://wikiless.tiekoetter.com",
+      "https://wiki.slipfox.xyz",
+      "https://wl.vern.cc",
+      "https://wiki.privacytools.io",
+      "https://wikiless.rawbit.ninja",
+      "https://wiki.adminforge.de"
+    ],
+    "tor": [
+      "http://dj2tbh2nqfxyfmvq33cjmhuw7nb6am7thzd3zsjvizeqf374fixbrxyd.onion",
+      "http://wikiless.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion",
+      "http://ybgg2evrcdz37y2qes23ff3wjqjdn33tthgoagi76vhxytu4mpxiz5qd.onion",
+      "http://c2pesewpalbi6lbfc5hf53q4g3ovnxe4s7tfa6k2aqkf7jd7a7dlz5ad.onion",
+      "http://wl.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion",
+      "http://7lvwsn4fohcnaw5ije6j52aurmwaovqdzj4drfrj5aqget3nwwneshid.onion",
+      "http://tdx37ew3oke5rxn3yi5r5665ka7ozvehnd4xmnjxxdvqorias2nyl4qd.onion"
+    ],
+    "i2p": [
+      "http://wikiless.i2p",
+      "http://hflqp2ejxygpj6cdwo3ogfieqmxw3b56w7dblt7bor2ltwk6kcfa.b32.i2p",
+      "http://vernesciy2defjsputrjrv6pa5ll6qzrckfffi5lgkumstdojyga.b32.i2p"
     ],
     "loki": []
   }
