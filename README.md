@@ -11,6 +11,7 @@
 - Teddit: [https://codeberg.org/teddit/teddit/src/branch/main/instances.json](https://codeberg.org/teddit/teddit/src/branch/main/instances.json)
 - Rimgo: [https://codeberg.org/video-prize-ranch/rimgo/src/branch/main/instances.json](https://codeberg.org/video-prize-ranch/rimgo/src/branch/main/instances.json)
 - Scribe: [https://git.sr.ht/~edwardloveall/scribe/tree/main/item/docs/instances.json](https://git.sr.ht/~edwardloveall/scribe/tree/main/item/docs/instances.json)
+- LibMedium: [https://github.com/realaravinth/libmedium#instances](https://github.com/realaravinth/libmedium#instances)
 - Quetre: [https://github.com/zyachel/quetre#instances](https://github.com/zyachel/quetre#instances)
 - libremdb: [https://github.com/zyachel/libremdb#instances](https://github.com/zyachel/libremdb#instances)
 - Librarian: [https://codeberg.org/librarian/librarian/src/branch/main/instances.json](https://codeberg.org/librarian/librarian/src/branch/main/instances.json)
@@ -21,6 +22,8 @@
 - LingvaTranslate: [https://github.com/thedaviddelta/lingva-translate/blob/main/instances.json](https://github.com/thedaviddelta/lingva-translate/blob/main/instances.json)
 - LibreTranslate: [https://github.com/LibreTranslate/LibreTranslate#mirrors](https://github.com/LibreTranslate/LibreTranslate#mirrors)
 - Send: [https://github.com/timvisee/send-instances](https://github.com/timvisee/send-instances)
+- Dumb: [https://github.com/rramiachraf/dumb#public-instances](https://github.com/rramiachraf/dumb#public-instances)
+- AnonymousOverflow: [https://github.com/httpjamesm/AnonymousOverflow#clearnet-instances](https://github.com/httpjamesm/AnonymousOverflow#clearnet-instances)
 
 
 ## How to run:

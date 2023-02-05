@@ -98,22 +98,23 @@ def is_cloudflare(url):
     return False
 
 
-def fetchCache(frontend, name):
+def fetchCache(frontend):
     try:
         with open('./data.json') as file:
             mightyList[frontend] = json.load(file)[frontend]
-        print(Fore.YELLOW + 'Failed' + Style.RESET_ALL + ' to fetch ' + name)
+        print(Fore.YELLOW + 'Failed' + Style.RESET_ALL + ' to fetch ' + frontend)
     except Exception:
-        print(Fore.RED + 'Failed' + Style.RESET_ALL + ' to get cached ' + name)
+        print(Fore.RED + 'Failed' + Style.RESET_ALL +
+              ' to get cached ' + frontend)
 
 
-def fetchFromFile(frontend, name):
+def fetchFromFile(frontend):
     with open('./fixed/' + frontend + '.json') as file:
         mightyList[frontend] = json.load(file)
-    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + name)
+    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
 
 
-def fetchJsonList(frontend, name, url, urlItem, jsonObject):
+def fetchJsonList(frontend, url, urlItem, jsonObject):
     try:
         r = requests.get(url)
         rJson = json.loads(r.text)
@@ -150,13 +151,13 @@ def fetchJsonList(frontend, name, url, urlItem, jsonObject):
                     _list['clearnet'].append(tmpItem)
 
         mightyList[frontend] = _list
-        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + name)
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend, name)
+        fetchCache(frontend, frontend)
         logging.error(traceback.format_exc())
 
 
-def fetchRegexList(frontend, name, url, regex):
+def fetchRegexList(frontend, url, regex):
     try:
         r = requests.get(url)
         _list = {}
@@ -177,13 +178,13 @@ def fetchRegexList(frontend, name, url, regex):
             else:
                 _list['clearnet'].append(item)
         mightyList[frontend] = _list
-        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + name)
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend, name)
+        fetchCache(frontend, )
         logging.error(traceback.format_exc())
 
 
-def fetchTextList(frontend, name, url, prepend):
+def fetchTextList(frontend, url, prepend):
     try:
         _list = {}
         for network in networks:
@@ -212,9 +213,9 @@ def fetchTextList(frontend, name, url, prepend):
                 else:
                     _list['clearnet'].append(item)
         mightyList[frontend] = _list
-        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + name)
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend, name)
+        fetchCache(frontend, frontend)
         logging.error(traceback.format_exc())
 
 
@@ -276,62 +277,62 @@ def piped():
 
 
 def pipedMaterial():
-    fetchRegexList('pipedMaterial', 'Piped-Material', 'https://raw.githubusercontent.com/mmjee/Piped-Material/master/README.md',
+    fetchRegexList('pipedMaterial', 'https://raw.githubusercontent.com/mmjee/Piped-Material/master/README.md',
                    r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*) +\| Production")
 
 
 def cloudtube():
-    fetchFromFile('cloudtube', 'Cloudtube')
+    fetchFromFile('cloudtube')
 
 
 def proxitok():
-    fetchRegexList('proxiTok', 'ProxiTok', 'https://raw.githubusercontent.com/wiki/pablouser1/ProxiTok/Public-instances.md',
+    fetchRegexList('proxiTok', 'https://raw.githubusercontent.com/wiki/pablouser1/ProxiTok/Public-instances.md',
                    r"\| \[.*\]\(([-a-zA-Z0-9@:%_\+.~#?&//=]{2,}\.[a-z]{2,}\b(?:\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?)\)(?: \(Official\))? +\|(?:(?: [A-Z]*.*\|.*\|)|(?:$))")
 
 
 def send():
-    fetchRegexList('send', 'Send', 'https://gitlab.com/timvisee/send-instances/-/raw/master/README.md',
+    fetchRegexList('send', 'https://gitlab.com/timvisee/send-instances/-/raw/master/README.md',
                    r"- ([-a-zA-Z0-9@:%_\+.~#?&//=]{2,}\.[a-z0-9]{2,}\b(?:\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?)\)*\|*[A-Z]{0,}")
 
 
 def nitter():
-    fetchRegexList('nitter', 'Nitter', 'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md',
+    fetchRegexList('nitter', 'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md',
                    r"(?:(?:\| )|(?:-   ))\[(?:(?:\S+\.)+[a-zA-Z0-9]+)\/?\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]+)\/?\)(?:(?: (?:\((?:\S+ ?\S*)\) )? *\| [^❌]{1,4} +\|(?:(?:\n)|(?: ❌)|(?: ✅)|(?: ❓)|(?: \[)))|(?:\n))")
 
 
 def libreddit():
-    fetchJsonList('libreddit', 'Libreddit', 'https://github.com/libreddit/libreddit-instances/raw/master/instances.json',
+    fetchJsonList('libreddit', 'https://github.com/libreddit/libreddit-instances/raw/master/instances.json',
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, True)
 
 
 def teddit():
-    fetchJsonList('teddit', 'Teddit', 'https://codeberg.org/teddit/teddit/raw/branch/main/instances.json',
+    fetchJsonList('teddit', 'https://codeberg.org/teddit/teddit/raw/branch/main/instances.json',
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, False)
 
 
 def scribe():
-    fetchJsonList('scribe', 'Scribe',
-                  'https://git.sr.ht/~edwardloveall/scribe/blob/main/docs/instances.json', None, False)
+    fetchJsonList(
+        'scribe', 'https://git.sr.ht/~edwardloveall/scribe/blob/main/docs/instances.json', None, False)
 
 
 def quetre():
-    fetchRegexList('quetre', 'Quetre', 'https://raw.githubusercontent.com/zyachel/quetre/main/README.md',
+    fetchRegexList('quetre', 'https://raw.githubusercontent.com/zyachel/quetre/main/README.md',
                    r"\| \[.*\]\(([-a-zA-Z0-9@:%_\+.~#?&//=]{2,}\.[a-z0-9]{2,}\b(?:\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?)\)*\|*[A-Z]{0,}.*\|.*\|")
 
 
 def libremdb():
-    fetchRegexList('libremdb', 'libremdb', 'https://raw.githubusercontent.com/zyachel/libremdb/main/README.md',
+    fetchRegexList('libremdb', 'https://raw.githubusercontent.com/zyachel/libremdb/main/README.md',
                    r"\| \[.*\]\(([-a-zA-Z0-9@:%_\+.~#?&//=]{2,}\.[a-z0-9]{2,}\b(?:\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?)\)*\|*[A-Z]{0,}.*\|.*\|")
 
 
 def simplytranslate():
-    fetchTextList('simplyTranslate', 'SimplyTranslate', {'clearnet': 'https://simple-web.org/instances/simplytranslate', 'tor': 'https://simple-web.org/instances/simplytranslate_onion',
+    fetchTextList('simplyTranslate', {'clearnet': 'https://simple-web.org/instances/simplytranslate', 'tor': 'https://simple-web.org/instances/simplytranslate_onion',
                   'i2p': 'https://simple-web.org/instances/simplytranslate_i2p', 'loki': 'https://simple-web.org/instances/simplytranslate_loki'}, {'clearnet': 'https://', 'tor': 'http://', 'i2p': 'http://', 'loki': 'http://'})
 
 
 def linvgatranslate():
-    fetchJsonList('lingva', 'LingvaTranslate',
-                  'https://raw.githubusercontent.com/TheDavidDelta/lingva-translate/main/instances.json', None, False)
+    fetchJsonList(
+        'lingva', 'https://raw.githubusercontent.com/TheDavidDelta/lingva-translate/main/instances.json', None, False)
 
 
 def searx_searxng():
@@ -371,63 +372,78 @@ def searx_searxng():
 
 
 def whoogle():
-    fetchRegexList('whoogle', 'Whoogle', 'https://raw.githubusercontent.com/benbusby/whoogle-search/main/README.md',
+    fetchRegexList('whoogle', 'https://raw.githubusercontent.com/benbusby/whoogle-search/main/README.md',
                    r"\| \[https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+\]\((https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\) \| ")
 
 
 def librex():
-    fetchJsonList('librex', 'LibreX', 'https://raw.githubusercontent.com/hnhx/librex/main/instances.json',
+    fetchJsonList('librex', 'https://raw.githubusercontent.com/hnhx/librex/main/instances.json',
                   {'clearnet': 'clearnet', 'tor': 'tor', 'i2p': 'i2p', 'loki': None}, True)
 
 
 def rimgo():
-    fetchJsonList('rimgo', 'rimgo', 'https://codeberg.org/video-prize-ranch/rimgo/raw/branch/main/instances.json',
+    fetchJsonList('rimgo', 'https://codeberg.org/video-prize-ranch/rimgo/raw/branch/main/instances.json',
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, False)
 
 
 def librarian():
-    fetchJsonList('librarian', 'Librarian',
-                  'https://codeberg.org/librarian/librarian/raw/branch/main/instances.json', 'url', True)
+    fetchJsonList(
+        'librarian', 'https://codeberg.org/librarian/librarian/raw/branch/main/instances.json', 'url', True)
 
 
 def beatbump():
-    fetchFromFile('beatbump', 'Beatbump')
+    fetchFromFile('beatbump')
 
 
 def hyperpipe():
-    fetchJsonList('hyperpipe', 'Hyperpipe',
-                  'https://codeberg.org/Hyperpipe/pages/raw/branch/main/api/frontend.json', 'url', False)
+    fetchJsonList(
+        'hyperpipe', 'https://codeberg.org/Hyperpipe/pages/raw/branch/main/api/frontend.json', 'url', False)
 
 
 def facil():
-    fetchFromFile('facil', 'FacilMap')
+    fetchFromFile('facil')
 
 
 def osm():
-    fetchFromFile('osm', 'OpenStreetMap')
+    fetchFromFile('osm')
 
 
 def libreTranslate():
-    fetchRegexList('libreTranslate', 'LibreTranslate', 'https://raw.githubusercontent.com/LibreTranslate/LibreTranslate/main/README.md',
+    fetchRegexList('libreTranslate', 'https://raw.githubusercontent.com/LibreTranslate/LibreTranslate/main/README.md',
                    r"\[(?:[^\s\/]+\.)+[a-zA-Z0-9]+\]\((https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)\|")
 
 
 def breezeWiki():
-    fetchJsonList('breezeWiki', 'BreezeWiki',
-                  'https://docs.breezewiki.com/files/instances.json', 'instance', False)
+    fetchJsonList(
+        'breezeWiki', 'https://docs.breezewiki.com/files/instances.json', 'instance', False)
 
 
 def privateBin():
-    fetchJsonList('privateBin', 'PrivateBin',
-                  'https://privatebin.info/directory/api?top=100&https_redirect=true&min_rating=A&csp_header=true&min_uptime=100&attachments=true', 'url', False)
+    fetchJsonList('privateBin', 'https://privatebin.info/directory/api?top=100&https_redirect=true&min_rating=A&csp_header=true&min_uptime=100&attachments=true', 'url', False)
 
 
 def neuters():
-    fetchFromFile('neuters', 'Neuters')
+    fetchFromFile('neuters')
+
+
+def libMedium():
+    fetchRegexList('libMedium', 'https://raw.githubusercontent.com/realaravinth/libmedium/master/README.md',
+                   r"\| (https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/? +\|")
+
+
+def dumb():
+    fetchRegexList('dumb', 'https://raw.githubusercontent.com/rramiachraf/dumb/main/README.md',
+                   r"\| <(https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?> +\|")
 
 
 def ruralDictionary():
-    fetchJsonList('ruralDictionary', 'Rural Dictionary', 'https://codeberg.org/zortazert/rural-dictionary/raw/branch/master/instances.json', 'clearnet', False)
+    fetchJsonList('ruralDictionary',
+                  'https://codeberg.org/zortazert/rural-dictionary/raw/branch/master/instances.json', 'clearnet', False)
+
+
+def anonymousOverflow():
+    fetchRegexList('anonymousOverflow', 'https://raw.githubusercontent.com/httpjamesm/AnonymousOverflow/main/README.md',
+                   r"\| \[(?:[^\s\/]+\.)+[a-zA-Z0-9]+\]\((https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\) +\|")
 
 
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
@@ -466,6 +482,9 @@ breezeWiki()
 # privateBin()
 neuters()
 ruralDictionary()
+libMedium()
+dumb()
+anonymousOverflow()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
