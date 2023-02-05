@@ -10,6 +10,7 @@
       "https://invidious.nerdvpn.de",
       "https://invidious.tiekoetter.com",
       "https://yt.artemislena.eu",
+      "https://invidious.flokinet.to",
       "https://inv.bp.projectsegfau.lt",
       "https://inv.odyssey346.dev",
       "https://invidious.baczek.me",
@@ -22,15 +23,14 @@
       "https://vid.priv.au",
       "https://inv.vern.cc",
       "https://invidious.slipfox.xyz",
-      "https://invidious.esmailelbob.xyz",
       "https://invidious.weblibre.org",
+      "https://invidious.dhusch.de",
+      "https://invidious.esmailelbob.xyz",
       "https://iv.melmac.space",
       "https://invidious.silur.me",
       "https://invidious.lidarshield.cloud",
       "https://invidious.drivet.xyz",
       "https://invidious.privacydev.net",
-      "https://invidious.dhusch.de",
-      "https://invidious.flokinet.to",
       "https://invidious.namazso.eu"
     ],
     "tor": [
@@ -968,6 +968,23 @@
       "http://wikiless.i2p",
       "http://hflqp2ejxygpj6cdwo3ogfieqmxw3b56w7dblt7bor2ltwk6kcfa.b32.i2p",
       "http://vernesciy2defjsputrjrv6pa5ll6qzrckfffi5lgkumstdojyga.b32.i2p"
+    ],
+    "loki": []
+  },
+  "biblioReads": {
+    "clearnet": [
+      "https://biblioreads.ml",
+      "https://biblioreads.ga",
+      "https://bl.vern.cc",
+      "https://biblioreads.lunar.icu",
+      "https://biblioreads.esmailelbob.xyz"
+    ],
+    "tor": [
+      "http://bl.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion",
+      "http://biblioreads.esmail5pdn24shtvieloeedh7ehz3nrwcdivnfhfcedl7gf4kwddhkqd.onion"
+    ],
+    "i2p": [
+      "http://vernapl3lpo3huqdx3pjzxqgdgavxjlmdskbvejh2gfqgmjuyvxq.b32.i2p"
     ],
     "loki": []
   }

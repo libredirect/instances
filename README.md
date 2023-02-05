@@ -25,6 +25,7 @@
 - Dumb: [https://github.com/rramiachraf/dumb#public-instances](https://github.com/rramiachraf/dumb#public-instances)
 - AnonymousOverflow: [https://github.com/httpjamesm/AnonymousOverflow#clearnet-instances](https://github.com/httpjamesm/AnonymousOverflow#clearnet-instances)
 - Wikiless: [https://web.archive.org/web/20220929180821/https://codeberg.org/orenom/wikiless](https://web.archive.org/web/20220929180821/https://codeberg.org/orenom/wikiless)
+- BiblioReads: [https://github.com/nesaku/BiblioReads/blob/main/instances.json](https://github.com/nesaku/BiblioReads/blob/main/instances.json)
 
 
 ## How to run:

@@ -450,6 +450,15 @@ def wikiless():
     fetchFromFile('wikiless')
 
 
+def biblioReads():
+    fetchJsonList(
+        'biblioReads',
+        'https://raw.githubusercontent.com/nesaku/BiblioReads/main/instances.json',
+        {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None},
+        False
+    )
+
+
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
         result = urlparse(url)
@@ -490,6 +499,7 @@ libMedium()
 dumb()
 anonymousOverflow()
 wikiless()
+biblioReads()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
