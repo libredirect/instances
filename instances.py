@@ -153,7 +153,7 @@ def fetchJsonList(frontend, url, urlItem, jsonObject):
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend, frontend)
+        fetchCache(frontend)
         logging.error(traceback.format_exc())
 
 
@@ -180,7 +180,7 @@ def fetchRegexList(frontend, url, regex):
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend, )
+        fetchCache(frontend)
         logging.error(traceback.format_exc())
 
 
@@ -215,7 +215,7 @@ def fetchTextList(frontend, url, prepend):
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend, frontend)
+        fetchCache(frontend)
         logging.error(traceback.format_exc())
 
 
@@ -241,7 +241,7 @@ def invidious():
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + name)
     except Exception:
-        fetchCache(frontend, name)
+        fetchCache(frontend)
         logging.error(traceback.format_exc())
 
 
@@ -272,7 +272,7 @@ def piped():
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + name)
     except Exception:
-        fetchCache(frontend, name)
+        fetchCache(frontend)
         logging.error(traceback.format_exc())
 
 
@@ -459,6 +459,42 @@ def biblioReads():
     )
 
 
+def suds():
+    fetchJsonList(
+        'suds', 'https://git.vern.cc/cobra/Suds/raw/branch/main/instances.json',
+        {
+            'clearnet': 'clearnet',
+            'tor': 'tor',
+            'i2p': 'i2p',
+            'loki': None
+        },
+        False,
+    )
+
+
+def poketube():
+    frontend = 'poketube'
+    try:
+        r = requests.get(
+            'https://codeberg.org/Ashley/poketube/raw/branch/main/instances.json')
+        rJson = json.loads(r.text)
+        _list = {
+            'clearnet': [],
+            'tor': [],
+            'i2p': [],
+            'loki': []
+
+        }
+        for element in rJson:
+            _list['clearnet'].append(element[1]['uri'])
+
+        mightyList[frontend] = _list
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
+    except Exception:
+        fetchCache(frontend)
+        logging.error(traceback.format_exc())
+
+
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
         result = urlparse(url)
@@ -500,6 +536,8 @@ dumb()
 anonymousOverflow()
 wikiless()
 biblioReads()
+suds()
+poketube()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
