@@ -493,8 +493,11 @@ def poketube():
     except Exception:
         fetchCache(frontend)
         logging.error(traceback.format_exc())
-
-
+        
+def gothub():
+    fetchRegexList('gothub', 'https://codeberg.org/gothub/gothub/raw/branch/dev/README.md',
+                   r"\|\s\[(?:\S+\.).*\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]+)\/?\).*\|")
+    
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
         result = urlparse(url)
@@ -538,6 +541,7 @@ wikiless()
 biblioReads()
 suds()
 poketube()
+gothub()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
