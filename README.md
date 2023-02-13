@@ -28,6 +28,7 @@
 - BiblioReads: [https://github.com/nesaku/BiblioReads/blob/main/instances.json](https://github.com/nesaku/BiblioReads/blob/main/instances.json)
 - Suds: [https://git.vern.cc/cobra/Suds/src/branch/main/instances.json](https://git.vern.cc/cobra/Suds/src/branch/main/instances.json)
 - PokeTube: [https://codeberg.org/Ashley/poketube/src/branch/main/instances.json](https://codeberg.org/Ashley/poketube/src/branch/main/instances.json)
+- GotHub: [https://codeberg.org/gothub/gothub#instances](https://codeberg.org/gothub/gothub#instances)
 
 
 ## How to run:
