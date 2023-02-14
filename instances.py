@@ -495,6 +495,17 @@ def poketube():
         logging.error(traceback.format_exc())
 
 
+def gothub():
+    fetchRegexList(
+        'gothub',
+        'https://codeberg.org/gothub/gothub/raw/branch/dev/README.md',
+        r"\| \[.*\]\((https:\/{2}.*?)\).*\|.*(?!No|Yes)"
+    )
+
+def mikuInvidious():
+    fetchFromFile('mikuInvidious')
+
+
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
         result = urlparse(url)
@@ -538,6 +549,8 @@ wikiless()
 biblioReads()
 suds()
 poketube()
+gothub()
+mikuInvidious()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
