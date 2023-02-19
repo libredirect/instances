@@ -247,7 +247,6 @@ def invidious():
 
 def piped():
     frontend = 'piped'
-    name = 'Piped'
     try:
         _list = {}
         _list['clearnet'] = []
@@ -270,7 +269,7 @@ def piped():
                 logging.error(traceback.format_exc())
                 continue
         mightyList[frontend] = _list
-        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + name)
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
         fetchCache(frontend)
         logging.error(traceback.format_exc())
@@ -438,7 +437,11 @@ def dumb():
 
 def ruralDictionary():
     fetchJsonList('ruralDictionary',
-                  'https://codeberg.org/zortazert/rural-dictionary/raw/branch/master/instances.json', 'clearnet', False)
+                  'https://codeberg.org/zortazert/rural-dictionary/raw/branch/master/instances.json',
+                  {'clearnet': 'clearnet', 'tor': 'tor',
+                      'i2p': 'i2p', 'loki': None},
+                  False
+                  )
 
 
 def anonymousOverflow():
@@ -506,6 +509,39 @@ def mikuInvidious():
     fetchFromFile('mikuInvidious')
 
 
+def tent():
+    fetchFromFile('tent')
+
+
+wolfreeAlpha_url_list = [
+    "https://gqsq.gitlab.iso",
+    "https://jqq.gitlab.io",
+    "https://rqq.gitlab.io",
+    "https://sqq.gitlab.io",
+    "https://uqq.gitlab.io"
+]
+wolfreeAlpha_url_list_i = 0
+def wolfreeAlpha(i):
+    global wolfreeAlpha_url_list_i
+    frontend = 'wolfreeAlpha'
+    try:
+        r = requests.get(wolfreeAlpha_url_list[i]+"/instances.json")
+        if r.status_code != 200:
+            wolfreeAlpha_url_list_i += 1
+            wolfreeAlpha(wolfreeAlpha_url_list_i)
+        else:
+            rJson = json.loads(r.text)
+            networks = rJson['wolfree']
+            _list = {}
+            for i in networks.keys():
+                _list[i] = networks[i]
+            mightyList[frontend] = _list
+            print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
+    except:
+        wolfreeAlpha_url_list_i += 1
+        wolfreeAlpha(wolfreeAlpha_url_list_i)
+
+
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
         result = urlparse(url)
@@ -551,6 +587,9 @@ suds()
 poketube()
 gothub()
 mikuInvidious()
+wolfreeAlpha(wolfreeAlpha_url_list_i)
+
+
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
