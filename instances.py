@@ -269,6 +269,7 @@ def piped():
                 logging.error(traceback.format_exc())
                 continue
         mightyList[frontend] = _list
+        _list['clearnet'].remove("https://piped.video")
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
         fetchCache(frontend)
