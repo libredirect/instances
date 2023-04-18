@@ -515,7 +515,7 @@ def tent():
 
 
 wolfreeAlpha_url_list = [
-    "https://gqsq.gitlab.iso",
+    "https://gqq.gitlab.io",
     "https://jqq.gitlab.io",
     "https://rqq.gitlab.io",
     "https://sqq.gitlab.io",
