@@ -2,6 +2,7 @@
   "cloudflare": [
     "https://invidious.kavin.rocks",
     "https://piped.tokhmi.xyz",
+    "https://piped.moomoo.me",
     "https://piped.mha.fi",
     "https://piped.garudalinux.org",
     "https://watch.leptons.xyz",
@@ -59,18 +60,19 @@
     "https://rimgo.marcopisco.com",
     "https://imgur.010032.xyz",
     "https://i.01r.xyz",
+    "https://lbry.ramondia.net",
     "https://beatbump.ml",
-    "https://music.pfcd.me",
-    "https://luckvintage.com",
-    "https://sendpass.ru",
-    "https://0.0g.gg",
     "https://bonus01.hwb0307.com",
+    "https://luckvintage.com",
     "https://privatebin.io",
     "https://andoc.yateam.cc",
+    "https://sendpass.ru",
+    "https://0.0g.gg",
     "https://code.xbdm.fun",
     "https://wiki.604kph.xyz",
     "https://wiki.privacytools.io",
     "https://wikiless.rawbit.ninja",
-    "https://biblioreads.ga"
+    "https://biblioreads.ga",
+    "https://gothub.xbdm.fun"
   ]
 }
