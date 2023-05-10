@@ -386,11 +386,6 @@ def rimgo():
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, False)
 
 
-def librarian():
-    fetchJsonList(
-        'librarian', 'https://codeberg.org/librarian/librarian/raw/branch/main/instances.json', 'url', True)
-
-
 def beatbump():
     fetchFromFile('beatbump')
 
@@ -570,7 +565,6 @@ searx_searxng()
 whoogle()
 librex()
 rimgo()
-librarian()
 beatbump()
 hyperpipe()
 facil()
