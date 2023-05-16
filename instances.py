@@ -345,7 +345,6 @@ def searxng():
     searxngList['tor'] = []
     searxngList['i2p'] = []
     searxngList['loki'] = []
-    
 
     for item in rJson['instances']:
         if re.search(torRegex, item[:-1]) and rJson['instances'][item].get('generator') == 'searxng':
@@ -502,10 +501,16 @@ def poketube():
 
 
 def gothub():
-    fetchRegexList(
+    fetchJsonList(
         'gothub',
-        'https://codeberg.org/gothub/gothub/raw/branch/dev/README.md',
-        r"\| \[.*\]\((https:\/{2}.*?)\).*\|.*(?!No|Yes)"
+        'https://codeberg.org/gothub/gothub-instances/raw/branch/master/instances.json',
+        {
+            'clearnet': 'link',
+            'tor': None,
+            'i2p': None,
+            'loki': None
+        },
+        False
     )
 
 
@@ -556,44 +561,44 @@ def isValid(url):  # This code is contributed by avanitrachhadiya2155
         return False
 
 
-# invidious()
-# piped()
-# pipedMaterial()
-# cloudtube()
-# proxitok()
-# send()
-# nitter()
-# libreddit()
-# teddit()
-# scribe()
-# quetre()
-# libremdb()
-# simplytranslate()
-# linvgatranslate()
-# libreTranslate()
+invidious()
+piped()
+pipedMaterial()
+cloudtube()
+proxitok()
+send()
+nitter()
+libreddit()
+teddit()
+scribe()
+quetre()
+libremdb()
+simplytranslate()
+linvgatranslate()
+libreTranslate()
 searxng()
-# searx()
-# whoogle()
-# librex()
-# rimgo()
-# beatbump()
-# hyperpipe()
-# facil()
-# osm()
-# breezeWiki()
-# privateBin()
-# neuters()
-# ruralDictionary()
-# libMedium()
-# dumb()
-# anonymousOverflow()
-# wikiless()
-# biblioReads()
-# suds()
-# poketube()
-# gothub()
-# mikuInvidious()
-# wolfreeAlpha(wolfreeAlpha_url_list_i)
+searx()
+whoogle()
+librex()
+rimgo()
+beatbump()
+hyperpipe()
+facil()
+osm()
+breezeWiki()
+privateBin()
+neuters()
+ruralDictionary()
+libMedium()
+dumb()
+anonymousOverflow()
+wikiless()
+biblioReads()
+suds()
+poketube()
+gothub()
+mikuInvidious()
+wolfreeAlpha(wolfreeAlpha_url_list_i)
 
 
 mightyList = filterLastSlash(mightyList)
