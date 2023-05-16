@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 import re
 from colorama import Fore, Style
 import socket
+import yaml
 
 mightyList = {}
 networks = {}
@@ -335,40 +336,45 @@ def linvgatranslate():
         'lingva', 'https://raw.githubusercontent.com/TheDavidDelta/lingva-translate/main/instances.json', None, False)
 
 
-def searx_searxng():
+def searxng():
     r = requests.get(
         'https://searx.space/data/instances.json')
     rJson = json.loads(r.text)
-    searxList = {}
-    searxList['clearnet'] = []
-    searxList['tor'] = []
-    searxList['i2p'] = []
-    searxList['loki'] = []
     searxngList = {}
     searxngList['clearnet'] = []
     searxngList['tor'] = []
     searxngList['i2p'] = []
     searxngList['loki'] = []
-    for item in rJson['instances']:
-        if re.search(torRegex, item[:-1]):
-            if (rJson['instances'][item].get('generator') == 'searxng'):
-                searxngList['tor'].append(item[:-1])
-            else:
-                searxList['tor'].append(item[:-1])
-        elif re.search(i2pRegex, item[:-1]):
-            if (rJson['instances'][item].get('generator') == 'searxng'):
-                searxngList['i2p'].append(item[:-1])
-            else:
-                searxList['i2p'].append(item[:-1])
-        else:
-            if (rJson['instances'][item].get('generator') == 'searxng'):
-                searxngList['clearnet'].append(item[:-1])
-            else:
-                searxList['clearnet'].append(item[:-1])
+    
 
-    mightyList['searx'] = searxList
+    for item in rJson['instances']:
+        if re.search(torRegex, item[:-1] and rJson['instances'][item].get('generator') == 'searxng'):
+            searxngList['tor'].append(item[:-1])
+        elif re.search(i2pRegex, item[:-1] and rJson['instances'][item].get('generator') == 'searxng'):
+            searxngList['i2p'].append(item[:-1])
+        elif rJson['instances'][item].get('generator') == 'searxng':
+            searxngList['clearnet'].append(item[:-1])
+
     mightyList['searxng'] = searxngList
     print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'SearX, SearXNG')
+
+
+def searx():
+    searxList = {}
+    searxList['clearnet'] = []
+    searxList['tor'] = []
+    searxList['i2p'] = []
+    searxList['loki'] = []
+    r = requests.get(
+        'https://raw.githubusercontent.com/searx/searx-instances/master/searxinstances/instances.yml')
+    data = yaml.safe_load(r.text)
+    for key in data:
+        searxList['clearnet'].append(key)
+        if 'additional_urls' in data[key]:
+            for additional_url in data[key]['additional_urls']:
+                if data[key]['additional_urls'][additional_url] == "Hidden Service":
+                    searxList['tor'].append(additional_url)
+    mightyList['searx'] = searxList
 
 
 def whoogle():
@@ -501,6 +507,7 @@ def gothub():
         r"\| \[.*\]\((https:\/{2}.*?)\).*\|.*(?!No|Yes)"
     )
 
+
 def mikuInvidious():
     fetchFromFile('mikuInvidious')
 
@@ -517,6 +524,8 @@ wolfreeAlpha_url_list = [
     "https://uqq.gitlab.io"
 ]
 wolfreeAlpha_url_list_i = 0
+
+
 def wolfreeAlpha(i):
     global wolfreeAlpha_url_list_i
     frontend = 'wolfreeAlpha'
@@ -561,7 +570,8 @@ libremdb()
 simplytranslate()
 linvgatranslate()
 libreTranslate()
-searx_searxng()
+searxng()
+searx()
 whoogle()
 librex()
 rimgo()
@@ -583,7 +593,6 @@ poketube()
 gothub()
 mikuInvidious()
 wolfreeAlpha(wolfreeAlpha_url_list_i)
-
 
 
 mightyList = filterLastSlash(mightyList)
