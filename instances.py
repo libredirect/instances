@@ -348,15 +348,15 @@ def searxng():
     
 
     for item in rJson['instances']:
-        if re.search(torRegex, item[:-1] and rJson['instances'][item].get('generator') == 'searxng'):
+        if re.search(torRegex, item[:-1]) and rJson['instances'][item].get('generator') == 'searxng':
             searxngList['tor'].append(item[:-1])
-        elif re.search(i2pRegex, item[:-1] and rJson['instances'][item].get('generator') == 'searxng'):
+        elif re.search(i2pRegex, item[:-1]) and rJson['instances'][item].get('generator') == 'searxng':
             searxngList['i2p'].append(item[:-1])
         elif rJson['instances'][item].get('generator') == 'searxng':
             searxngList['clearnet'].append(item[:-1])
 
     mightyList['searxng'] = searxngList
-    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'SearX, SearXNG')
+    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'SearXNG')
 
 
 def searx():
@@ -375,6 +375,7 @@ def searx():
                 if data[key]['additional_urls'][additional_url] == "Hidden Service":
                     searxList['tor'].append(additional_url)
     mightyList['searx'] = searxList
+    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'SearXNG')
 
 
 def whoogle():
@@ -555,44 +556,44 @@ def isValid(url):  # This code is contributed by avanitrachhadiya2155
         return False
 
 
-invidious()
-piped()
-pipedMaterial()
-cloudtube()
-proxitok()
-send()
-nitter()
-libreddit()
-teddit()
-scribe()
-quetre()
-libremdb()
-simplytranslate()
-linvgatranslate()
-libreTranslate()
+# invidious()
+# piped()
+# pipedMaterial()
+# cloudtube()
+# proxitok()
+# send()
+# nitter()
+# libreddit()
+# teddit()
+# scribe()
+# quetre()
+# libremdb()
+# simplytranslate()
+# linvgatranslate()
+# libreTranslate()
 searxng()
-searx()
-whoogle()
-librex()
-rimgo()
-beatbump()
-hyperpipe()
-facil()
-osm()
-breezeWiki()
-privateBin()
-neuters()
-ruralDictionary()
-libMedium()
-dumb()
-anonymousOverflow()
-wikiless()
-biblioReads()
-suds()
-poketube()
-gothub()
-mikuInvidious()
-wolfreeAlpha(wolfreeAlpha_url_list_i)
+# searx()
+# whoogle()
+# librex()
+# rimgo()
+# beatbump()
+# hyperpipe()
+# facil()
+# osm()
+# breezeWiki()
+# privateBin()
+# neuters()
+# ruralDictionary()
+# libMedium()
+# dumb()
+# anonymousOverflow()
+# wikiless()
+# biblioReads()
+# suds()
+# poketube()
+# gothub()
+# mikuInvidious()
+# wolfreeAlpha(wolfreeAlpha_url_list_i)
 
 
 mightyList = filterLastSlash(mightyList)
