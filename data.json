@@ -4,12 +4,12 @@
       "https://yewtu.be",
       "https://vid.puffyan.us",
       "https://inv.riverside.rocks",
+      "https://invidious.kavin.rocks",
       "https://y.com.sb",
       "https://invidious.nerdvpn.de",
       "https://invidious.tiekoetter.com",
       "https://inv.bp.projectsegfau.lt",
       "https://invidious.flokinet.to",
-      "https://yt.artemislena.eu",
       "https://inv.pistasjis.net",
       "https://invidious.sethforprivacy.com",
       "https://invidious.projectsegfau.lt",
@@ -23,13 +23,13 @@
       "https://inv.zzls.xyz",
       "https://inv.tux.pizza",
       "https://invidious.slipfox.xyz",
-      "https://yt.floss.media",
       "https://invidious.nogafa.org",
       "https://iv.melmac.space",
       "https://invidious.esmailelbob.xyz",
+      "https://yt.floss.media",
       "https://invidious.vpsburti.com",
       "https://invidious.snopyta.org",
-      "https://invidious.kavin.rocks"
+      "https://yt.artemislena.eu"
     ],
     "tor": [
       "http://kbjggqkzv65ivcqj6bumvp337z6264huv5kpkwuv6gu5yjiskvan7fad.onion",
@@ -75,7 +75,6 @@
       "https://piped.adminforge.de",
       "https://piped.qdi.fi",
       "https://piped.hostux.net",
-      "https://pd.vern.cc",
       "https://piped.chauvet.pro",
       "https://piped.jotoma.de",
       "https://piped.pfcd.me",
@@ -953,6 +952,27 @@
       "https://gh.creller.net",
       "https://gh.dev.odyssey346.dev",
       "https://gothub.dev.projectsegfau.lt"
+    ],
+    "tor": [],
+    "i2p": [],
+    "loki": []
+  },
+  "mikuInvidious": {
+    "clearnet": [
+      "https://mikuinv.resrv.org",
+      "https://mikuinv-gs.vern.cc"
+    ],
+    "tor": [],
+    "i2p": [],
+    "loki": []
+  },
+  "wolfreeAlpha": {
+    "clearnet": [
+      "https://gqq.gitlab.io",
+      "https://jqq.gitlab.io",
+      "https://rqq.gitlab.io",
+      "https://sqq.gitlab.io",
+      "https://uqq.gitlab.io"
     ],
     "tor": [],
     "i2p": [],
