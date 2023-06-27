@@ -294,12 +294,52 @@ def proxitok():
 def send():
     fetchRegexList('send', 'https://gitlab.com/timvisee/send-instances/-/raw/master/README.md',
                    r"(https.*?) \|.*?\n")
-                   
 
 
 def nitter():
-    fetchRegexList('nitter', 'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md',
-                   r"(?:(?:\| )|(?:-   ))\[(?:(?:\S+\.)+[a-zA-Z0-9]+)\/?\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]+)\/?\)(?:(?: (?:\((?:\S+ ?\S*)\) )? *\| [^❌]{1,4} +\|(?:(?:\n)|(?: ❌)|(?: ✅)|(?: ❓)|(?: \[)))|(?:\n))")
+    frontend = 'nitter'
+    try:
+        r = requests.get(
+            'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md')
+        _list = {}
+
+        _list['clearnet'] = []
+        public = re.findall(r"## Public((?:\n|.*)+?)##", r.text)
+        for line in public[0].split('\n'):
+            result = re.findall(r"^\| \[.*?\]\((https.*?)\)", line)
+            if len(result) > 0:
+                _list['clearnet'].append(result[0])
+
+        _list['tor'] = []
+        public = re.findall(r"## Tor((?:\n|.*)+?)##", r.text)
+        for line in public[0].split('\n'):
+            result = re.findall(r"^\| <(http.*?)\/?>", line)
+            if len(result) > 0:
+                _list['tor'].append(result[0])
+
+        _list['i2p'] = []
+        public = re.findall(r"## I2P((?:\n|.*)+?)##", r.text)
+        for line in public[0].split('\n'):
+            result = re.findall(r"^- <(http.*?)\/?>", line)
+            if len(result) > 0:
+                _list['i2p'].append(result[0])
+        
+        _list['loki'] = []
+        public = re.findall(r"## Lokinet((?:\n|.*)+?)##", r.text)
+        for line in public[0].split('\n'):
+            result = re.findall(r"^- <(http.*?)\/?>", line)
+            if len(result) > 0:
+                _list['loki'].append(result[0])
+
+        mightyList[frontend] = _list
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
+
+    except Exception:
+        fetchCache(frontend)
+        logging.error(traceback.format_exc())
+
+    # fetchRegexList('nitter', '',
+    #                r"(?:(?:\| )|(?:-   ))\[(?:(?:\S+\.)+[a-zA-Z0-9]+)\/?\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]+)\/?\)(?:(?: (?:\((?:\S+ ?\S*)\) )? *\| [^❌]{1,4} +\|(?:(?:\n)|(?: ❌)|(?: ✅)|(?: ❓)|(?: \[)))|(?:\n))")
 
 
 def libreddit():
@@ -557,7 +597,8 @@ def wolfreeAlpha(i):
 def jiti():
     fetchRegexList('jitsi', "https://raw.githubusercontent.com/jitsi/handbook/master/docs/community/instances.md",
                    r"\|(?:(?: |	)+)+((?:[a-z]+\.)+[a-z]+)(?:(?: |	)+)+\|")
-    mightyList['jitsi']['clearnet'] = list(map(lambda x: "https://"+x, mightyList['jitsi']['clearnet']))
+    mightyList['jitsi']['clearnet'] = list(
+        map(lambda x: "https://"+x, mightyList['jitsi']['clearnet']))
     mightyList['jitsi']['clearnet'].insert(0, 'https://8x8.vc')
     mightyList['jitsi']['clearnet'].insert(0, 'https://meet.jit.si')
 
