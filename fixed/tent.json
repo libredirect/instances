@@ -1,9 +1,0 @@
-{
-    "clearnet": [
-        "https://tent.sny.sh",
-        "https://tent.bloatcat.tk"
-    ],
-    "tor": [],
-    "i2p": [],
-    "loki": []
-}

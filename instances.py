@@ -323,7 +323,7 @@ def nitter():
             result = re.findall(r"^- <(http.*?)\/?>", line)
             if len(result) > 0:
                 _list['i2p'].append(result[0])
-        
+
         _list['loki'] = []
         public = re.findall(r"## Lokinet((?:\n|.*)+?)##", r.text)
         for line in public[0].split('\n'):
@@ -433,6 +433,11 @@ def rimgo():
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, False)
 
 
+def pixivfe():
+    fetchRegexList('pixivfe', 'https://codeberg.org/VnPower/pixivfe/raw/branch/main/README.md',
+                   r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/? +\|")
+
+
 def beatbump():
     fetchFromFile('beatbump')
 
@@ -458,6 +463,11 @@ def libreTranslate():
 def breezeWiki():
     fetchJsonList(
         'breezeWiki', 'https://docs.breezewiki.com/files/instances.json', 'instance', False)
+
+
+def binternet():
+    fetchRegexList('binternet', 'https://raw.githubusercontent.com/Ahwxorg/Binternet/main/README.md',
+                   r"\| \[[\w\.]+!?\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/?\)")
 
 
 def privateBin():
@@ -560,7 +570,8 @@ def mikuInvidious():
 
 
 def tent():
-    fetchFromFile('tent')
+    fetchRegexList('tent', 'https://forgejo.sny.sh/sun/Tent/raw/branch/main/README.md',
+                   r"- (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/?")
 
 
 wolfreeAlpha_url_list = [
@@ -631,11 +642,13 @@ searx()
 whoogle()
 librex()
 rimgo()
+pixivfe()
 beatbump()
 hyperpipe()
 facil()
 osm()
 breezeWiki()
+binternet()
 privateBin()
 neuters()
 ruralDictionary()

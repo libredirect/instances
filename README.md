@@ -10,10 +10,13 @@
 - Libreddit: [https://github.com/libreddit/libreddit-instances/blob/master/instances.json](https://github.com/libreddit/libreddit-instances/blob/master/instances.json)
 - Teddit: [https://codeberg.org/teddit/teddit/src/branch/main/instances.json](https://codeberg.org/teddit/teddit/src/branch/main/instances.json)
 - Rimgo: [https://codeberg.org/video-prize-ranch/rimgo/src/branch/main/instances.json](https://codeberg.org/video-prize-ranch/rimgo/src/branch/main/instances.json)
+- PixivFE: [https://codeberg.org/VnPower/pixivfe#instances](https://codeberg.org/VnPower/pixivfe#instances)
 - Scribe: [https://git.sr.ht/~edwardloveall/scribe/tree/main/item/docs/instances.json](https://git.sr.ht/~edwardloveall/scribe/tree/main/item/docs/instances.json)
 - LibMedium: [https://github.com/realaravinth/libmedium#instances](https://github.com/realaravinth/libmedium#instances)
 - Quetre: [https://github.com/zyachel/quetre#instances](https://github.com/zyachel/quetre#instances)
 - libremdb: [https://github.com/zyachel/libremdb#instances](https://github.com/zyachel/libremdb#instances)
+- BreezeWiki: [https://docs.breezewiki.com/files/instances.json](https://docs.breezewiki.com/files/instances.json)
+- Binternet: [https://github.com/Ahwxorg/Binternet#instances](https://github.com/Ahwxorg/Binternet#instances)
 - Librarian: [https://codeberg.org/librarian/librarian/src/branch/main/instances.json](https://codeberg.org/librarian/librarian/src/branch/main/instances.json)
 - SearXNG, SearX: [https://searx.space](https://searx.space)
 - Whoogle: [https://github.com/benbusby/whoogle-search#public-instances](https://github.com/benbusby/whoogle-search#public-instances)
@@ -28,6 +31,7 @@
 - BiblioReads: [https://github.com/nesaku/BiblioReads/blob/main/instances.json](https://github.com/nesaku/BiblioReads/blob/main/instances.json)
 - Suds: [https://git.vern.cc/cobra/Suds/src/branch/main/instances.json](https://git.vern.cc/cobra/Suds/src/branch/main/instances.json)
 - PokeTube: [https://codeberg.org/Ashley/poketube/src/branch/main/instances.json](https://codeberg.org/Ashley/poketube/src/branch/main/instances.json)
+- Tent: [https://forgejo.sny.sh/sun/Tent#instances](https://forgejo.sny.sh/sun/Tent#instances)
 
 
 ## How to run:
