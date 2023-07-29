@@ -435,7 +435,7 @@ def rimgo():
 
 def pixivfe():
     fetchRegexList('pixivfe', 'https://codeberg.org/VnPower/pixivfe/raw/branch/main/README.md',
-                   r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*) +\|")
+                   r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/? +\|")
 
 
 def beatbump():
@@ -467,7 +467,7 @@ def breezeWiki():
 
 def binternet():
     fetchRegexList('binternet', 'https://raw.githubusercontent.com/Ahwxorg/Binternet/main/README.md',
-                   r"\| \[[\w\.]+!?\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*\/?)\)")
+                   r"\| \[[\w\.]+!?\]\((https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/?\)")
 
 
 def privateBin():
@@ -571,7 +571,7 @@ def mikuInvidious():
 
 def tent():
     fetchRegexList('tent', 'https://forgejo.sny.sh/sun/Tent/raw/branch/main/README.md',
-                   r"- (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*\/?)")
+                   r"- (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/?")
 
 
 wolfreeAlpha_url_list = [
