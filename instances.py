@@ -167,6 +167,9 @@ def fetchRegexList(frontend, url, regex):
 
         tmp = re.findall(regex, r.text)
 
+        print(tmp)
+        print(r.text)
+
         for item in tmp:
             if item.strip() == "":
                 continue
@@ -437,6 +440,10 @@ def pixivfe():
     fetchRegexList('pixivfe', 'https://codeberg.org/VnPower/pixivfe/raw/branch/main/README.md',
                    r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/? +\|")
 
+def safetwitch():
+    fetchRegexList('safetwitch', 'https://codeberg.org/dragongoose/safetwitch/raw/branch/master/README.md',
+                   r"\| \[.*\]\((https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)")
+
 
 def beatbump():
     fetchFromFile('beatbump')
@@ -643,6 +650,7 @@ whoogle()
 librex()
 rimgo()
 pixivfe()
+safetwitch()
 beatbump()
 hyperpipe()
 facil()
@@ -663,7 +671,6 @@ gothub()
 mikuInvidious()
 wolfreeAlpha(wolfreeAlpha_url_list_i)
 jiti()
-
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
