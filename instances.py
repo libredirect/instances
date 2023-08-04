@@ -167,9 +167,6 @@ def fetchRegexList(frontend, url, regex):
 
         tmp = re.findall(regex, r.text)
 
-        print(tmp)
-        print(r.text)
-
         for item in tmp:
             if item.strip() == "":
                 continue
