@@ -32,6 +32,7 @@
 - Suds: [https://git.vern.cc/cobra/Suds/src/branch/main/instances.json](https://git.vern.cc/cobra/Suds/src/branch/main/instances.json)
 - PokeTube: [https://codeberg.org/Ashley/poketube/src/branch/main/instances.json](https://codeberg.org/Ashley/poketube/src/branch/main/instances.json)
 - Tent: [https://forgejo.sny.sh/sun/Tent#instances](https://forgejo.sny.sh/sun/Tent#instances)
+- SafeTwitch: [https://codeberg.org/dragongoose/safetwitch#instances](https://codeberg.org/dragongoose/safetwitch#instances)
 
 
 ## How to run:
