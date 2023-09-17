@@ -33,6 +33,7 @@
 - PokeTube: [https://codeberg.org/Ashley/poketube/src/branch/main/instances.json](https://codeberg.org/Ashley/poketube/src/branch/main/instances.json)
 - Tent: [https://forgejo.sny.sh/sun/Tent#instances](https://forgejo.sny.sh/sun/Tent#instances)
 - SafeTwitch: [https://codeberg.org/dragongoose/safetwitch#instances](https://codeberg.org/dragongoose/safetwitch#instances)
+- Proxigram: [https://codeberg.org/ThePenguinDev/Proxigram/wiki/Instances](https://codeberg.org/ThePenguinDev/Proxigram/wiki/Instances)
 
 
 ## How to run:

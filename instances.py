@@ -437,6 +437,7 @@ def pixivfe():
     fetchRegexList('pixivfe', 'https://codeberg.org/VnPower/pixivfe/raw/branch/main/README.md',
                    r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/? +\|")
 
+
 def safetwitch():
     fetchRegexList('safetwitch', 'https://codeberg.org/dragongoose/safetwitch/raw/branch/master/README.md',
                    r"\| \[.*\]\((https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)")
@@ -618,6 +619,11 @@ def jiti():
     mightyList['jitsi']['clearnet'].insert(0, 'https://meet.jit.si')
 
 
+def proxigram():
+    fetchRegexList('proxigram', 'https://codeberg.org/ThePenguinDev/Proxigram/wiki/raw/Instances.md',
+                   r"\[(https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\]")
+
+
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
         result = urlparse(url)
@@ -668,6 +674,7 @@ gothub()
 mikuInvidious()
 wolfreeAlpha(wolfreeAlpha_url_list_i)
 jiti()
+proxigram()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
