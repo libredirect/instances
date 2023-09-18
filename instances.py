@@ -368,8 +368,7 @@ def libremdb():
 
 
 def simplytranslate():
-    fetchTextList('simplyTranslate', {'clearnet': 'https://simple-web.org/instances/simplytranslate', 'tor': 'https://simple-web.org/instances/simplytranslate_onion',
-                  'i2p': 'https://simple-web.org/instances/simplytranslate_i2p', 'loki': 'https://simple-web.org/instances/simplytranslate_loki'}, {'clearnet': 'https://', 'tor': 'http://', 'i2p': 'http://', 'loki': 'http://'})
+    fetchFromFile('simplytranslate')
 
 
 def linvgatranslate():
