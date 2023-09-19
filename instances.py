@@ -368,7 +368,7 @@ def libremdb():
 
 
 def simplytranslate():
-    fetchFromFile('simplytranslate')
+    fetchFromFile('simplyTranslate')
 
 
 def linvgatranslate():
