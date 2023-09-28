@@ -16,7 +16,8 @@ jobs:
           pip install requests colorama pyyaml
       - run: python instances.py
       - run: |
-          git config --local user.email "action@github.com" --local user.name "GitHub Action"
+          git config --local user.email "action@github.com" 
+          git config --local user.name "GitHub Action"
           git add -A
           git commit -m "Update instances" -a || :
       - uses: ad-m/github-push-action@v0.6.0
