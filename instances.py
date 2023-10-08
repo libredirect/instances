@@ -432,8 +432,8 @@ def rimgo():
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, False)
 
 
-def pixivfe():
-    fetchRegexList('pixivfe', 'https://codeberg.org/VnPower/pixivfe/raw/branch/main/README.md',
+def pixivFe():
+    fetchRegexList('pixivFe', 'https://codeberg.org/VnPower/pixivfe/raw/branch/main/README.md',
                    r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/? +\|")
 
 
@@ -651,7 +651,7 @@ searx()
 whoogle()
 librex()
 rimgo()
-pixivfe()
+pixivFe()
 safetwitch()
 beatbump()
 hyperpipe()
