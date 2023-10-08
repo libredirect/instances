@@ -674,6 +674,7 @@ mikuInvidious()
 wolfreeAlpha(wolfreeAlpha_url_list_i)
 jiti()
 proxigram()
+tent()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
