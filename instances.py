@@ -577,6 +577,9 @@ def tent():
     fetchRegexList('tent', 'https://forgejo.sny.sh/sun/Tent/raw/branch/main/README.md',
                    r"- (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/?")
 
+def laboratory():
+    fetchRegexList('laboratory', 'https://git.vitali64.duckdns.org/utils/laboratory.git/plain/README.md',
+                   r"\| (https:\/{2}.*?) \|")
 
 wolfreeAlpha_url_list = [
     "https://gqq.gitlab.io",
@@ -675,6 +678,7 @@ wolfreeAlpha(wolfreeAlpha_url_list_i)
 jiti()
 proxigram()
 tent()
+laboratory()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
@@ -704,5 +708,3 @@ json_object = json.dumps(blacklist, ensure_ascii=False, indent=2)
 with open('./blacklist.json', 'w') as outfile:
     outfile.write(json_object)
 print(Fore.BLUE + 'wrote ' + Style.RESET_ALL + 'instances/blacklist.json')
-
-# print(json_object)
