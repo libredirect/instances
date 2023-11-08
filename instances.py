@@ -428,8 +428,24 @@ def librex():
 
 
 def rimgo():
-    fetchJsonList('rimgo', 'https://codeberg.org/video-prize-ranch/rimgo/raw/branch/main/instances.json',
-                  {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, False)
+    try:
+        r = requests.get('https://rimgo.codeberg.page/api.json')
+        rJson = json.loads(r.text)
+        _list = {
+            'clearnet': [],
+            'tor': [],
+        }
+        for instance in rJson['clearnet']:
+            _list['clearnet'].append(instance['url'])
+
+        for instance in rJson['tor']:
+            _list['tor'].append(instance['url'])
+
+        mightyList['rimgo'] = _list
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'rimgo')
+    except Exception:
+        fetchCache('rimgo')
+        logging.error(traceback.format_exc())
 
 
 def pixivFe():
@@ -577,9 +593,11 @@ def tent():
     fetchRegexList('tent', 'https://forgejo.sny.sh/sun/Tent/raw/branch/main/README.md',
                    r"- (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/?")
 
+
 def laboratory():
     fetchRegexList('laboratory', 'https://git.vitali64.duckdns.org/utils/laboratory.git/plain/README.md',
                    r"\| (https:\/{2}.*?) \|")
+
 
 wolfreeAlpha_url_list = [
     "https://gqq.gitlab.io",
