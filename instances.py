@@ -626,6 +626,10 @@ def proxigram():
                    r"\[(https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\]")
 
 
+def twineo():
+    fetchFromFile('twineo')
+
+
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
         result = urlparse(url)
@@ -679,6 +683,7 @@ jiti()
 proxigram()
 tent()
 laboratory()
+twineo()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)

@@ -1,0 +1,10 @@
+{
+    "clearnet": [
+        "https://twineo.deno.dev",
+        "https://twineo.exozy.me",
+        "https://twineo.drgns.space"
+    ],
+    "tor": [],
+    "i2p": [],
+    "loki": []
+}
