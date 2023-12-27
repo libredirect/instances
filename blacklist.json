@@ -1,10 +1,8 @@
 {
   "cloudflare": [
-    "https://onion.tube",
     "https://invidious.perennialte.ch",
     "https://invidious.einfachzocken.eu",
     "https://piped.mha.fi",
-    "https://piped.garudalinux.org",
     "https://piped.video",
     "https://cringe.whateveritworks.org",
     "https://tiktok.wpme.pl",
@@ -49,12 +47,12 @@
     "https://listen.whateveritworks.org",
     "https://hp.iqbalrifai.eu.org",
     "https://breeze.whateveritworks.org",
-    "https://pb.blackvoid.club",
-    "https://sendpass.ru",
-    "https://privatebin.io",
-    "https://paste.3server.de",
-    "https://privatebin.luckvintage.com",
     "https://bonus01.hwb0307.com",
+    "https://pb.blackvoid.club",
+    "https://privatebin.io",
+    "https://privatebin.luckvintage.com",
+    "https://paste.3server.de",
+    "https://sendpass.ru",
     "https://read.sudovanilla.com",
     "https://code.xbdm.fun",
     "https://overflow.fascinated.cc",
@@ -71,6 +69,7 @@
     "https://8x8.vc",
     "https://meet.ffmuc.net",
     "https://meet.jit.si",
-    "https://meet.engagemedia.org"
+    "https://meet.engagemedia.org",
+    "https://ig.snine.nl"
   ]
 }
