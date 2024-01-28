@@ -455,7 +455,7 @@ def pixivFe():
 
 def safetwitch():
     fetchRegexList('safetwitch', 'https://codeberg.org/dragongoose/safetwitch/raw/branch/master/README.md',
-                   r"\| \[.*\]\((https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)")
+                 re.compile(r"^\| \[.*?\]\((https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)",re.MULTILINE))
 
 
 def beatbump():
