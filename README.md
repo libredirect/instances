@@ -34,7 +34,8 @@
 - Tent: [https://forgejo.sny.sh/sun/Tent#instances](https://forgejo.sny.sh/sun/Tent#instances)
 - SafeTwitch: [https://codeberg.org/dragongoose/safetwitch#instances](https://codeberg.org/dragongoose/safetwitch#instances)
 - Proxigram: [https://codeberg.org/ThePenguinDev/Proxigram/wiki/Instances](https://codeberg.org/ThePenguinDev/Proxigram/wiki/Instances)
-- Laboratory [https://git.vitali64.duckdns.org/utils/laboratory.git/about/#instances](https://git.vitali64.duckdns.org/utils/laboratory.git/about/#instances)
+- Laboratory: [https://git.vitali64.duckdns.org/utils/laboratory.git/about/#instances](https://git.vitali64.duckdns.org/utils/laboratory.git/about/#instances)
+- Priviblur: [https://github.com/syeopite/priviblur/blob/master/instances.md](https://github.com/syeopite/priviblur/blob/master/instances.md)
 
 
 ## How to run:

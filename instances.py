@@ -648,6 +648,11 @@ def twineo():
     fetchFromFile('twineo')
 
 
+def priviblur():
+    fetchRegexList('priviblur', 'https://raw.githubusercontent.com/syeopite/priviblur/master/instances.md',
+                   r"\| ?\[.*\]\((https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\) ?|")
+
+
 def isValid(url):  # This code is contributed by avanitrachhadiya2155
     try:
         result = urlparse(url)
@@ -702,6 +707,7 @@ proxigram()
 tent()
 laboratory()
 twineo()
+priviblur()
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)
