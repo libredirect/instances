@@ -504,8 +504,8 @@ def libMedium():
 
 
 def dumb():
-    fetchRegexList('dumb', 'https://raw.githubusercontent.com/rramiachraf/dumb/main/README.md',
-                   r"\| <(https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?> +\|")
+    fetchJsonList('dumb', 'https://raw.githubusercontent.com/rramiachraf/dumb/main/instances.json',
+                  {'clearnet': 'clearnet', 'tor': 'tor', 'i2p': 'i2p', 'loki': None}, False)
 
 
 def ruralDictionary():
