@@ -1,6 +1,9 @@
 {
-	"clearnet": ["https://simplytranslate.org"],
-	"tor": [],
-	"i2p": [],
+	"clearnet": [
+		"https://simplytranslate.org",
+		"https://tl.vern.cc"
+	],
+	"tor": ["http://tl.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"],
+	"i2p": ["http://verna7avzgd4qqal7k2onjzwxcceqby2gwvya2a2frdswb7z2k4q.b32.i2p"],
 	"loki": []
 }
