@@ -14,7 +14,7 @@
 - Scribe: [https://git.sr.ht/~edwardloveall/scribe/tree/main/item/docs/instances.json](https://git.sr.ht/~edwardloveall/scribe/tree/main/item/docs/instances.json)
 - LibMedium: [https://github.com/realaravinth/libmedium#instances](https://github.com/realaravinth/libmedium#instances)
 - Quetre: [https://github.com/zyachel/quetre#instances](https://github.com/zyachel/quetre#instances)
-- libremdb: [https://github.com/zyachel/libremdb#instances](https://github.com/zyachel/libremdb#instances)
+- LibreMDb: [https://raw.githubusercontent.com/zyachel/libremdb/main/instances.json](https://raw.githubusercontent.com/zyachel/libremdb/main/instances.json)
 - BreezeWiki: [https://docs.breezewiki.com/files/instances.json](https://docs.breezewiki.com/files/instances.json)
 - Binternet: [https://github.com/Ahwxorg/Binternet#instances](https://github.com/Ahwxorg/Binternet#instances)
 - Librarian: [https://codeberg.org/librarian/librarian/src/branch/main/instances.json](https://codeberg.org/librarian/librarian/src/branch/main/instances.json)
