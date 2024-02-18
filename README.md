@@ -13,7 +13,7 @@
 - PixivFE: [https://codeberg.org/VnPower/pixivfe#instances](https://codeberg.org/VnPower/pixivfe#instances)
 - Scribe: [https://git.sr.ht/~edwardloveall/scribe/tree/main/item/docs/instances.json](https://git.sr.ht/~edwardloveall/scribe/tree/main/item/docs/instances.json)
 - LibMedium: [https://github.com/realaravinth/libmedium#instances](https://github.com/realaravinth/libmedium#instances)
-- Quetre: [https://github.com/zyachel/quetre#instances](https://github.com/zyachel/quetre#instances)
+- Quetre: [[https://github.com/zyachel/quetre#instances](https://raw.githubusercontent.com/zyachel/quetre/main/instances.json)](https://raw.githubusercontent.com/zyachel/quetre/main/instances.json)
 - libremdb: [https://github.com/zyachel/libremdb#instances](https://github.com/zyachel/libremdb#instances)
 - BreezeWiki: [https://docs.breezewiki.com/files/instances.json](https://docs.breezewiki.com/files/instances.json)
 - Binternet: [https://github.com/Ahwxorg/Binternet#instances](https://github.com/Ahwxorg/Binternet#instances)
