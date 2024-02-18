@@ -1,6 +1,13 @@
 {
-	"clearnet": ["https://beatbump.ml", "https://beatbump.esmailelbob.xyz"],
-	"tor": ["http://beatbump.lqs5fjmajyp7rvp4qvyubwofzi6d4imua7vs237rkc4m5qogitqwrgyd.onion"],
-	"i2p": [],
+	"clearnet": [
+		"https://beatbump.ml",
+		"https://beatbump.esmailelbob.xyz",
+		"https://bb.vern.cc"
+	],
+	"tor": [
+		"http://beatbump.lqs5fjmajyp7rvp4qvyubwofzi6d4imua7vs237rkc4m5qogitqwrgyd.onion",
+		"http://bb.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"
+	],
+	"i2p": ["http://vern6inmbjzqpecx4kpkq5sln3cqqrfuxfzh4au3tpxbsfbwbnta.b32.i2p"],
 	"loki": []
 }
