@@ -363,8 +363,8 @@ def quetre():
 
 
 def libremdb():
-    fetchRegexList('libremdb', 'https://raw.githubusercontent.com/zyachel/libremdb/main/README.md',
-                   r"\| \[.*\]\(([-a-zA-Z0-9@:%_\+.~#?&//=]{2,}\.[a-z0-9]{2,}\b(?:\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?)\)*\|*[A-Z]{0,}.*\|.*\|")
+    fetchJsonList('libremdb', 'https://raw.githubusercontent.com/zyachel/libremdb/main/instances.json',
+                  {'clearnet': 'clearnet', 'tor': 'tor', 'i2p': 'i2p', 'loki': None}, False)
 
 
 def simplytranslate():
