@@ -458,10 +458,6 @@ def safetwitch():
                  re.compile(r"^\| \[.*?\]\((https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)",re.MULTILINE))
 
 
-def beatbump():
-    fetchFromFile('beatbump')
-
-
 def hyperpipe():
     fetchJsonList(
         'hyperpipe', 'https://codeberg.org/Hyperpipe/pages/raw/branch/main/api/frontend.json', 'url', False)
@@ -683,7 +679,6 @@ librex()
 rimgo()
 pixivFe()
 safetwitch()
-beatbump()
 hyperpipe()
 facil()
 osm()
