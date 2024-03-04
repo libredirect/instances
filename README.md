@@ -25,7 +25,7 @@
 - LingvaTranslate: [https://github.com/thedaviddelta/lingva-translate/blob/main/instances.json](https://github.com/thedaviddelta/lingva-translate/blob/main/instances.json)
 - LibreTranslate: [https://github.com/LibreTranslate/LibreTranslate#mirrors](https://github.com/LibreTranslate/LibreTranslate#mirrors)
 - Send: [https://github.com/timvisee/send-instances](https://github.com/timvisee/send-instances)
-- Dumb: [https://github.com/rramiachraf/dumb#public-instances](https://github.com/rramiachraf/dumb#public-instances)
+- Dumb: [https://raw.githubusercontent.com/rramiachraf/dumb/main/instances.json](https://raw.githubusercontent.com/rramiachraf/dumb/main/instances.json)
 - AnonymousOverflow: [https://github.com/httpjamesm/AnonymousOverflow#clearnet-instances](https://github.com/httpjamesm/AnonymousOverflow#clearnet-instances)
 - Wikiless: [https://web.archive.org/web/20220929180821/https://codeberg.org/orenom/wikiless](https://web.archive.org/web/20220929180821/https://codeberg.org/orenom/wikiless) + [https://github.com/Metastem/wikiless/wiki/Instances](https://github.com/Metastem/wikiless/wiki/Instances)
 - BiblioReads: [https://github.com/nesaku/BiblioReads/blob/main/instances.json](https://github.com/nesaku/BiblioReads/blob/main/instances.json)
