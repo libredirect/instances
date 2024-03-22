@@ -347,6 +347,11 @@ def libreddit():
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, True)
 
 
+def redlib():
+    fetchJsonList('redlib', 'https://github.com/redlib-org/redlib-instances/raw/main/instances.json',
+                  {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, True)
+
+
 def teddit():
     fetchJsonList('teddit', 'https://codeberg.org/teddit/teddit/raw/branch/main/instances.json',
                   {'clearnet': 'url', 'tor': 'onion', 'i2p': 'i2p', 'loki': None}, False)
@@ -665,6 +670,7 @@ proxitok()
 send()
 nitter()
 libreddit()
+redlib()
 teddit()
 scribe()
 quetre()
