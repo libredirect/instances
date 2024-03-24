@@ -8,6 +8,7 @@
 - Nitter: [https://github.com/zedeus/nitter/wiki/Instances](https://github.com/zedeus/nitter/wiki/Instances)
 - ProxiTok: [https://github.com/pablouser1/ProxiTok/wiki/Public-instances](https://github.com/pablouser1/ProxiTok/wiki/Public-instances)
 - Libreddit: [https://github.com/libreddit/libreddit-instances/blob/master/instances.json](https://github.com/libreddit/libreddit-instances/blob/master/instances.json)
+- Redlib: [https://github.com/redlib-org/redlib-instances/blob/main/instances.json](https://github.com/redlib-org/redlib-instances/blob/main/instances.json)
 - Teddit: [https://codeberg.org/teddit/teddit/src/branch/main/instances.json](https://codeberg.org/teddit/teddit/src/branch/main/instances.json)
 - Rimgo: [https://codeberg.org/video-prize-ranch/rimgo/src/branch/main/instances.json](https://codeberg.org/video-prize-ranch/rimgo/src/branch/main/instances.json)
 - PixivFE: [https://codeberg.org/VnPower/pixivfe#instances](https://codeberg.org/VnPower/pixivfe#instances)
