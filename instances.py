@@ -591,8 +591,7 @@ def mikuInvidious():
 
 
 def tent():
-    fetchRegexList('tent', 'https://forgejo.sny.sh/sun/Tent/raw/branch/main/README.md',
-                   r"- (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/?")
+    fetchJsonList('tent', 'https://forgejo.sny.sh/sun/Tent/raw/branch/main/instances.json', 'url', False)
 
 
 def laboratory():
