@@ -32,7 +32,7 @@
 - BiblioReads: [https://github.com/nesaku/BiblioReads/blob/main/instances.json](https://github.com/nesaku/BiblioReads/blob/main/instances.json)
 - Suds: [https://git.vern.cc/cobra/Suds/src/branch/main/instances.json](https://git.vern.cc/cobra/Suds/src/branch/main/instances.json)
 - PokeTube: [https://codeberg.org/Ashley/poketube/src/branch/main/instances.json](https://codeberg.org/Ashley/poketube/src/branch/main/instances.json)
-- Tent: [https://forgejo.sny.sh/sun/Tent#instances](https://forgejo.sny.sh/sun/Tent#instances)
+- Tent: [https://forgejo.sny.sh/sun/Tent/raw/branch/main/instances.json](https://forgejo.sny.sh/sun/Tent/raw/branch/main/instances.json)
 - SafeTwitch: [https://codeberg.org/dragongoose/safetwitch#instances](https://codeberg.org/dragongoose/safetwitch#instances)
 - Proxigram: [https://codeberg.org/ThePenguinDev/Proxigram/wiki/Instances](https://codeberg.org/ThePenguinDev/Proxigram/wiki/Instances)
 - Laboratory: [https://git.vitali64.duckdns.org/utils/laboratory.git/about/#instances](https://git.vitali64.duckdns.org/utils/laboratory.git/about/#instances)
