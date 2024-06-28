@@ -2,6 +2,7 @@
 
 ## Sources:
 - Invidious: [https://api.invidious.io](https://api.invidious.io/)
+- Materialious [https://github.com/Materialious/Materialious/blob/main/docs/INSTANCES.md](https://github.com/Materialious/Materialious/blob/main/docs/INSTANCES.md)
 - Piped: [https://github.com/TeamPiped/Piped/wiki/Instances](https://github.com/TeamPiped/Piped/wiki/Instances)
 - Piped-Material: [https://github.com/mmjee/Piped-Material#links](https://github.com/mmjee/Piped-Material#links)
 - Hyperpipe: [https://codeberg.org/Hyperpipe/pages/src/branch/main/api/frontend.json](https://codeberg.org/Hyperpipe/pages/src/branch/main/api/frontend.json)

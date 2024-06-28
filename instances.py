@@ -277,6 +277,11 @@ def piped():
         logging.error(traceback.format_exc())
 
 
+def materialious():
+    fetchRegexList('materialious', 'https://raw.githubusercontent.com/Materialious/Materialious/main/docs/INSTANCES.md',
+                    r"- \[.*\]\((https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)")
+
+
 def pipedMaterial():
     fetchRegexList('pipedMaterial', 'https://raw.githubusercontent.com/mmjee/Piped-Material/master/README.md',
                    r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*) +\| Production")
@@ -662,6 +667,7 @@ def isValid(url):  # This code is contributed by avanitrachhadiya2155
 
 
 invidious()
+materialious()
 piped()
 pipedMaterial()
 cloudtube()
