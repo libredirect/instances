@@ -299,12 +299,3 @@ def privateBin(mightyList):
         False,
         mightyList
     )
-
-
-def pixivFe(mightyList):
-    fetchRegexList(
-        'pixivFe',
-        'https://codeberg.org/VnPower/pixivfe/raw/branch/main/README.md',
-        r"\| (https?:\/{2}(?:\S+\.)+[a-zA-Z0-9]*)\/? +\|",
-        mightyList
-    )

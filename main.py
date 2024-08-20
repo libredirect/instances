@@ -9,6 +9,7 @@ from services.translate import *
 from services.utils import *
 from services.wolfram import *
 from services.youtube import *
+from services.pixiv import *
 
 mightyList = {}
 
