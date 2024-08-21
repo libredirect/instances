@@ -28,4 +28,4 @@ jobs:
       # Push to Codeberg
       - run: |
           git config --unset-all http.https://github.com/.extraheader
-          git push https://manerakai:@${SUPER_SECRET}.org/LibRedirect/instances
+          git push https://manerakai:${SUPER_SECRET}@codeberg.org/LibRedirect/instances
