@@ -4,7 +4,7 @@ on:
     - cron: '10 22 */1 * *'
   workflow_dispatch:
 jobs:
-  build:
+  fetch:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v3.3.0
@@ -20,7 +20,13 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -A
           git commit -m "Update instances" -a || :
+      # Push to Github
       - uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+      # Push to Codeberg
+      - run: |
+          git config --unset-all http.https://github.com/.extraheader
+          git push https://
+          git push https://manerakai:@${SUPER_SECRET}.org/LibRedirect/instances
