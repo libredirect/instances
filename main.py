@@ -60,6 +60,8 @@ tent(mightyList)
 laboratory(mightyList)
 twineo(mightyList)
 priviblur(mightyList)
+mozhi(mightyList)
+
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)

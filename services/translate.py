@@ -18,3 +18,12 @@ def libreTranslate(mightyList):
         r"\[(?:[^\s\/]+\.)+[a-zA-Z0-9]+\]\((https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)\|",
         mightyList
     )
+
+def mozhi(mightyList):
+        fetchJsonList(
+        'mozhi',
+        'https://codeberg.org/aryak/mozhi/raw/branch/master/instances.json',
+        'link',
+        False,
+        mightyList
+    )

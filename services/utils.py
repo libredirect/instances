@@ -155,7 +155,7 @@ def fetchJsonList(frontend, url, urlItem, jsonObject, mightyList):
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend)
+        fetchCache(frontend, mightyList)
         logging.error(traceback.format_exc())
 
 
