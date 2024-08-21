@@ -26,6 +26,9 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
       # Push to Codeberg
+      - shell: bash
+        env:
+          CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
       - run: |
           git config --unset-all http.https://github.com/.extraheader
-          git push https://manerakai:${SUPER_SECRET}@codeberg.org/LibRedirect/instances
+          git push https://manerakai:$CODEBERG_TOKEN@codeberg.org/LibRedirect/instances
