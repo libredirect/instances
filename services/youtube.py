@@ -48,13 +48,19 @@ def piped(mightyList):
             r' \| (https:\/{2}(?:[^\s\/]+\.)+[a-zA-Z]+) \| ', r.text)
         for item in tmp:
             try:
+                print(
+                    Fore.GREEN + 'Fetching ' + Style.RESET_ALL + item,
+                    end=' '
+                )
                 url = requests.get(item, timeout=5).url
                 if url.strip("/") == item:
+                    print(Fore.RED + '𐄂')
                     continue
                 else:
+                    print(Fore.GREEN + '✓')
                     _list['clearnet'].append(url)
             except Exception:
-                logging.error(traceback.format_exc())
+                print(Fore.RED + '𐄂')
                 continue
         mightyList[frontend] = _list
         _list['clearnet'].remove("https://piped.video")
