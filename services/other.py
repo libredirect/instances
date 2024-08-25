@@ -182,12 +182,22 @@ def jiti(mightyList):
 
 
 def anonymousOverflow(mightyList):
-    fetchRegexList(
-        'anonymousOverflow',
-        'https://raw.githubusercontent.com/httpjamesm/AnonymousOverflow/main/README.md',
-        r"\| \[(?:[^\s\/]+\.)+[a-zA-Z0-9]+\]\((https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\) +\|",
-        mightyList
-    )
+    try:
+        r = requests.get('https://raw.githubusercontent.com/httpjamesm/AnonymousOverflow/main/instances.json')
+        rJson: dict = r.json()
+        all_instances = dict()
+        for net_type, x_instances in rJson.items():
+            x_res = [x['url'].strip("/") for x in x_instances]
+            all_instances[{
+                'clearnet': 'clearnet',
+                'onion': 'tor',
+                'i2p': 'i2p',
+                'loki': 'loki'
+            }[net_type]] = x_res
+        mightyList['anonymousOverflow'] = all_instances
+    except Exception:
+        fetchCache('anonymousOverflow', mightyList)
+        logging.error(traceback.format_exc())
 
 
 def proxitok(mightyList):
