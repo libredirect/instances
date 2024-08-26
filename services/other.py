@@ -183,7 +183,8 @@ def jiti(mightyList):
 
 def anonymousOverflow(mightyList):
     try:
-        r = requests.get('https://raw.githubusercontent.com/httpjamesm/AnonymousOverflow/main/instances.json')
+        r = requests.get(
+            'https://raw.githubusercontent.com/httpjamesm/AnonymousOverflow/main/instances.json')
         rJson: dict = r.json()
         all_instances = dict()
         for net_type, x_instances in rJson.items():
@@ -309,3 +310,23 @@ def privateBin(mightyList):
         False,
         mightyList
     )
+
+
+def skunkyArt(mightyList):
+    try:
+        r = requests.get(
+            'https://git.macaw.me/skunky/SkunkyArt/raw/tag/v1.3.1/instances.json')
+        rJson: dict = r.json()
+        clearnet = []
+        for item in rJson['instances']:
+            if 'clearnet' in item['urls']:
+                clearnet.append(item['urls']['clearnet'])
+        mightyList['skunkyArt'] = {
+            "clearnet": clearnet,
+            "tor": [],
+            "i2p": [],
+            "loki": []
+        }
+    except Exception:
+        fetchCache('skunkyArt', mightyList)
+        logging.error(traceback.format_exc())

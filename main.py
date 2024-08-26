@@ -61,6 +61,7 @@ laboratory(mightyList)
 twineo(mightyList)
 priviblur(mightyList)
 mozhi(mightyList)
+skunkyArt(mightyList)
 
 
 mightyList = filterLastSlash(mightyList)
