@@ -160,7 +160,7 @@ def rimgo(mightyList):
         mightyList['rimgo'] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'rimgo')
     except Exception:
-        fetchCache('rimgo')
+        fetchCache('rimgo', mightyList)
         logging.error(traceback.format_exc())
 
 

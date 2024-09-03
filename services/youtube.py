@@ -66,7 +66,7 @@ def piped(mightyList):
         _list['clearnet'].remove("https://piped.video")
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend)
+        fetchCache(frontend, mightyList)
         logging.error(traceback.format_exc())
 
 
@@ -107,7 +107,7 @@ def poketube(mightyList):
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend)
+        fetchCache(frontend, mightyList)
         logging.error(traceback.format_exc())
 
 

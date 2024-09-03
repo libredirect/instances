@@ -182,7 +182,7 @@ def fetchRegexList(frontend, url, regex, mightyList):
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend)
+        fetchCache(frontend, mightyList)
         logging.error(traceback.format_exc())
 
 
@@ -217,7 +217,7 @@ def fetchTextList(frontend, url, prepend):
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
-        fetchCache(frontend)
+        fetchCache(frontend, mightyList)
         logging.error(traceback.format_exc())
 
 
