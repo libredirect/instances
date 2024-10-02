@@ -340,3 +340,13 @@ def koub(mightyList):
         False,
         mightyList
     )
+
+
+def transLite(mightyList):
+    fetchJsonList(
+        'transLite',
+        'https://codeberg.org/gospodin/translite/raw/branch/master/instances.json',
+        'url',
+        False,
+        mightyList
+    )
