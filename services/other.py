@@ -330,3 +330,13 @@ def skunkyArt(mightyList):
     except Exception:
         fetchCache('skunkyArt', mightyList)
         logging.error(traceback.format_exc())
+
+
+def koub(mightyList):
+    fetchJsonList(
+        'koub',
+        'https://codeberg.org/gospodin/koub/raw/branch/master/instances.json',
+        'url',
+        False,
+        mightyList
+    )
