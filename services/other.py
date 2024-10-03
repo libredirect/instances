@@ -315,7 +315,7 @@ def privateBin(mightyList):
 def skunkyArt(mightyList):
     try:
         r = requests.get(
-            'https://git.macaw.me/skunky/SkunkyArt/raw/tag/v1.3.1/instances.json')
+            'https://git.macaw.me/skunky/SkunkyArt/raw/branch/master/instances.json')
         rJson: dict = r.json()
         clearnet = []
         for item in rJson['instances']:
