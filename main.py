@@ -62,6 +62,8 @@ twineo(mightyList)
 priviblur(mightyList)
 mozhi(mightyList)
 skunkyArt(mightyList)
+koub(mightyList)
+transLite(mightyList)
 
 
 mightyList = filterLastSlash(mightyList)
