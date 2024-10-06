@@ -20,7 +20,7 @@ def tent(mightyList):
 def ruralDictionary(mightyList):
     fetchJsonList(
         'ruralDictionary',
-        'https://codeberg.org/zortazert/rural-dictionary/raw/branch/master/instances.json',
+        'https://codeberg.org/cobra/rural-dict/raw/branch/main/instances.json',
         {
             'clearnet': 'clearnet',
             'tor': 'tor',
@@ -28,15 +28,6 @@ def ruralDictionary(mightyList):
             'loki': None
         },
         False,
-        mightyList
-    )
-
-
-def laboratory(mightyList):
-    fetchRegexList(
-        'laboratory',
-        'https://git.vitali64.duckdns.org/utils/laboratory.git/plain/README.md',
-        r"\| (https:\/{2}.*?) \|",
         mightyList
     )
 
@@ -164,7 +155,7 @@ def rimgo(mightyList):
         logging.error(traceback.format_exc())
 
 
-def jiti(mightyList):
+def jitsi(mightyList):
     fetchRegexList(
         'jitsi',
         "https://raw.githubusercontent.com/jitsi/handbook/master/docs/community/instances.md",
@@ -330,7 +321,6 @@ def skunkyArt(mightyList):
     except Exception:
         fetchCache('skunkyArt', mightyList)
         logging.error(traceback.format_exc())
-
 
 def koub(mightyList):
     fetchJsonList(

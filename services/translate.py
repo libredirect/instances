@@ -27,3 +27,12 @@ def mozhi(mightyList):
         False,
         mightyList
     )
+
+def simplytranslate(mightyList):
+        fetchJsonList(
+        'simplytranslate',
+        'https://codeberg.org/ManeraKai/simplytranslate/raw/branch/main/instances.json',
+        'link',
+        False,
+        mightyList
+    )

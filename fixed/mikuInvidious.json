@@ -1,9 +1,0 @@
-{
-	"clearnet": [
-		"https://mikuinv.resrv.org",
-		"https://mikuinv-gs.vern.cc"
-	],
-	"tor": [],
-	"i2p": [],
-	"loki": []
-}
