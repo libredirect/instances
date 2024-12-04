@@ -26,6 +26,7 @@
     "clearnet": [
       "https://piped.lunar.icu",
       "https://piped.nosebs.ru",
+      "https://piped.video",
       "https://piped.smnz.de",
       "https://piped.adminforge.de",
       "https://piped.yt",
@@ -433,7 +434,6 @@
       "https://search.canine.tools",
       "https://search.citw.lgbt",
       "https://search.einfachzocken.eu",
-      "https://search.fredix.xyz",
       "https://search.gcomm.ch",
       "https://search.getcobalt.org",
       "https://search.hbubli.cc",
@@ -774,8 +774,8 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.net",
-      "https://snip.dssr.ch"
+      "https://snip.dssr.ch",
+      "https://privatebin.net"
     ],
     "tor": [],
     "i2p": [],
