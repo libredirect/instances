@@ -3,7 +3,8 @@
     "clearnet": [
       "https://inv.nadeko.net",
       "https://invidious.jing.rocks",
-      "https://invidious.nerdvpn.de"
+      "https://invidious.nerdvpn.de",
+      "https://yewtu.be"
     ],
     "tor": [
       "http://inv.nadekonw7plitnjuawu6ytjsl7jlglk2t6pyq6eftptmiv3dvqndwvyd.onion"
@@ -186,7 +187,6 @@
       "https://lr.vern.cc",
       "https://reddit.rtrace.io",
       "https://l.opnxng.com",
-      "https://libreddit.projectsegfau.lt",
       "https://libreddit.bus-hit.me",
       "https://snoo.habedieeh.re"
     ],
@@ -213,18 +213,13 @@
       "https://redlib.freedit.eu",
       "https://redlib.perennialte.ch",
       "https://rl.bloat.cat",
-      "https://redlib.nohost.network",
       "https://redlib.ducks.party",
       "https://red.ngn.tf",
       "https://red.artemislena.eu",
-      "https://r.darrennathanael.com",
       "https://redlib.privacyredirect.com",
-      "https://redlib.seasi.dev",
       "https://reddit.nerdvpn.de",
       "https://redlib.nadeko.net",
       "https://redlib.private.coffee",
-      "https://red.arancia.click",
-      "https://redlib.reallyaweso.me",
       "https://redlib.privacy.com.de"
     ],
     "tor": [
@@ -362,7 +357,8 @@
       "https://libremdb.hyperreal.coffee",
       "https://ld.ca.zorby.top",
       "https://imdb.nerdvpn.de",
-      "https://libremdb.canine.tools"
+      "https://libremdb.canine.tools",
+      "https://libremdb-fly.fly.dev"
     ],
     "tor": [
       "http://ld.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion",
@@ -415,6 +411,7 @@
   "searxng": {
     "clearnet": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://darmarit.org/searx",
       "https://etsi.me",
       "https://fairsuch.net",
@@ -446,6 +443,7 @@
       "https://search.nerdvpn.de",
       "https://search.nordh.tech",
       "https://search.ononoki.org",
+      "https://search.plogi.xyz",
       "https://search.privacyredirect.com",
       "https://search.projectsegfau.lt",
       "https://search.rhscz.eu",
@@ -454,6 +452,7 @@
       "https://search.tommy-tran.com",
       "https://searx.ankha.ac",
       "https://searx.be",
+      "https://searx.cespedes.fr",
       "https://searx.colbster937.dev",
       "https://searx.dresden.network",
       "https://searx.electroncash.de",
@@ -489,7 +488,6 @@
     ],
     "tor": [
       "http://lbmegc3rjnekmdxuisynqdc7y3m2tgyq7gj257ooddaobxqjw36bdayd.onion",
-      "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
       "http://4n53nafyi77iplnbrpmxnp3x4exbswwxigujaxy3b37fvr7bvlopxeyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
       "http://searchpie7fejn4wctzm6fgm6oz5vnziltfzzuec6b4qmkr3wrqaoqqd.onion",
@@ -774,61 +772,7 @@
     "loki": []
   },
   "privateBin": {
-    "clearnet": [
-      "https://pasteb.in",
-      "https://paste.techbag.app",
-      "https://paste.encrypt.co.il",
-      "https://p.darklab.sh",
-      "https://extrait.facil.services",
-      "https://notabin.com",
-      "https://onetimesecret.trans-ix.nl",
-      "https://www.vlh.dk/privatebin",
-      "https://ots.kocsar.at",
-      "https://secret.hummel-web.at",
-      "https://privatebin.arch-linux.cz",
-      "https://privatebin.fedov.net",
-      "https://paste.coalserver.de",
-      "https://sendpass.ru",
-      "https://privatebin.wsmm.de",
-      "https://p.vinci-concessions.com",
-      "https://paste.hackliberty.org",
-      "https://paste.tildeverse.org",
-      "https://secrets.l25.cloud",
-      "https://paste.worf.win",
-      "https://zerobin.thican.net",
-      "https://bin.bloat.cat",
-      "https://privatebin.io",
-      "https://paste.hostux.net",
-      "https://privatebin.net",
-      "https://privatebin.luckvintage.com",
-      "https://paste.nerdvpn.de",
-      "https://bin.0xfc.de",
-      "https://bin.esd.cc",
-      "https://bin.cafeo.re",
-      "https://cryptostorm.is/paste",
-      "https://anonpaste.org",
-      "https://privatebin.at",
-      "https://privatebin.app",
-      "https://paste.tuxcloud.net",
-      "https://secrets.true.nl",
-      "https://0day.anonpaste.org",
-      "https://0.jaegers.net",
-      "https://bin.bus-hit.me",
-      "https://paste.skynetcloud.site",
-      "https://bin.ngn.tf",
-      "https://pb.blackvoid.club",
-      "https://notebin.de",
-      "https://snip.dssr.ch",
-      "https://bonus01.hwb0307.com",
-      "https://0.0g.gg",
-      "https://0.anonpaste.org",
-      "https://pb.flossboxin.org.in",
-      "https://private.rmconsulting.com",
-      "https://paste.3server.de",
-      "https://paste.ononoki.org",
-      "https://paste.ottertelecom.com",
-      "https://encryp.ch/note"
-    ],
+    "clearnet": [],
     "tor": [],
     "i2p": [],
     "loki": []
