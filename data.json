@@ -2,9 +2,9 @@
   "invidious": {
     "clearnet": [
       "https://inv.nadeko.net",
-      "https://invidious.jing.rocks",
       "https://invidious.nerdvpn.de",
-      "https://yewtu.be"
+      "https://yewtu.be",
+      "https://invidious.jing.rocks"
     ],
     "tor": [
       "http://inv.nadekonw7plitnjuawu6ytjsl7jlglk2t6pyq6eftptmiv3dvqndwvyd.onion"
