@@ -1,6 +1,5 @@
 {
   "cloudflare": [
-    "https://watch.leptons.xyz",
     "https://piped.nosebs.ru",
     "https://tiktok.wpme.pl",
     "https://send.aurorabilisim.com",
@@ -32,20 +31,20 @@
     "https://music.pfcd.me",
     "https://hp.iqbalrifai.eu.org",
     "https://www.openstreetmap.org",
-    "https://0.anonpaste.org",
-    "https://pb.blackvoid.club",
-    "https://paste.loryy.dev",
-    "https://privatebin.luckvintage.com",
-    "https://bin.oldgate.org",
-    "https://paste.3server.de",
     "https://paste.kyznikov.my.id",
-    "https://sendpass.ru",
-    "https://anonpaste.org",
-    "https://bonus01.hwb0307.com",
-    "https://privatebin.app",
-    "https://0day.anonpaste.org",
-    "https://pasteb.in",
     "https://privatebin.io",
+    "https://sendpass.ru",
+    "https://privatebin.luckvintage.com",
+    "https://0.anonpaste.org",
+    "https://bin.oldgate.org",
+    "https://bonus01.hwb0307.com",
+    "https://paste.loryy.dev",
+    "https://privatebin.app",
+    "https://anonpaste.org",
+    "https://pb.blackvoid.club",
+    "https://paste.3server.de",
+    "https://pasteb.in",
+    "https://0day.anonpaste.org",
     "https://dumb.jeikobu.net",
     "https://overflow.fascinated.cc",
     "https://overflow.freedit.eu",
@@ -60,6 +59,6 @@
     "https://meet.jit.si",
     "https://8x8.vc",
     "https://ig.snine.nl",
-    "https://ft.jonas.tf"
+    "https://ft.jonas.zone"
   ]
 }
