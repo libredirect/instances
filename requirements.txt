@@ -2,3 +2,5 @@ requests
 colorama
 pyyaml
 pandas
+markdown-it-py
+beautifulsoup4
