@@ -102,10 +102,10 @@
   "nitter": {
     "clearnet": [
       "https://xcancel.com",
+      "https://nitter.net",
       "https://nitter.privacydev.net",
       "https://nitter.poast.org",
       "https://lightbrd.com",
-      "https://nitter.lucabased.xyz",
       "https://nitter.space",
       "https://nitter.privacyredirect.com"
     ],
