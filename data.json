@@ -4,8 +4,8 @@
       "https://inv.nadeko.net",
       "https://invidious.nerdvpn.de",
       "https://id.420129.xyz",
-      "https://yewtu.be",
-      "https://invidious.f5.si"
+      "https://invidious.f5.si",
+      "https://yewtu.be"
     ],
     "tor": [
       "http://inv.nadekonw7plitnjuawu6ytjsl7jlglk2t6pyq6eftptmiv3dvqndwvyd.onion"
@@ -122,7 +122,7 @@
     "clearnet": [
       "https://safereddit.com",
       "https://libreddit.kavin.rocks",
-      "https://lr.vern.cc",
+      "https://reddit.rtrace.io",
       "https://libreddit.privacydev.net",
       "https://reddit.utsav2.dev",
       "https://discuss.whatever.social",
@@ -142,11 +142,10 @@
   },
   "redlib": {
     "clearnet": [
-      "https://safereddit.com",
       "https://eu.safereddit.com",
       "https://redlib.catsarch.com",
       "https://redlib.perennialte.ch",
-      "https://redlib.tux.pizza",
+      "https://libreddit.privacydev.net",
       "https://rl.bloat.cat",
       "https://redlib.r4fo.com",
       "https://reddit.owo.si",
@@ -157,10 +156,10 @@
       "https://redlib.kittywi.re",
       "https://redlib.privacyredirect.com",
       "https://reddit.nerdvpn.de",
-      "https://redlib.baczek.me",
       "https://redlib.nadeko.net",
       "https://redlib.private.coffee",
-      "https://redlib.4o1x5.dev"
+      "https://redlib.4o1x5.dev",
+      "https://redlib.privacy.com.de"
     ],
     "tor": [
       "http://red.lpoaj7z2zkajuhgnlltpeqh3zyq7wk2iyeggqaduhgxhyajtdt2j7wad.onion"
@@ -427,7 +426,9 @@
       "https://www.gruble.de"
     ],
     "tor": [
+      "http://lbmegc3rjnekmdxuisynqdc7y3m2tgyq7gj257ooddaobxqjw36bdayd.onion",
       "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
+      "http://4n53nafyi77iplnbrpmxnp3x4exbswwxigujaxy3b37fvr7bvlopxeyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
       "http://search.gw3ennwsaonltfox7z3rhhof6mxcq2fnwhcj2qyp3kxsfldnxix5b4yd.onion",
       "http://nerdvpn4iln4didgzcw7pgvjv4p3pwn3e3dq732oxwidfv6bacnyuvad.onion",
@@ -583,33 +584,9 @@
     "loki": []
   },
   "safetwitch": {
-    "clearnet": [
-      "https://safetwitch.drgns.space",
-      "https://safetwitch.projectsegfau.lt",
-      "https://stream.whateveritworks.org",
-      "https://safetwitch.datura.network",
-      "https://ttv.vern.cc",
-      "https://safetwitch.frontendfriendly.xyz",
-      "https://ttv.femboy.band",
-      "https://twitch.seitan-ayoub.lol",
-      "https://st.ggtyler.dev",
-      "https://safetwitch.lunar.icu",
-      "https://twitch.sudovanilla.org",
-      "https://safetwitch.r4fo.com",
-      "https://safetwitch.ducks.party",
-      "https://safetwitch.nogafam.fr",
-      "https://safetwitch.privacyredirect.com",
-      "https://st.ngn.tf",
-      "https://safetwitch.darkness.services",
-      "https://safetwitch.4o1x5.dev",
-      "https://safetwitch.adminforge.de"
-    ],
-    "tor": [
-      "http://ttv.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"
-    ],
-    "i2p": [
-      "http://vernz43kgqiy3nzzof3nejeo4hh3bjgyqi3b3hijchilv7noqtrq.b32.i2p"
-    ],
+    "clearnet": [],
+    "tor": [],
+    "i2p": [],
     "loki": []
   },
   "hyperpipe": {
@@ -700,50 +677,50 @@
   "privateBin": {
     "clearnet": [
       "https://secret.hummel-web.at",
-      "https://paste.tuxcloud.net",
-      "https://privatebin.unige.ch",
-      "https://p.blueridgedebate.com",
-      "https://bin.cafeo.re",
-      "https://bin.0xfc.de",
-      "https://secrets.l25.cloud",
+      "https://sendpass.ru",
+      "https://privatebin.oxidizer.de",
+      "https://pasteb.in",
+      "https://paste.ononoki.org",
       "https://notebin.de",
-      "https://paste.techbag.app",
+      "https://privatebin.fedov.net",
+      "https://secrets.l25.cloud",
+      "https://secrets.true.nl",
+      "https://enjoys.rocks",
+      "https://notabin.com",
+      "https://paste.3server.de",
+      "https://bin.cafeo.re",
+      "https://ots.kocsar.at",
+      "https://cryptostorm.is/paste",
+      "https://paste.hackliberty.org",
+      "https://pb.envs.net",
+      "https://privatebin.wsmm.de",
       "https://www.vlh.dk/privatebin",
-      "https://paste.nerdvpn.de",
+      "https://paste.techbag.app",
+      "https://p.kll.li",
       "https://paste.coalserver.de",
       "https://encryp.ch/note",
-      "https://privatebin.net",
       "https://secrets.cebador.fr",
-      "https://privatebin.oxidizer.de",
-      "https://p.kll.li",
-      "https://paste.loryy.dev",
-      "https://paste.3server.de",
+      "https://bin.0xfc.de",
+      "https://bin.bloat.cat",
       "https://pb.blackvoid.club",
+      "https://paste.tuxcloud.net",
+      "https://pb.jaska.cc",
+      "https://snip.dssr.ch",
+      "https://privatebin.luckvintage.com",
+      "https://pbin.nadeko.net",
+      "https://p.blueridgedebate.com",
+      "https://0.jaegers.net",
       "https://paste.linxx.net",
       "https://paste.trove.cz",
-      "https://sendpass.ru",
-      "https://pasteb.in",
+      "https://privatebin.net",
       "https://bin.ngn.tf",
-      "https://pb.jaska.cc",
-      "https://privatebin.wsmm.de",
-      "https://notabin.com",
-      "https://privatebin.io",
-      "https://paste.ononoki.org",
-      "https://0.jaegers.net",
-      "https://privatebin.fedov.net",
-      "https://pbin.nadeko.net",
-      "https://enjoys.rocks",
-      "https://bonus01.hwb0307.com",
-      "https://cryptostorm.is/paste",
+      "https://paste.nerdvpn.de",
       "https://bin.oldgate.org",
-      "https://privatebin.luckvintage.com",
-      "https://privatebin.at",
-      "https://snip.dssr.ch",
-      "https://pastebin.linqhost.nl",
+      "https://privatebin.io",
+      "https://paste.loryy.dev",
       "https://privatebin.arch-linux.cz",
-      "https://secrets.true.nl",
-      "https://ots.kocsar.at",
-      "https://bin.bloat.cat"
+      "https://privatebin.at",
+      "https://pastebin.linqhost.nl"
     ],
     "tor": [],
     "i2p": [],
@@ -980,13 +957,7 @@
     "loki": []
   },
   "proxigram": {
-    "clearnet": [
-      "https://ig.opnxng.com",
-      "https://proxigram.lunar.icu",
-      "https://gram.whatever.social",
-      "https://ig.snine.nl",
-      "https://proxigram.privacyredirect.com"
-    ],
+    "clearnet": [],
     "tor": [],
     "i2p": [],
     "loki": []
