@@ -1,5 +1,6 @@
 import pandas
 import re
+import requests
 
 
 def pixivFe(mightyList):
@@ -16,5 +17,33 @@ def pixivFe(mightyList):
         "clearnet": clearnet,
         "tor": [],
         "i2p": [],
+        "loki": []
+    }
+
+def vixipy(mightyList):
+    res = requests.get(
+        "https://maid.zone/vixipy/instances.json",
+        # set user agent for transparency sake
+        headers={
+            "User-Agent": "https://codeberg.org/libredirect/instances"
+        }
+    ).json()
+
+    tor = []
+    i2p = []
+    clearnet = []
+
+    for i in res:
+        if i["URL"] != "":
+            clearnet.append(i["URL"])
+        if i["I2P"] != "":
+            i2p.append(i["I2P"])
+        if i["Onion"] != "":
+            tor.append(i["Onion"])
+    
+    mightyList['vixipy'] = {
+        "clearnet": clearnet,
+        "tor": tor,
+        "i2p": i2p,
         "loki": []
     }
