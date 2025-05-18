@@ -38,6 +38,7 @@
 - Proxigram: [https://codeberg.org/ThePenguinDev/Proxigram/wiki/Instances](https://codeberg.org/ThePenguinDev/Proxigram/wiki/Instances)
 - Laboratory: [https://git.vitali64.duckdns.org/utils/laboratory.git/about/#instances](https://git.vitali64.duckdns.org/utils/laboratory.git/about/#instances)
 - Priviblur: [https://github.com/syeopite/priviblur/blob/master/instances.md](https://github.com/syeopite/priviblur/blob/master/instances.md)
+- Vixipy: [https://maid.zone/vixipy/instances.json](https://maid.zone/vixipy/instances.json)
 
 
 ## How to run:
