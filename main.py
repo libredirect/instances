@@ -60,6 +60,7 @@ skunkyArt(mightyList)
 koub(mightyList)
 transLite(mightyList)
 soundcloak(mightyList)
+vixipy(mightyList)
 
 
 mightyList = filterLastSlash(mightyList)
