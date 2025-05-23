@@ -93,11 +93,11 @@ def pipedMaterial(mightyList):
     )
 
 
-def poketube(mightyList):
-    frontend = 'poketube'
+def poke(mightyList):
+    frontend = 'poke'
     try:
         r = requests.get(
-            'https://codeberg.org/Ashley/poketube/raw/branch/main/instances.json')
+            'https://codeberg.org/ashley/poke/raw/branch/main/instances.json')
         rJson = json.loads(r.text)
         _list = {
             'clearnet': [],
