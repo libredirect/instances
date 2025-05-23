@@ -1,7 +1,7 @@
 import pandas
 import re
 import requests
-
+from .utils import fetchRegexList
 
 def pixivFe(mightyList):
     df = pandas.read_csv(
@@ -47,3 +47,11 @@ def vixipy(mightyList):
         "i2p": i2p,
         "loki": []
     }
+
+def litexiv(mightyList):
+    fetchRegexList(
+        'liteXiv',
+        'https://codeberg.org/LiteXiv/LiteXiv/raw/branch/v2/README.md',
+        r"\| (https?:\/{2}.*?) +\|.*?\n",
+        mightyList
+    )
