@@ -5,6 +5,8 @@ from colorama import Fore, Style
 import logging
 import traceback
 import re
+from markdown_it import MarkdownIt
+from bs4 import BeautifulSoup
 
 
 def tent(mightyList):
@@ -228,38 +230,40 @@ def nitter(mightyList):
         r = requests.get(
             'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md')
         _list = {}
+        md = MarkdownIt().enable('table')
+        html_content = md.render(r.text)
+        soup = BeautifulSoup(html_content, 'html.parser')
 
         _list['clearnet'] = []
-        public = re.findall(r"## Public((?:\n|.*)+?)##", r.text)
-        if public:
-            for line in public[0].split('\n'):
-                result = re.findall(r"^\| \[.*?\]\((https.*?)\)", line)
-                if len(result) > 0:
-                    _list['clearnet'].append(result[0])
+        public_heading = soup.find(
+            lambda tag: tag.name.startswith('h') and 'Public' in tag.text
+        )
+        if public_heading:
+            tor_table = public_heading.find_next('table')
+            if tor_table:
+                tbody = tor_table.find('tbody')
+                for row in tbody.find_all('tr'):
+                    th_s = row.find_all('td')
+                    a_tag = th_s[0].find('a')
+                    _list['clearnet'].append(a_tag['href'])
 
         _list['tor'] = []
-        public = re.findall(r"## Tor((?:\n|.*)+?)##", r.text)
-        if public:
-            for line in public[0].split('\n'):
-                result = re.findall(r"^\| <(http.*?)\/?>", line)
-                if len(result) > 0:
-                    _list['tor'].append(result[0])
+        tor_heading = soup.find(
+            lambda tag: tag.name.startswith('h') and 'Tor' in tag.text
+        )
+        if tor_heading:
+            tor_table = tor_heading.find_next('table')
+            if tor_table:
+                tbody = tor_table.find('tbody')
+                for row in tbody.find_all('tr'):
+                    th_s = row.find_all('td')
+                    a_tag = th_s[0].find('a')
+                    _list['tor'].append(a_tag['href'])
 
         _list['i2p'] = []
-        public = re.findall(r"## I2P((?:\n|.*)+?)##", r.text)
-        if public:
-            for line in public[0].split('\n'):
-                result = re.findall(r"^- <(http.*?)\/?>", line)
-                if len(result) > 0:
-                    _list['i2p'].append(result[0])
-
         _list['loki'] = []
-        public = re.findall(r"## Lokinet((?:\n|.*)+?)##", r.text)
-        if public:
-            for line in public[0].split('\n'):
-                result = re.findall(r"^- <(http.*?)\/?>", line)
-                if len(result) > 0:
-                    _list['loki'].append(result[0])
+
+        print(_list)
 
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
@@ -340,3 +344,19 @@ def transLite(mightyList):
         False,
         mightyList
     )
+
+
+def soundcloak(mightyList):
+    try:
+        r = requests.get('https://maid.zone/soundcloak/instances.json')
+        clearnet = [i['URL'] for i in r.json()]
+        mightyList['soundcloak'] = {
+            "clearnet": clearnet,
+            # sc.maid.zone onion, the instance list only has clearnet instances for now (planning to add later)
+            "tor": ['http://sc.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion'],
+            "i2p": [],
+            "loki": []
+        }
+    except Exception:
+        fetchCache('soundcloak', mightyList)
+        logging.error(traceback.format_exc())

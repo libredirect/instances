@@ -59,6 +59,7 @@ mozhi(mightyList)
 skunkyArt(mightyList)
 koub(mightyList)
 transLite(mightyList)
+soundcloak(mightyList)
 
 
 mightyList = filterLastSlash(mightyList)

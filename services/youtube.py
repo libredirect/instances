@@ -57,13 +57,18 @@ def piped(mightyList):
                     print(Fore.RED + '𐄂')
                     continue
                 else:
+                    # Exceptions
+                    if url == 'https://piped.video':
+                        continue
+                    if url.startswith('http://ww25.yapi.vyper.me'):
+                        continue
+                    
                     print(Fore.GREEN + '✓')
                     _list['clearnet'].append(url)
             except Exception:
                 print(Fore.RED + '𐄂')
                 continue
         mightyList[frontend] = _list
-        _list['clearnet'].remove("https://piped.video")
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
     except Exception:
         fetchCache(frontend, mightyList)
