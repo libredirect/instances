@@ -13,10 +13,6 @@ def wikiless(mightyList):
     fetchFromFile('wikiless', mightyList)
 
 
-def mikuInvidious(mightyList):
-    fetchFromFile('mikuInvidious', mightyList)
-
-
 def twineo(mightyList):
     fetchFromFile('twineo', mightyList)
 
