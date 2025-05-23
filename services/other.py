@@ -22,7 +22,7 @@ def tent(mightyList):
 def ruralDictionary(mightyList):
     fetchJsonList(
         'ruralDictionary',
-        'https://codeberg.org/zortazert/rural-dictionary/raw/branch/master/instances.json',
+        'https://codeberg.org/cobra/rural-dict/raw/branch/main/instances.json',
         {
             'clearnet': 'clearnet',
             'tor': 'tor',
