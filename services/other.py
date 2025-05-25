@@ -357,12 +357,23 @@ def transLite(mightyList):
 def soundcloak(mightyList):
     try:
         r = requests.get('https://maid.zone/soundcloak/instances.json')
-        clearnet = [i['URL'] for i in r.json()]
+        clearnet = []
+        tor = []
+        i2p = []
+        for i in r.json():
+            if i['URL'] != "":
+                clearnet.append(i['URL'])
+            
+            if i['Onion'] != "":
+                tor.append(i['Onion'])
+
+            if i['I2P'] != "":
+                i2p.append(i['I2P'])
+                
         mightyList['soundcloak'] = {
             "clearnet": clearnet,
-            # sc.maid.zone onion, the instance list only has clearnet instances for now (planning to add later)
-            "tor": ['http://sc.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion'],
-            "i2p": [],
+            "tor": tor,
+            "i2p": i2p,
             "loki": []
         }
     except Exception:
