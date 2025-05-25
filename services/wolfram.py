@@ -2,13 +2,7 @@ import requests
 from colorama import Fore, Style
 import json
 
-wolfreeAlpha_url_list = [
-    "https://gqq.gitlab.io",
-    "https://jqq.gitlab.io",
-    "https://rqq.gitlab.io",
-    "https://sqq.gitlab.io",
-    "https://uqq.gitlab.io"
-]
+wolfreeAlpha_url_list = []
 
 
 def wolfreeAlpha(mightyList):

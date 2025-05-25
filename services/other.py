@@ -34,6 +34,15 @@ def ruralDictionary(mightyList):
     )
 
 
+def laboratory(mightyList):
+    fetchRegexList(
+        'laboratory',
+        'https://git.vitali64.duckdns.org/utils/laboratory.git/plain/README.md',
+        r"\| (https:\/{2}.*?) \|",
+        mightyList
+    )
+
+
 def gothub(mightyList):
     fetchJsonList(
         'gothub',
@@ -263,8 +272,6 @@ def nitter(mightyList):
         _list['i2p'] = []
         _list['loki'] = []
 
-        print(_list)
-
         mightyList[frontend] = _list
         print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
 
@@ -325,6 +332,7 @@ def skunkyArt(mightyList):
     except Exception:
         fetchCache('skunkyArt', mightyList)
         logging.error(traceback.format_exc())
+
 
 def koub(mightyList):
     fetchJsonList(

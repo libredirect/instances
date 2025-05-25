@@ -23,7 +23,12 @@ def mozhi(mightyList):
         fetchJsonList(
         'mozhi',
         'https://codeberg.org/aryak/mozhi/raw/branch/master/instances.json',
-        'link',
+        {
+            'clearnet': 'link',
+            'tor': 'onion',
+            'i2p': 'i2p',
+            'loki': None
+        },
         False,
         mightyList
     )
@@ -32,7 +37,7 @@ def simplytranslate(mightyList):
         fetchJsonList(
         'simplytranslate',
         'https://codeberg.org/ManeraKai/simplytranslate/raw/branch/main/instances.json',
-        'link',
+        'url',
         False,
         mightyList
     )
