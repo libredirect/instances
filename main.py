@@ -61,6 +61,7 @@ koub(mightyList)
 transLite(mightyList)
 soundcloak(mightyList)
 vixipy(mightyList)
+litexiv(mightyList)
 
 
 mightyList = filterLastSlash(mightyList)
