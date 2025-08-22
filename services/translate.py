@@ -35,7 +35,7 @@ def mozhi(mightyList):
 
 def simplytranslate(mightyList):
         fetchJsonList(
-        'simplytranslate',
+        'simplyTranslate',
         'https://codeberg.org/ManeraKai/simplytranslate/raw/branch/main/instances.json',
         'url',
         False,

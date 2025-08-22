@@ -21,5 +21,3 @@ def cloudtube(mightyList):
     fetchFromFile('cloudtube', mightyList)
 
 
-def simplytranslate(mightyList):
-    fetchFromFile('simplyTranslate', mightyList)
