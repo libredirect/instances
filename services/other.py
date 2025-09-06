@@ -379,3 +379,19 @@ def soundcloak(mightyList):
     except Exception:
         fetchCache('soundcloak', mightyList)
         logging.error(traceback.format_exc())
+
+def phantom(mightyList):
+    try:
+        r = requests.get('https://codeberg.org/phantom-org/phantom-instances/raw/branch/master/instances.json')
+        rJson = json.loads(r.text)
+        _list = {
+            'clearnet': [],
+        }
+        for instance in rJson['instances']:
+            _list['clearnet'].append(instance)
+
+        mightyList['phantom'] = _list
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'phantom')
+    except Exception:
+        fetchCache('phantom', mightyList)
+        logging.error(traceback.format_exc())
