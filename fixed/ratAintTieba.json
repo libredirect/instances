@@ -1,0 +1,8 @@
+{
+	"clearnet": [
+		"https://ti.opnxng.com",
+	],
+	"tor": [],
+	"i2p": [],
+	"loki": []
+}
