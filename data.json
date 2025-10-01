@@ -129,9 +129,11 @@
       "https://redlib.perennialte.ch",
       "https://red.artemislena.eu",
       "https://redlib.privacyredirect.com",
-      "https://redlib.baczek.me",
       "https://redlib.4o1x5.dev",
       "https://redlib.frontendfriendly.xyz",
+      "https://redlib.reallyaweso.me",
+      "https://reddit.adminforge.de",
+      "https://redlib.thebunny.zone",
       "https://rl.blitzw.in",
       "https://lr.ptr.moe",
       "https://redlib.orangenet.cc",
@@ -359,6 +361,7 @@
     "tor": [
       "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
       "http://4n53nafyi77iplnbrpmxnp3x4exbswwxigujaxy3b37fvr7bvlopxeyd.onion",
+      "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
       "http://nerdvpn4iln4didgzcw7pgvjv4p3pwn3e3dq732oxwidfv6bacnyuvad.onion",
       "http://vp5dnvfg352ohj674xi6owkddy3daftkmyfsbbt73sb5gt7qxctfcqad.onion",
@@ -488,7 +491,9 @@
       "https://safetwitch.darkness.services",
       "https://safetwitch.4o1x5.dev",
       "https://safetwitch.adminforge.de",
-      "https://twitch.blitzw.in"
+      "https://twitch.blitzw.in",
+      "https://safetwitch.canine.tools",
+      "https://safetwitch.privadency.com"
     ],
     "tor": [
       "http://ttv.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"
@@ -587,6 +592,28 @@
   },
   "privateBin": {
     "clearnet": [
+      "https://paste.tuxcloud.net",
+      "https://extrait.facil.services",
+      "https://p.vinci-concessions.com",
+      "https://bin.0xfc.de",
+      "https://paste.nerdvpn.de",
+      "https://paste.encrypt.co.il",
+      "https://privatebin.app",
+      "https://secrets.cebador.fr",
+      "https://zerobin.thican.net",
+      "https://paste.tildeverse.org",
+      "https://paste.waays.fr",
+      "https://encryp.ch/note",
+      "https://secrets.true.nl",
+      "https://p.kll.li",
+      "https://privatebin.unige.ch",
+      "https://notabin.com",
+      "https://secrets.l25.cloud",
+      "https://privatebin.at",
+      "https://privatebin.fedov.net",
+      "https://pastebin.grey.pw",
+      "https://paste.aryu.de",
+      "https://bin.uhl.cloud",
       "https://privatebin.net"
     ],
     "tor": [],
@@ -956,7 +983,8 @@
   "vixipy": {
     "clearnet": [
       "https://vx.maid.zone",
-      "http://217.154.227.61:47474"
+      "http://217.154.227.61:47474",
+      "https://vixipy.bloat.cat"
     ],
     "tor": [
       "http://vx.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion"
