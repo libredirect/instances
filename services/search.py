@@ -44,7 +44,7 @@ def searx(mightyList):
                 if data[key]['additional_urls'][additional_url] == "Hidden Service":
                     searxList['tor'].append(additional_url)
     mightyList['searx'] = searxList
-    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'SearXNG')
+    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'SearX')
 
 
 def whoogle(mightyList):
