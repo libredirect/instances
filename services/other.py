@@ -284,7 +284,7 @@ def send(mightyList):
     fetchRegexList(
         'send',
         'https://gitlab.com/timvisee/send-instances/-/raw/master/README.md',
-        r"(https.*?) \|.*?\n",
+        r"(?<= )(https.*?)(?= )",
         mightyList
     )
 
