@@ -42,7 +42,7 @@ def piped(mightyList):
         _list['i2p'] = []
         _list['loki'] = []
         r = requests.get(
-            'https://raw.githubusercontent.com/wiki/TeamPiped/Piped/Instances.md')
+            'https://raw.githubusercontent.com/TeamPiped/documentation/main/content/docs/public-instances/index.md')
 
         tmp = re.findall(
             r' \| (https:\/{2}(?:[^\s\/]+\.)+[a-zA-Z]+) \| ', r.text)
