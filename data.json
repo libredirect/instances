@@ -1,9 +1,9 @@
 {
   "invidious": {
     "clearnet": [
+      "https://inv.nadeko.net",
       "https://invidious.nerdvpn.de",
-      "https://yewtu.be",
-      "https://inv.nadeko.net"
+      "https://yewtu.be"
     ],
     "tor": [
       "http://inv.nadekonw7plitnjuawu6ytjsl7jlglk2t6pyq6eftptmiv3dvqndwvyd.onion"
@@ -533,20 +533,42 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.trove.cz",
-      "https://privatebin.unige.ch",
-      "https://privatebin.cz",
-      "https://paste.tuxcloud.net",
-      "https://paste.hostux.net",
-      "https://anonpaste.org",
-      "https://encryp.ch/note",
-      "https://0.harizalan.hu",
+      "https://enjoys.rocks",
+      "https://pb.fbin.in",
       "https://privatebin.net",
-      "https://paste.tildeverse.org",
-      "https://privatebin.app",
-      "https://paste.nerdvpn.de",
+      "https://privatebin.cz",
+      "https://p.blueridgedebate.com",
+      "https://paste.inthemansion.com",
+      "https://paste.coalserver.de",
+      "https://paste.tuxcloud.net",
+      "https://encryp.ch/note",
+      "https://paste.cracktek.eu",
+      "https://0.harizalan.hu",
+      "https://pastebin.linqhost.nl",
+      "https://paste.plus",
       "https://secrets.true.nl",
-      "https://secrets.l25.cloud"
+      "https://paste.hostux.net",
+      "https://privatebin.diyarciftci.xyz",
+      "https://pb.blackvoid.club",
+      "https://paste.encrypt.co.il",
+      "https://paste.devsite.pl",
+      "https://paste.ononoki.org",
+      "https://paste.worf.win",
+      "https://anonpaste.org",
+      "https://bin.salvatorenoschese.it",
+      "https://secrets.l25.cloud",
+      "https://paste.tildeverse.org",
+      "https://n0t.io",
+      "https://paste.nerdvpn.de",
+      "https://privatebin.unige.ch",
+      "https://bonus01.hwb0307.com",
+      "https://privatebin.luckvintage.com",
+      "https://privatebin.oxidizer.de",
+      "https://paste.helkor.eu",
+      "https://zbin.io",
+      "https://paste.trove.cz",
+      "https://privatebin.app",
+      "https://pb.jaska.cc"
     ],
     "tor": [],
     "i2p": [],
