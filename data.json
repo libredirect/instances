@@ -137,12 +137,16 @@
   },
   "redlib": {
     "clearnet": [
+      "https://l.opnxng.com",
       "https://redlib.catsarch.com",
       "https://redlib.perennialte.ch",
       "https://redlib.r4fo.com",
       "https://red.artemislena.eu",
-      "https://redlib.cow.rip",
-      "https://redlib.orangenet.cc"
+      "https://redlib.privacyredirect.com",
+      "https://redlib.nadeko.net",
+      "https://redlib.4o1x5.dev",
+      "https://redlib.orangenet.cc",
+      "https://redlib.privadency.com"
     ],
     "tor": [
       "http://red.lpoaj7z2zkajuhgnlltpeqh3zyq7wk2iyeggqaduhgxhyajtdt2j7wad.onion"
@@ -338,7 +342,6 @@
       "https://searx.stream",
       "https://searx.tiekoetter.com",
       "https://searx.tuxcloud.net",
-      "https://searxng.biz",
       "https://searxng.canine.tools",
       "https://searxng.cups.moe",
       "https://searxng.shreven.org",
@@ -354,7 +357,8 @@
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
       "http://vp5dnvfg352ohj674xi6owkddy3daftkmyfsbbt73sb5gt7qxctfcqad.onion",
       "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
-      "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion"
+      "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion",
+      "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion"
     ],
     "i2p": [],
     "loki": []
@@ -542,36 +546,30 @@
   },
   "privateBin": {
     "clearnet": [
+      "https://bin.salvatorenoschese.it",
       "https://pastebin.linqhost.nl",
-      "https://paste.ononoki.org",
-      "https://paste.inthemansion.com",
+      "https://paste.trove.cz",
       "https://p.blueridgedebate.com",
+      "https://paste.worf.win",
+      "https://privatebin.app",
+      "https://privatebin.luckvintage.com",
       "https://privatebin.unige.ch",
       "https://secrets.true.nl",
-      "https://encryp.ch/note",
-      "https://privatebin.net",
-      "https://paste.helkor.eu",
-      "https://paste.ottertelecom.com",
+      "https://paste.inthemansion.com",
+      "https://anonpaste.org",
+      "https://pb.blackvoid.club",
       "https://privatebin.cz",
       "https://bonus01.hwb0307.com",
-      "https://paste.skynetcloud.site",
-      "https://paste.devsite.pl",
-      "https://paste.trove.cz",
-      "https://pb.blackvoid.club",
-      "https://paste.plus",
-      "https://paste.encrypt.co.il",
-      "https://paste.worf.win",
-      "https://secrets.l25.cloud",
-      "https://privatebin.app",
-      "https://paste.nerdvpn.de",
-      "https://paste.coalserver.de",
+      "https://paste.ononoki.org",
       "https://paste.tuxcloud.net",
-      "https://bin.salvatorenoschese.it",
-      "https://privatebin.luckvintage.com",
-      "https://anonpaste.org",
-      "https://enjoys.rocks",
+      "https://privatebin.net",
       "https://zbin.io",
-      "https://paste.tildeverse.org"
+      "https://paste.coalserver.de",
+      "https://paste.plus",
+      "https://enjoys.rocks",
+      "https://encryp.ch/note",
+      "https://paste.encrypt.co.il",
+      "https://paste.helkor.eu"
     ],
     "tor": [],
     "i2p": [],
@@ -947,7 +945,8 @@
   "liteXiv": {
     "clearnet": [
       "https://litexiv.bloat.cat",
-      "https://lxv.dc09.ru"
+      "https://lxv.dc09.ru",
+      "https://lite.ext4.xyz"
     ],
     "tor": [],
     "i2p": [],
