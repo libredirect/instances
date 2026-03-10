@@ -135,6 +135,20 @@ def suds(mightyList):
         mightyList
     )
 
+def kittygram(mightyList):
+    fetchJsonList(
+        'kittygram',
+        'https://codeberg.org/irelephant/kittygram/raw/branch/main/instances.json',
+        {
+            'clearnet': 'url',
+            'tor': 'tor',
+            'i2p': 'i2p',
+            'loki': None
+        },
+        False,
+        mightyList
+    )
+
 
 def proxigram(mightyList):
     fetchRegexList(
