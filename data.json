@@ -10,7 +10,8 @@
       "http://nerdvpneaggggfdiurknszkbmhvjndks5z5k3g5yp4nhphflh3n3boad.onion"
     ],
     "i2p": [
-      "http://nadekoohummkxncchcsylr3eku36ze4waq4kdrhcqupckc3pe5qq.b32.i2p"
+      "http://nadekoohummkxncchcsylr3eku36ze4waq4kdrhcqupckc3pe5qq.b32.i2p",
+      "http://invidious-nerdvpn.i2p"
     ],
     "loki": []
   },
@@ -137,12 +138,13 @@
   },
   "redlib": {
     "clearnet": [
+      "https://l.opnxng.com",
       "https://redlib.perennialte.ch",
       "https://redlib.r4fo.com",
-      "https://redlib.ducks.party",
       "https://red.artemislena.eu",
       "https://redlib.nadeko.net",
-      "https://redlib.privadency.com"
+      "https://redlib.4o1x5.dev",
+      "https://redlib.reallyaweso.me"
     ],
     "tor": [
       "http://red.lpoaj7z2zkajuhgnlltpeqh3zyq7wk2iyeggqaduhgxhyajtdt2j7wad.onion"
@@ -294,7 +296,6 @@
       "https://priv.au",
       "https://s.mble.dk",
       "https://search.2b9t.xyz",
-      "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
@@ -306,6 +307,7 @@
       "https://search.hbubli.cc",
       "https://search.im-in.space",
       "https://search.indst.eu",
+      "https://search.inetol.net",
       "https://search.internetsucks.net",
       "https://search.ipsys.bf",
       "https://search.mdosch.de",
@@ -313,7 +315,6 @@
       "https://search.ononoki.org",
       "https://search.pereira.is",
       "https://search.pi.vps.pw",
-      "https://search.privacyredirect.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.sapti.me",
@@ -544,32 +545,31 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.skynetcloud.site",
-      "https://zbin.io",
-      "https://pb.blackvoid.club",
-      "https://paste.tildeverse.org",
-      "https://p.blueridgedebate.com",
-      "https://paste.plus",
-      "https://privatebin.wildberries.ru",
-      "https://paste.tuxcloud.net",
-      "https://paste.nerdvpn.de",
-      "https://anonpaste.org",
-      "https://privatebin.app",
-      "https://paste.ottertelecom.com",
+      "https://secrets.l25.cloud",
       "https://paste.cracktek.eu",
       "https://paste.helkor.eu",
-      "https://privatebin.net",
-      "https://enjoys.rocks",
-      "https://secrets.l25.cloud",
-      "https://bin.salvatorenoschese.it",
+      "https://paste.worf.win",
       "https://privatebin.unige.ch",
+      "https://paste.nerdvpn.de",
+      "https://privatebin.app",
+      "https://bin.salvatorenoschese.it",
+      "https://privatebin.net",
+      "https://paste.ottertelecom.com",
+      "https://paste.tuxcloud.net",
+      "https://paste.tildeverse.org",
+      "https://paste.hackliberty.org",
+      "https://p.blueridgedebate.com",
       "https://paste.coalserver.de",
-      "https://privatebin.cz",
+      "https://privatebin.wildberries.ru",
+      "https://paste.plus",
+      "https://pb.blackvoid.club",
+      "https://zbin.io",
       "https://paste.ononoki.org",
+      "https://privatebin.cz",
       "https://paste.encrypt.co.il",
-      "https://bonus01.hwb0307.com",
       "https://encryp.ch/note",
-      "https://paste.worf.win"
+      "https://enjoys.rocks",
+      "https://anonpaste.org"
     ],
     "tor": [],
     "i2p": [],
