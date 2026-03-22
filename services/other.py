@@ -409,3 +409,18 @@ def phantom(mightyList):
     except Exception:
         fetchCache('phantom', mightyList)
         logging.error(traceback.format_exc())
+
+
+def mezzo(mightyList):
+    fetchJsonList(
+        'mezzo',
+        'https://foundry.fsky.io/fsky/mezzo-instances/raw/branch/main/instances.json',
+        {
+            'clearnet': 'clearnet',
+            'tor': 'tor',
+            'i2p': 'i2p',
+            'loki': None
+        },
+        False,
+        mightyList
+    )
