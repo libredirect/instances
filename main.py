@@ -65,6 +65,7 @@ transLite(mightyList)
 soundcloak(mightyList)
 vixipy(mightyList)
 litexiv(mightyList)
+mezzo(mightyList)
 
 
 mightyList = filterLastSlash(mightyList)
