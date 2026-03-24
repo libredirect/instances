@@ -73,7 +73,8 @@
   "kittygram": {
     "clearnet": [
       "https://kittygr.am",
-      "https://kittygram.irelephant.net"
+      "https://kittygram.irelephant.net",
+      "https://kittygram.nexussfan.cz"
     ],
     "tor": [
       "http://instab6cpzrbczpkrvjj3gutly5qx3o2xzpyhlmtwthtzjmjw4tppvad.onion"
@@ -354,7 +355,6 @@
       "https://searx.tsmdt.de",
       "https://searx.tuxcloud.net",
       "https://searxng.canine.tools",
-      "https://searxng.cups.moe",
       "https://searxng.deggo.fyi",
       "https://searxng.shreven.org",
       "https://searxng.site",
@@ -367,8 +367,10 @@
       "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
       "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
+      "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
       "http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion",
       "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion",
+      "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion",
       "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion"
     ],
     "i2p": [],
@@ -557,30 +559,30 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://p.blueridgedebate.com",
-      "https://anonpaste.org",
-      "https://privatebin.wildberries.ru",
-      "https://paste.trove.cz",
-      "https://paste.hackliberty.org",
-      "https://paste.plus",
-      "https://privatebin.unige.ch",
-      "https://paste.tuxcloud.net",
+      "https://pb.blackvoid.club",
       "https://paste.coalserver.de",
-      "https://pb.fbin.in",
-      "https://pb.raring.co",
+      "https://paste.cracktek.eu",
+      "https://paste.trove.cz",
+      "https://secrets.l25.cloud",
       "https://paste.tildeverse.org",
+      "https://privatebin.wildberries.ru",
       "https://bin.salvatorenoschese.it",
       "https://paste.helkor.eu",
-      "https://pb.blackvoid.club",
-      "https://paste.cracktek.eu",
-      "https://encryp.ch/note",
-      "https://paste.worf.win",
+      "https://paste.tuxcloud.net",
+      "https://privatebin.net",
+      "https://privatebin.unige.ch",
+      "https://paste.nerdvpn.de",
+      "https://p.blueridgedebate.com",
+      "https://pb.fbin.in",
       "https://paste.ottertelecom.com",
+      "https://anonpaste.org",
+      "https://bonus01.hwb0307.com",
+      "https://paste.encrypt.co.il",
+      "https://zbin.io",
       "https://enjoys.rocks",
       "https://paste.ononoki.org",
-      "https://privatebin.cz",
-      "https://paste.encrypt.co.il",
-      "https://privatebin.net"
+      "https://encryp.ch/note",
+      "https://pb.raring.co"
     ],
     "tor": [],
     "i2p": [],
