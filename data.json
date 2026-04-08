@@ -25,7 +25,8 @@
   },
   "piped": {
     "clearnet": [
-      "https://adminforge.de"
+      "https://adminforge.de",
+      "https://piped.private.coffee"
     ],
     "tor": [],
     "i2p": [],
@@ -363,7 +364,8 @@
       "https://searxng.site",
       "https://searxng.website",
       "https://seek.fyi",
-      "https://sx.catgirl.cloud"
+      "https://sx.catgirl.cloud",
+      "https://www.gruble.de"
     ],
     "tor": [
       "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
@@ -561,29 +563,31 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.nerdvpn.de",
-      "https://zbin.io",
-      "https://secrets.l25.cloud",
-      "https://paste.coalserver.de",
-      "https://anonpaste.org",
-      "https://paste.plus",
-      "https://paste.helkor.eu",
-      "https://paste.tildeverse.org",
-      "https://bonus01.hwb0307.com",
-      "https://paste.tuxcloud.net",
-      "https://paste.ononoki.org",
-      "https://privatebin.cz",
-      "https://privatebin.net",
       "https://encryp.ch/note",
-      "https://paste.worf.win",
-      "https://lukisko.eu/privbin",
-      "https://paste.encrypt.co.il",
-      "https://enjoys.rocks",
-      "https://bin.salvatorenoschese.it",
-      "https://paste.cracktek.eu",
-      "https://privatebin.unige.ch",
+      "https://paste.plus",
       "https://paste.skynetcloud.site",
-      "https://privatebin.wildberries.ru"
+      "https://paste.ononoki.org",
+      "https://secrets.l25.cloud",
+      "https://paste.tildeverse.org",
+      "https://enjoys.rocks",
+      "https://paste.nerdvpn.de",
+      "https://privatebin.wildberries.ru",
+      "https://paste.cracktek.eu",
+      "https://paste.helkor.eu",
+      "https://pb.envs.net",
+      "https://paste.encrypt.co.il",
+      "https://clay.lcann.org",
+      "https://lukisko.eu/privbin",
+      "https://paste.tuxcloud.net",
+      "https://anonpaste.org",
+      "https://p.blueridgedebate.com",
+      "https://bin.salvatorenoschese.it",
+      "https://zbin.io",
+      "https://privatebin.cz",
+      "https://paste.trove.cz",
+      "https://privatebin.net",
+      "https://paste.coalserver.de",
+      "https://privatebin.unige.ch"
     ],
     "tor": [],
     "i2p": [],
