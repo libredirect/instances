@@ -3,8 +3,8 @@
     "clearnet": [
       "https://inv.nadeko.net",
       "https://invidious.nerdvpn.de",
-      "https://inv.thepixora.com",
       "https://yt.chocolatemoo53.com",
+      "https://inv.thepixora.com",
       "https://inv-ygg.nadeko.net",
       "https://inv.nadeko.ygg"
     ],
@@ -26,6 +26,7 @@
   },
   "piped": {
     "clearnet": [
+      "https://adminforge.de",
       "https://piped.private.coffee"
     ],
     "tor": [],
@@ -78,7 +79,8 @@
       "https://kittygram.irelephant.net",
       "https://kittygram.nexussfan.cz",
       "https://kittygram.kareem.one",
-      "https://kg.lus.lu"
+      "https://kg.lus.lu",
+      "https://kg.meowing.de"
     ],
     "tor": [
       "http://instab6cpzrbczpkrvjj3gutly5qx3o2xzpyhlmtwthtzjmjw4tppvad.onion",
@@ -158,10 +160,9 @@
     "clearnet": [
       "https://redlib.catsarch.com",
       "https://redlib.perennialte.ch",
-      "https://red.artemislena.eu",
+      "https://redlib.r4fo.com",
       "https://redlib.cow.rip",
       "https://redlib.privacyredirect.com",
-      "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -315,6 +316,7 @@
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
+      "https://search.chocolatemoo53.com",
       "https://search.datenkrake.ch",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
@@ -359,6 +361,7 @@
       "https://searxng.cups.moe",
       "https://searxng.deggo.fyi",
       "https://searxng.fishfvch.com",
+      "https://searxng.gdebest.net",
       "https://searxng.shreven.org",
       "https://searxng.site",
       "https://searxng.website",
@@ -564,27 +567,27 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.cz",
-      "https://privatebin.net",
-      "https://bonus01.hwb0307.com",
-      "https://paste.encrypt.co.il",
-      "https://paste.blazar.observer",
-      "https://paste.tuxcloud.net",
-      "https://paste.helkor.eu",
-      "https://paste.coalserver.de",
-      "https://privatebin.unige.ch",
       "https://enjoys.rocks",
-      "https://paste.tildeverse.org",
-      "https://paste.cracktek.eu",
-      "https://encryp.ch/note",
+      "https://paste.skynetcloud.site",
+      "https://paste.blazar.observer",
+      "https://privatebin.cz",
       "https://www.zdjm.com",
-      "https://anonpaste.org",
-      "https://paste.nerdvpn.de",
+      "https://privatebin.unige.ch",
+      "https://paste.coalserver.de",
+      "https://zbin.io",
+      "https://encryp.ch/note",
+      "https://lukisko.eu/privbin",
       "https://privatebin.wildberries.ru",
-      "https://bin.salvatorenoschese.it",
+      "https://paste.tildeverse.org",
+      "https://anonpaste.org",
+      "https://paste.tuxcloud.net",
+      "https://privatebin.net",
+      "https://paste.cracktek.eu",
       "https://secrets.l25.cloud",
-      "https://pb.envs.net",
-      "https://paste.plus"
+      "https://paste.nerdvpn.de",
+      "https://paste.plus",
+      "https://paste.encrypt.co.il",
+      "https://bonus01.hwb0307.com"
     ],
     "tor": [],
     "i2p": [],
