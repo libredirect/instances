@@ -306,7 +306,6 @@
       "https://find.xenorio.xyz",
       "https://grep.vim.wtf",
       "https://kantan.cat",
-      "https://o5.gg",
       "https://ooglester.com",
       "https://opnxng.com",
       "https://paulgo.io",
@@ -344,6 +343,7 @@
       "https://search.zina.dev",
       "https://searx.ankha.ac",
       "https://searx.dresden.network",
+      "https://searx.mbuf.net",
       "https://searx.mxchange.org",
       "https://searx.namejeff.xyz",
       "https://searx.oloke.xyz",
@@ -370,7 +370,6 @@
       "https://www.gruble.de"
     ],
     "tor": [
-      "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
       "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
       "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
@@ -567,27 +566,28 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://enjoys.rocks",
-      "https://paste.skynetcloud.site",
-      "https://paste.blazar.observer",
       "https://privatebin.cz",
-      "https://www.zdjm.com",
-      "https://privatebin.unige.ch",
-      "https://paste.coalserver.de",
-      "https://zbin.io",
-      "https://encryp.ch/note",
-      "https://lukisko.eu/privbin",
+      "https://bonus01.hwb0307.com",
+      "https://paste.plus",
+      "https://enjoys.rocks",
       "https://privatebin.wildberries.ru",
+      "https://privatebin.unige.ch",
       "https://paste.tildeverse.org",
       "https://anonpaste.org",
-      "https://paste.tuxcloud.net",
+      "https://paste.helkor.eu",
       "https://privatebin.net",
-      "https://paste.cracktek.eu",
-      "https://secrets.l25.cloud",
-      "https://paste.nerdvpn.de",
-      "https://paste.plus",
       "https://paste.encrypt.co.il",
-      "https://bonus01.hwb0307.com"
+      "https://paste.nerdvpn.de",
+      "https://encryp.ch/note",
+      "https://paste.coalserver.de",
+      "https://secrets.l25.cloud",
+      "https://paste.cracktek.eu",
+      "https://www.zdjm.com",
+      "https://paste.tuxcloud.net",
+      "https://lukisko.eu/privbin",
+      "https://zbin.io",
+      "https://privatebin.oxidizer.de",
+      "https://paste.skynetcloud.site"
     ],
     "tor": [],
     "i2p": [],
@@ -974,6 +974,17 @@
       "https://lite.ext4.xyz"
     ],
     "tor": [],
+    "i2p": [],
+    "loki": []
+  },
+  "mezzo": {
+    "clearnet": [
+      "https://tenor.fsky.io",
+      "https://tenor.nadeko.net"
+    ],
+    "tor": [
+      "http://tenorxfrvzsgjde6k3f64jen7fqr5mouk7qr7c3tptab5b5ohnwpniyd.onion"
+    ],
     "i2p": [],
     "loki": []
   }
