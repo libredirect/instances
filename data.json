@@ -26,7 +26,6 @@
   },
   "piped": {
     "clearnet": [
-      "https://adminforge.de",
       "https://piped.private.coffee"
     ],
     "tor": [],
@@ -295,7 +294,6 @@
   "searxng": {
     "clearnet": [
       "https://baresearch.org",
-      "https://copp.gg",
       "https://etsi.me",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
@@ -311,6 +309,7 @@
       "https://search.bladerunn.in",
       "https://search.catboy.house",
       "https://search.chocolatemoo53.com",
+      "https://search.datenkrake.ch",
       "https://search.einfachzocken.eu",
       "https://search.ethibox.fr",
       "https://search.femboy.ad",
@@ -344,7 +343,6 @@
       "https://searx.ox2.fr",
       "https://searx.party",
       "https://searx.perennialte.ch",
-      "https://searx.rajimayur.me",
       "https://searx.redgarden.cv",
       "https://searx.rhscz.eu",
       "https://searx.ro",
@@ -564,25 +562,25 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://bonus01.hwb0307.com",
       "https://paste.cracktek.eu",
-      "https://paste.tildeverse.org",
-      "https://paste.tuxcloud.net",
-      "https://encryp.ch/note",
-      "https://paste.coalserver.de",
-      "https://paste.plus",
+      "https://bonus01.hwb0307.com",
       "https://paste.nerdvpn.de",
+      "https://paste.coalserver.de",
+      "https://encryp.ch/note",
+      "https://paste.tuxcloud.net",
       "https://anonpaste.org",
-      "https://paste.helkor.eu",
-      "https://privatebin.net",
-      "https://privatebin.unige.ch",
-      "https://secrets.l25.cloud",
-      "https://paste.worf.win",
-      "https://privatebin.wildberries.ru",
-      "https://enjoys.rocks",
+      "https://paste.plus",
       "https://paste.ononoki.org",
       "https://paste.encrypt.co.il",
-      "https://zbin.io"
+      "https://privatebin.unige.ch",
+      "https://zbin.io",
+      "https://privatebin.wildberries.ru",
+      "https://enjoys.rocks",
+      "https://paste.skynetcloud.site",
+      "https://privatebin.net",
+      "https://paste.helkor.eu",
+      "https://clay.lcann.org",
+      "https://secrets.l25.cloud"
     ],
     "tor": [],
     "i2p": [],
