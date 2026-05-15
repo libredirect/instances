@@ -26,6 +26,7 @@
   },
   "piped": {
     "clearnet": [
+      "https://adminforge.de",
       "https://piped.private.coffee"
     ],
     "tor": [],
@@ -294,6 +295,7 @@
   "searxng": {
     "clearnet": [
       "https://baresearch.org",
+      "https://copp.gg",
       "https://etsi.me",
       "https://failsearx.culturanerd.it",
       "https://find.xenorio.xyz",
@@ -562,25 +564,23 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.cracktek.eu",
-      "https://bonus01.hwb0307.com",
-      "https://paste.nerdvpn.de",
-      "https://paste.coalserver.de",
-      "https://encryp.ch/note",
-      "https://paste.tuxcloud.net",
-      "https://anonpaste.org",
-      "https://paste.plus",
-      "https://paste.ononoki.org",
       "https://paste.encrypt.co.il",
       "https://privatebin.unige.ch",
-      "https://zbin.io",
+      "https://secrets.l25.cloud",
+      "https://paste.tuxcloud.net",
+      "https://paste.plus",
       "https://privatebin.wildberries.ru",
-      "https://enjoys.rocks",
-      "https://paste.skynetcloud.site",
-      "https://privatebin.net",
       "https://paste.helkor.eu",
-      "https://clay.lcann.org",
-      "https://secrets.l25.cloud"
+      "https://privatebin.net",
+      "https://paste.coalserver.de",
+      "https://paste.ononoki.org",
+      "https://enjoys.rocks",
+      "https://encryp.ch/note",
+      "https://anonpaste.org",
+      "https://paste.worf.win",
+      "https://paste.nerdvpn.de",
+      "https://paste.cracktek.eu",
+      "https://clay.lcann.org"
     ],
     "tor": [],
     "i2p": [],
@@ -875,15 +875,18 @@
       "https://translate.privacyredirect.com",
       "https://mozhi.canine.tools",
       "https://mzh.dc09.xyz",
-      "https://mozhi.bloat.cat"
+      "https://mozhi.bloat.cat",
+      "https://mozhi.catsarch.com"
     ],
     "tor": [
       "http://mozhi.wsuno6lnjdcsiok5mrxvl6e2bdex7nhsqqav6ux7tkwrqiqnulejfbyd.onion",
       "http://42i2bzogwkph3dvoo2bm6srskf7vvabsphw7uzftymbjjlzgfluhnmid.onion",
-      "http://3mu2almmcv7rd7wlwhmkbwqgttntgpqu3hdanutxbv2v72wzbxe5ixqd.onion"
+      "http://3mu2almmcv7rd7wlwhmkbwqgttntgpqu3hdanutxbv2v72wzbxe5ixqd.onion",
+      "http://mozhi.catsarchywsyuss6jdxlypsw5dc7owd5u5tr6bujxb7o6xw2hipqehyd.onion"
     ],
     "i2p": [
-      "http://74lptlnvaukcjnmqefedgna35ahkqexqzq2qq3k7utc2ep4jotcq.b32.i2p"
+      "http://74lptlnvaukcjnmqefedgna35ahkqexqzq2qq3k7utc2ep4jotcq.b32.i2p",
+      "http://b5jb6gilzl43u5js4d7jtcqmsk3xdjfbiowudij5yyhpm5bub3kq.b32.i2p"
     ],
     "loki": []
   },
