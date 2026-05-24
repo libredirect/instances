@@ -306,7 +306,6 @@
       "https://paulgo.io",
       "https://priv.au",
       "https://search.2b9t.xyz",
-      "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
@@ -369,8 +368,6 @@
       "https://www.gruble.de"
     ],
     "tor": [
-      "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
-      "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
       "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
       "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
@@ -566,28 +563,29 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.plus",
-      "https://privatebin.wildberries.ru",
-      "https://privatebin.net",
-      "https://privatebin.zerotwo.ovh",
-      "https://paste.helkor.eu",
-      "https://paste.worf.win",
-      "https://privatebin.unige.ch",
-      "https://p.darklab.sh",
-      "https://bonus01.hwb0307.com",
-      "https://secrets.l25.cloud",
       "https://paste.cracktek.eu",
+      "https://privatebin.net",
+      "https://paste.nerdvpn.de",
+      "https://privatebin.wildberries.ru",
       "https://paste.encrypt.co.il",
+      "https://secrets.l25.cloud",
       "https://anonpaste.org",
       "https://paste.coalserver.de",
-      "https://zbin.io",
-      "https://clay.lcann.org",
-      "https://enjoys.rocks",
-      "https://paste.nerdvpn.de",
-      "https://0g.gg",
+      "https://paste.ononoki.org",
+      "https://paste.helkor.eu",
       "https://paste.tildeverse.org",
+      "https://paste.worf.win",
+      "https://zbin.io",
+      "https://privatebin.unige.ch",
+      "https://privatebin.zerotwo.ovh",
+      "https://clay.lcann.org",
       "https://0.0g.gg",
+      "https://enjoys.rocks",
+      "https://bonus01.hwb0307.com",
       "https://encryp.ch/note",
+      "https://0g.gg",
+      "https://paste.plus",
+      "https://p.darklab.sh",
       "https://paste.tuxcloud.net"
     ],
     "tor": [],
@@ -937,16 +935,14 @@
       "https://sc.bloat.cat",
       "https://sc.opnxng.com",
       "https://sc2.bloat.cat",
-      "https://sc.tijn.dev",
-      "https://sc.kuuro.net",
-      "https://sc.perditum.com",
+      "https://soundcloak.tijn.dev",
       "https://sc2.maid.zone",
       "https://soundcloak.thoughtcrime.st",
-      "https://sc3.maid.zone"
+      "https://sc3.maid.zone",
+      "https://sc.monochrome.tf"
     ],
     "tor": [
-      "http://sc1.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion",
-      "http://sc.kuuro5abqix6tfku77wj32srkicgqh3f7ro77ctpda7ub7a7mlv4jsid.onion"
+      "http://sc1.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion"
     ],
     "i2p": [
       "http://maidzones5taqt3g2boaepkxdi6f2etznqbfebludsl4i2ydrcjq.b32.i2p"
