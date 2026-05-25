@@ -163,7 +163,10 @@
       "https://redlib.catsarch.com",
       "https://redlib.perennialte.ch",
       "https://redlib.r4fo.com",
+      "https://red.artemislena.eu",
       "https://redlib.cow.rip",
+      "https://reddit.rtrace.io",
+      "https://redlib.orangenet.cc",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -368,6 +371,8 @@
       "https://www.gruble.de"
     ],
     "tor": [
+      "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
+      "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
       "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
       "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
@@ -409,6 +414,7 @@
   },
   "rimgo": {
     "clearnet": [
+      "https://ri.bcow.xyz",
       "https://rimgo.pussthecat.org",
       "https://imgur.artemislena.eu",
       "https://rimgo.hostux.net",
@@ -430,7 +436,7 @@
       "https://rg.kuuro.net",
       "https://rimgo.proxik.cloud",
       "https://anaimg.starbeamrainbowlabs.com",
-      "https://rimgo.floppa.cloud"
+      "https://rimgo.wuemeli.com"
     ],
     "tor": [
       "http://rimgo.micohauwkjbyw5meacrb4ipicwvwg4xtzl7y7viv53kig2mdcsvwkyyd.onion",
@@ -563,30 +569,26 @@
   },
   "privateBin": {
     "clearnet": [
+      "https://paste.coalserver.de",
       "https://paste.cracktek.eu",
+      "https://zbin.io",
+      "https://paste.encrypt.co.il",
       "https://privatebin.net",
       "https://paste.nerdvpn.de",
-      "https://privatebin.wildberries.ru",
-      "https://paste.encrypt.co.il",
+      "https://paste.worf.win",
+      "https://encryp.ch/note",
       "https://secrets.l25.cloud",
-      "https://anonpaste.org",
-      "https://paste.coalserver.de",
+      "https://bonus01.hwb0307.com",
+      "https://clay.lcann.org",
+      "https://paste.plus",
       "https://paste.ononoki.org",
       "https://paste.helkor.eu",
-      "https://paste.tildeverse.org",
-      "https://paste.worf.win",
-      "https://zbin.io",
-      "https://privatebin.unige.ch",
-      "https://privatebin.zerotwo.ovh",
-      "https://clay.lcann.org",
-      "https://0.0g.gg",
       "https://enjoys.rocks",
-      "https://bonus01.hwb0307.com",
-      "https://encryp.ch/note",
-      "https://0g.gg",
-      "https://paste.plus",
-      "https://p.darklab.sh",
-      "https://paste.tuxcloud.net"
+      "https://anonpaste.org",
+      "https://privatebin.unige.ch",
+      "https://paste.tildeverse.org",
+      "https://paste.tuxcloud.net",
+      "https://privatebin.wildberries.ru"
     ],
     "tor": [],
     "i2p": [],
