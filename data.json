@@ -92,13 +92,7 @@
     "loki": []
   },
   "proxigram": {
-    "clearnet": [
-      "https://ig.opnxng.com",
-      "https://proxigram.lunar.icu",
-      "https://gram.whatever.social",
-      "https://ig.snine.nl",
-      "https://proxigram.privacyredirect.com"
-    ],
+    "clearnet": [],
     "tor": [],
     "i2p": [],
     "loki": []
@@ -309,6 +303,7 @@
       "https://paulgo.io",
       "https://priv.au",
       "https://search.2b9t.xyz",
+      "https://search.abohiccups.com",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
       "https://search.catboy.house",
@@ -460,26 +455,9 @@
     "loki": []
   },
   "safetwitch": {
-    "clearnet": [
-      "https://safetwitch.drgns.space",
-      "https://ttv.vern.cc",
-      "https://twitch.sudovanilla.org",
-      "https://safetwitch.ducks.party",
-      "https://safetwitch.nogafam.fr",
-      "https://safetwitch.privacyredirect.com",
-      "https://safetwitch.darkness.services",
-      "https://safetwitch.4o1x5.dev",
-      "https://safetwitch.adminforge.de",
-      "https://twitch.blitzw.in",
-      "https://safetwitch.canine.tools",
-      "https://safetwitch.privadency.com"
-    ],
-    "tor": [
-      "http://ttv.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"
-    ],
-    "i2p": [
-      "http://vernz43kgqiy3nzzof3nejeo4hh3bjgyqi3b3hijchilv7noqtrq.b32.i2p"
-    ],
+    "clearnet": [],
+    "tor": [],
+    "i2p": [],
     "loki": []
   },
   "hyperpipe": {
@@ -518,7 +496,6 @@
       "https://z.opnxng.com",
       "https://breezewiki.hyperreal.coffee",
       "https://breezewiki.woodland.cafe",
-      "https://breezewiki.catsarch.com",
       "https://breezewiki.nadeko.net",
       "https://fandom.reallyaweso.me",
       "https://breezewiki.r4fo.com",
@@ -528,7 +505,6 @@
     ],
     "tor": [
       "http://breezewiki.nadekonfkhwlxwwk4ycbvq42zvcjmvo5iakl4tajojjwxd4a5dcetuyd.onion",
-      "http://breezewiki.catsarchywsyuss6jdxlypsw5dc7owd5u5tr6bujxb7o6xw2hipqehyd.onion",
       "http://breezewiki.r4focoma7gu2zdwwcjjad47ysxt634lg73sxmdbkdozanwqslho5ohyd.onion",
       "http://breezewiki.coffee2m3bjsrrqqycx6ghkxrnejl2q6nl7pjw2j4clchjj6uk5zozad.onion"
     ],
@@ -569,26 +545,28 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.coalserver.de",
-      "https://paste.cracktek.eu",
+      "https://paste.helkor.eu",
+      "https://0g.gg",
+      "https://enjoys.rocks",
+      "https://anonpaste.org",
       "https://zbin.io",
-      "https://paste.encrypt.co.il",
+      "https://0.0g.gg",
+      "https://paste.tuxcloud.net",
+      "https://clay.lcann.org",
       "https://privatebin.net",
+      "https://bonus01.hwb0307.com",
       "https://paste.nerdvpn.de",
+      "https://p.darklab.sh",
+      "https://privatebin.unige.ch",
+      "https://paste.plus",
+      "https://privatebin.wildberries.ru",
       "https://paste.worf.win",
       "https://encryp.ch/note",
       "https://secrets.l25.cloud",
-      "https://bonus01.hwb0307.com",
-      "https://clay.lcann.org",
-      "https://paste.plus",
-      "https://paste.ononoki.org",
-      "https://paste.helkor.eu",
-      "https://enjoys.rocks",
-      "https://anonpaste.org",
-      "https://privatebin.unige.ch",
-      "https://paste.tildeverse.org",
-      "https://paste.tuxcloud.net",
-      "https://privatebin.wildberries.ru"
+      "https://paste.coalserver.de",
+      "https://paste.cracktek.eu",
+      "https://paste.encrypt.co.il",
+      "https://paste.ononoki.org"
     ],
     "tor": [],
     "i2p": [],
@@ -967,12 +945,7 @@
     "loki": []
   },
   "liteXiv": {
-    "clearnet": [
-      "https://litexiv.qunn.link",
-      "https://litexiv.bloat.cat",
-      "https://lxv.dc09.ru",
-      "https://lite.ext4.xyz"
-    ],
+    "clearnet": [],
     "tor": [],
     "i2p": [],
     "loki": []
