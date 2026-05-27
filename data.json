@@ -92,7 +92,13 @@
     "loki": []
   },
   "proxigram": {
-    "clearnet": [],
+    "clearnet": [
+      "https://ig.opnxng.com",
+      "https://proxigram.lunar.icu",
+      "https://gram.whatever.social",
+      "https://ig.snine.nl",
+      "https://proxigram.privacyredirect.com"
+    ],
     "tor": [],
     "i2p": [],
     "loki": []
@@ -159,8 +165,7 @@
       "https://redlib.r4fo.com",
       "https://red.artemislena.eu",
       "https://redlib.cow.rip",
-      "https://reddit.rtrace.io",
-      "https://redlib.orangenet.cc",
+      "https://redlib.privacyredirect.com",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -455,9 +460,26 @@
     "loki": []
   },
   "safetwitch": {
-    "clearnet": [],
-    "tor": [],
-    "i2p": [],
+    "clearnet": [
+      "https://safetwitch.drgns.space",
+      "https://ttv.vern.cc",
+      "https://twitch.sudovanilla.org",
+      "https://safetwitch.ducks.party",
+      "https://safetwitch.nogafam.fr",
+      "https://safetwitch.privacyredirect.com",
+      "https://safetwitch.darkness.services",
+      "https://safetwitch.4o1x5.dev",
+      "https://safetwitch.adminforge.de",
+      "https://twitch.blitzw.in",
+      "https://safetwitch.canine.tools",
+      "https://safetwitch.privadency.com"
+    ],
+    "tor": [
+      "http://ttv.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"
+    ],
+    "i2p": [
+      "http://vernz43kgqiy3nzzof3nejeo4hh3bjgyqi3b3hijchilv7noqtrq.b32.i2p"
+    ],
     "loki": []
   },
   "hyperpipe": {
@@ -545,28 +567,29 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.helkor.eu",
-      "https://0g.gg",
       "https://enjoys.rocks",
-      "https://anonpaste.org",
-      "https://zbin.io",
-      "https://0.0g.gg",
-      "https://paste.tuxcloud.net",
-      "https://clay.lcann.org",
-      "https://privatebin.net",
-      "https://bonus01.hwb0307.com",
-      "https://paste.nerdvpn.de",
       "https://p.darklab.sh",
+      "https://clay.lcann.org",
+      "https://bonus01.hwb0307.com",
+      "https://paste.tildeverse.org",
+      "https://paste.helkor.eu",
       "https://privatebin.unige.ch",
-      "https://paste.plus",
-      "https://privatebin.wildberries.ru",
-      "https://paste.worf.win",
-      "https://encryp.ch/note",
-      "https://secrets.l25.cloud",
-      "https://paste.coalserver.de",
+      "https://paste.tuxcloud.net",
       "https://paste.cracktek.eu",
-      "https://paste.encrypt.co.il",
-      "https://paste.ononoki.org"
+      "https://0.0g.gg",
+      "https://paste.nerdvpn.de",
+      "https://privatebin.wildberries.ru",
+      "https://0g.gg",
+      "https://paste.coalserver.de",
+      "https://anonpaste.org",
+      "https://encryp.ch/note",
+      "https://paste.ononoki.org",
+      "https://secrets.l25.cloud",
+      "https://privatebin.net",
+      "https://paste.worf.win",
+      "https://paste.plus",
+      "https://zbin.io",
+      "https://paste.encrypt.co.il"
     ],
     "tor": [],
     "i2p": [],
@@ -945,7 +968,12 @@
     "loki": []
   },
   "liteXiv": {
-    "clearnet": [],
+    "clearnet": [
+      "https://litexiv.qunn.link",
+      "https://litexiv.bloat.cat",
+      "https://lxv.dc09.ru",
+      "https://lite.ext4.xyz"
+    ],
     "tor": [],
     "i2p": [],
     "loki": []
