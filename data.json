@@ -142,9 +142,6 @@
   },
   "nitter": {
     "clearnet": [
-      "https://nitt.tr",
-      "https://nitter.miningtcup.me",
-      "https://nt.vern.cc",
       "https://xcancel.com",
       "https://nitter.poast.org",
       "https://nitter.privacyredirect.com",
@@ -153,7 +150,8 @@
       "https://nitter.tiekoetter.com",
       "https://nuku.trabun.org",
       "https://nitter.catsarch.com",
-      "https://nitter.kareem.one"
+      "https://nitter.kareem.one",
+      "https://nt.vern.cc"
     ],
     "tor": [
       "http://nitter.catsarchywsyuss6jdxlypsw5dc7owd5u5tr6bujxb7o6xw2hipqehyd.onion"
@@ -570,25 +568,26 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.skynetcloud.site",
-      "https://paste.nerdvpn.de",
+      "https://paste.helkor.eu",
       "https://paste.tildeverse.org",
-      "https://enjoys.rocks",
       "https://encryp.ch/note",
-      "https://paste.cracktek.eu",
-      "https://paste.encrypt.co.il",
       "https://paste.plus",
-      "https://bonus01.hwb0307.com",
-      "https://anonpaste.org",
+      "https://privatebin.wildberries.ru",
+      "https://secrets.l25.cloud",
+      "https://paste.cracktek.eu",
+      "https://paste.notadjacent.net",
       "https://paste.tuxcloud.net",
+      "https://paste.coalserver.de",
+      "https://0.jaegers.net",
+      "https://bonus01.hwb0307.com",
+      "https://paste.skynetcloud.site",
       "https://lukisko.eu/privbin",
       "https://privatebin.net",
-      "https://zbin.io",
-      "https://privatebin.wildberries.ru",
-      "https://0.jaegers.net",
+      "https://enjoys.rocks",
+      "https://paste.encrypt.co.il",
       "https://privatebin.unige.ch",
-      "https://paste.coalserver.de",
-      "https://paste.helkor.eu"
+      "https://anonpaste.org",
+      "https://paste.nerdvpn.de"
     ],
     "tor": [],
     "i2p": [],
