@@ -28,6 +28,7 @@
   },
   "piped": {
     "clearnet": [
+      "https://adminforge.de",
       "https://piped.private.coffee"
     ],
     "tor": [],
@@ -370,6 +371,7 @@
     ],
     "tor": [
       "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
+      "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
       "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
       "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
@@ -565,27 +567,26 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.tuxcloud.net",
-      "https://paste.skynetcloud.site",
-      "https://privatebin.wildberries.ru",
       "https://paste.encrypt.co.il",
-      "https://paste.notadjacent.net",
-      "https://paste.cracktek.eu",
-      "https://enjoys.rocks",
       "https://paste.tildeverse.org",
-      "https://paste.helkor.eu",
       "https://paste.plus",
       "https://lukisko.eu/privbin",
-      "https://paste.nerdvpn.de",
-      "https://zbin.io",
-      "https://anonpaste.org",
-      "https://privatebin.unige.ch",
+      "https://paste.tuxcloud.net",
       "https://privatebin.net",
-      "https://bonus01.hwb0307.com",
+      "https://privatebin.wildberries.ru",
+      "https://paste.nerdvpn.de",
+      "https://paste.helkor.eu",
+      "https://enjoys.rocks",
       "https://paste.coalserver.de",
-      "https://secure.4it.com.au",
+      "https://paste.notadjacent.net",
+      "https://privatebin.unige.ch",
+      "https://bonus01.hwb0307.com",
+      "https://paste.skynetcloud.site",
       "https://encryp.ch/note",
-      "https://secrets.l25.cloud"
+      "https://anonpaste.org",
+      "https://secrets.l25.cloud",
+      "https://zbin.io",
+      "https://secure.4it.com.au"
     ],
     "tor": [],
     "i2p": [],
