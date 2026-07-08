@@ -36,11 +36,7 @@
     "loki": []
   },
   "pipedMaterial": {
-    "clearnet": [
-      "https://piped-material.xn--17b.net",
-      "https://piped-material.ftp.sh",
-      "https://eds-v2.piped.xn--17b.net"
-    ],
+    "clearnet": [],
     "tor": [],
     "i2p": [],
     "loki": []
@@ -305,6 +301,7 @@
       "https://opnxng.com",
       "https://paulgo.io",
       "https://priv.au",
+      "https://sear.lurx.net",
       "https://search.2b9t.xyz",
       "https://search.anoni.net",
       "https://search.bladerunn.in",
@@ -359,6 +356,7 @@
       "https://searxng.moonshadow.dev",
       "https://searxng.shreven.org",
       "https://searxng.site",
+      "https://searxng.tr",
       "https://searxng.website",
       "https://searxng.wuemeli.com",
       "https://www.gruble.de",
@@ -371,8 +369,7 @@
       "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
       "http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion",
       "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion",
-      "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion",
-      "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion"
+      "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion"
     ],
     "i2p": [],
     "loki": []
@@ -396,11 +393,7 @@
     "loki": []
   },
   "whoogle": {
-    "clearnet": [
-      "https://search.garudalinux.org",
-      "https://whoogle.privacydev.net",
-      "https://whoogle.lunar.icu"
-    ],
+    "clearnet": [],
     "tor": [],
     "i2p": [],
     "loki": []
@@ -562,24 +555,25 @@
   "privateBin": {
     "clearnet": [
       "https://secure.4it.com.au",
-      "https://paste.plus",
-      "https://zbin.io",
-      "https://paste.tildeverse.org",
-      "https://paste.nerdvpn.de",
-      "https://privatebin.unige.ch",
-      "https://paste.encrypt.co.il",
-      "https://paste.coalserver.de",
-      "https://paste.cracktek.eu",
-      "https://paste.notadjacent.net",
-      "https://enjoys.rocks",
-      "https://secrets.l25.cloud",
-      "https://paste.helkor.eu",
-      "https://privatebin.net",
-      "https://anonpaste.org",
-      "https://lukisko.eu/privbin",
       "https://bonus01.hwb0307.com",
+      "https://anonpaste.org",
+      "https://zbin.io",
+      "https://privatebin.unige.ch",
+      "https://privatebin.net",
+      "https://paste.notadjacent.net",
+      "https://paste.tildeverse.org",
+      "https://paste.helkor.eu",
+      "https://paste.encrypt.co.il",
+      "https://paste.nerdvpn.de",
+      "https://encryp.ch/note",
+      "https://secrets.l25.cloud",
       "https://privatebin.wildberries.ru",
-      "https://encryp.ch/note"
+      "https://paste.coalserver.de",
+      "https://paste.tuxcloud.net",
+      "https://paste.cracktek.eu",
+      "https://lukisko.eu/privbin",
+      "https://enjoys.rocks",
+      "https://paste.plus"
     ],
     "tor": [],
     "i2p": [],
@@ -612,19 +606,9 @@
     "loki": []
   },
   "libMedium": {
-    "clearnet": [
-      "https://libmedium.batsense.net",
-      "https://md.vern.cc",
-      "https://medium.hostux.net",
-      "https://r.sudovanilla.org",
-      "https://libmedium.ducks.party"
-    ],
-    "tor": [
-      "http://md.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"
-    ],
-    "i2p": [
-      "http://vernaqj2qr2pijpgvf3od6ssc3ulz3nv52gwr3hba5l6humuzmgq.b32.i2p"
-    ],
+    "clearnet": [],
+    "tor": [],
+    "i2p": [],
     "loki": []
   },
   "dumb": {
@@ -932,7 +916,8 @@
       "https://sc2.maid.zone",
       "https://soundcloak.thoughtcrime.st",
       "https://sc3.maid.zone",
-      "https://sc.monochrome.tf"
+      "https://sc.monochrome.tf",
+      "https://soundcloak.nadeko.net"
     ],
     "tor": [
       "http://sc1.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion"
@@ -945,9 +930,7 @@
   "vixipy": {
     "clearnet": [
       "https://vx.maid.zone",
-      "https://vx2.maid.zone",
-      "http://217.154.227.61:47474",
-      "https://vixipy.bloat.cat"
+      "https://vx2.maid.zone"
     ],
     "tor": [
       "http://vx.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion"
