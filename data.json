@@ -150,8 +150,7 @@
       "https://nitter.tiekoetter.com",
       "https://nuku.trabun.org",
       "https://nitter.catsarch.com",
-      "https://nitter.kareem.one",
-      "https://nt.vern.cc"
+      "https://nitter.kareem.one"
     ],
     "tor": [
       "http://nitter.catsarchywsyuss6jdxlypsw5dc7owd5u5tr6bujxb7o6xw2hipqehyd.onion"
@@ -165,6 +164,7 @@
       "https://redlib.catsarch.com",
       "https://redlib.r4fo.com",
       "https://red.artemislena.eu",
+      "https://redlib.privacyredirect.com",
       "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
     ],
@@ -368,13 +368,13 @@
       "https://xka.cz"
     ],
     "tor": [
-      "http://privateoz3u5utrimal2edr56j3r5caakektxxgixigdkycuxigvquid.onion",
+      "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
       "http://search.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion",
       "http://whereissky27lxfdrs7ct7a5ievor3tl67qi77rv5luga7wod5jf2mad.onion",
       "http://ls67zxncmcqgn2vg74ckcwxgu5p3e5mf2khues3egkumhcqtbsg4kqyd.onion",
       "http://searxngorpgnztkcftpz3ycdpyajd4q55y2nejw3tbszocht5zdh4lyd.onion",
       "http://searxokthnxmo7ndis35jpts2tawcwvbovuy47qtavwo7oq4jgcm5gqd.onion",
-      "http://ieqzkvy4bf3xi4bzsfzfax42t4iuqcbqn6oah4uwrm4ip354gavsviad.onion",
+      "http://lhdp2wkdwynwfxogmhqndgzfepwu4nbzllfompppmbetrcp732rxrbqd.onion",
       "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion"
     ],
     "i2p": [],
@@ -564,26 +564,28 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.cracktek.eu",
-      "https://paste.tuxcloud.net",
-      "https://paste.helkor.eu",
-      "https://paste.skynetcloud.site",
-      "https://lukisko.eu/privbin",
-      "https://privatebin.wildberries.ru",
-      "https://paste.notadjacent.net",
       "https://enjoys.rocks",
-      "https://anonpaste.org",
       "https://paste.nerdvpn.de",
-      "https://privatebin.unige.ch",
-      "https://paste.coalserver.de",
-      "https://paste.plus",
-      "https://paste.encrypt.co.il",
-      "https://paste.tildeverse.org",
       "https://encryp.ch/note",
-      "https://privatebin.net",
-      "https://bonus01.hwb0307.com",
       "https://secrets.l25.cloud",
-      "https://secure.4it.com.au"
+      "https://paste.notadjacent.net",
+      "https://paste.coalserver.de",
+      "https://paste.tildeverse.org",
+      "https://secure.4it.com.au",
+      "https://bonus01.hwb0307.com",
+      "https://paste.tuxcloud.net",
+      "https://paste.skynetcloud.site",
+      "https://paste.encrypt.co.il",
+      "https://anonpaste.org",
+      "https://paste.cracktek.eu",
+      "https://lukisko.eu/privbin",
+      "https://privatebin.unige.ch",
+      "https://zbin.io",
+      "https://paste.helkor.eu",
+      "https://paste.plus",
+      "https://pb.fbin.in",
+      "https://privatebin.net",
+      "https://privatebin.wildberries.ru"
     ],
     "tor": [],
     "i2p": [],
