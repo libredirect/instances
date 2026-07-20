@@ -455,11 +455,7 @@
   },
   "phantom": {
     "clearnet": [
-      "https://ph.kuuro.net",
-      "https://phw.dc09.ru",
-      "https://ph.bloat.cat",
-      "https://phantom.nadeko.net",
-      "https://fd.opnxng.com"
+      "https://phantom.nadeko.net"
     ]
   },
   "binternet": {
@@ -487,26 +483,26 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.nerdvpn.de",
-      "https://paste.encrypt.co.il",
-      "https://secrets.l25.cloud",
-      "https://encryp.ch/note",
       "https://privatebin.wildberries.ru",
-      "https://paste.tuxcloud.net",
-      "https://bonus01.hwb0307.com",
-      "https://paste.plus",
+      "https://paste.nerdvpn.de",
+      "https://zbin.io",
       "https://paste.helkor.eu",
-      "https://lukisko.eu/privbin",
-      "https://paste.skynetcloud.site",
-      "https://paste.notadjacent.net",
       "https://paste.ononoki.org",
-      "https://privatebin.unige.ch",
       "https://paste.tildeverse.org",
-      "https://paste.cracktek.eu",
-      "https://anonpaste.org",
+      "https://paste.tuxcloud.net",
+      "https://encryp.ch/note",
       "https://enjoys.rocks",
+      "https://privatebin.unige.ch",
       "https://paste.coalserver.de",
-      "https://privatebin.net"
+      "https://paste.cracktek.eu",
+      "https://secrets.l25.cloud",
+      "https://paste.encrypt.co.il",
+      "https://bonus01.hwb0307.com",
+      "https://anonpaste.org",
+      "https://privatebin.net",
+      "https://secure.4it.com.au",
+      "https://lukisko.eu/privbin",
+      "https://paste.plus"
     ],
     "tor": [],
     "i2p": [],
