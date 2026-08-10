@@ -1,9 +1,9 @@
 {
   "invidious": {
     "clearnet": [
-      "https://inv.nadeko.net",
       "https://invidious.nerdvpn.de",
       "https://invidious.f5.si",
+      "https://inv.nadeko.net",
       "https://yt.chocolatemoo53.com",
       "https://invidious.tiekoetter.com",
       "https://inv-ygg.nadeko.net",
@@ -481,30 +481,27 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://encryp.ch/note",
-      "https://paste.tildeverse.org",
-      "https://zbin.io",
-      "https://privatebin.wildberries.ru",
-      "https://lukisko.eu/privbin",
-      "https://paste.helkor.eu",
-      "https://paste.plus",
       "https://bonus01.hwb0307.com",
-      "https://privatebin.net",
-      "https://secure.4it.com.au",
-      "https://paste.tuxcloud.net",
-      "https://paste.coalserver.de",
       "https://secret.timeweb.ru",
-      "https://paste.cracktek.eu",
-      "https://paste.encrypt.co.il",
-      "https://privatebin.oxidizer.de",
-      "https://enjoys.rocks",
-      "https://secrets.l25.cloud",
-      "https://paste.nerdvpn.de",
       "https://anonpaste.org",
-      "https://paste.notadjacent.net",
-      "https://privatebin.unige.ch",
       "https://paste.ononoki.org",
-      "https://paste.skynetcloud.site"
+      "https://paste.coalserver.de",
+      "https://privatebin.oxidizer.de",
+      "https://paste.cracktek.eu",
+      "https://paste.tildeverse.org",
+      "https://paste.notadjacent.net",
+      "https://lukisko.eu/privbin",
+      "https://paste.encrypt.co.il",
+      "https://enjoys.rocks",
+      "https://paste.helkor.eu",
+      "https://privatebin.unige.ch",
+      "https://encryp.ch/note",
+      "https://secrets.l25.cloud",
+      "https://paste.plus",
+      "https://paste.tuxcloud.net",
+      "https://privatebin.net",
+      "https://paste.nerdvpn.de",
+      "https://zbin.io"
     ],
     "tor": [],
     "i2p": [],
@@ -615,7 +612,8 @@
       "https://anonflow.aketawi.space",
       "https://ao.bunk.lol",
       "https://o.iii.st",
-      "https://overflow.canine.tools"
+      "https://overflow.canine.tools",
+      "https://a.opnxng.com"
     ],
     "tor": [
       "http://ao.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion",
