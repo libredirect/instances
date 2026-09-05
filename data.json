@@ -457,51 +457,44 @@
   },
   "binternet": {
     "clearnet": [
-      "https://binternet.revvy.de",
-      "https://binternet.darkness.services",
+      "https://curate.liv.town",
+      "https://binternet.nadeko.net",
       "https://bn.bloat.cat",
       "https://bn.opnxng.com",
       "https://binternet.ducks.party",
       "https://binternet.4o1x5.dev",
-      "https://binternet.privacyredirect.com",
-      "https://binternet.lunar.icu",
       "https://binternet.canine.tools",
-      "https://bn.kuuro.net",
       "https://binternet.privadency.com"
     ],
     "tor": [
-      "http://binternet.revvybrr6pvbx4n3j4475h4ghw4elqr4t5xo2vtd3gfpu2nrsnhh57id.onion",
-      "http://binternet.darknessrdor43qkl2ngwitj72zdavfz2cead4t5ed72bybgauww5lyd.onion"
+      "http://binternet.nadeko24jhlqccyfnmvynwkojcfzmub53m74y5b7l5e6hn55jlml4pqd.onion"
     ],
-    "i2p": [
-      "http://revznkqdwy7nmlzql66x226g3qnapiooss3rg2uajbj4rypxjnba.b32.i2p"
-    ],
+    "i2p": [],
     "loki": []
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.unige.ch",
       "https://secret.timeweb.ru",
-      "https://enjoys.rocks",
-      "https://privatebin.oxidizer.de",
-      "https://paste.tuxcloud.net",
-      "https://paste.encrypt.co.il",
-      "https://0bin.ch",
       "https://privatebin.wildberries.ru",
-      "https://secrets.l25.cloud",
-      "https://privatebin.net",
-      "https://bonus01.hwb0307.com",
-      "https://zbin.io",
-      "https://paste.nerdvpn.de",
-      "https://paste.ononoki.org",
-      "https://anonpaste.org",
       "https://encryp.ch/note",
       "https://paste.helkor.eu",
-      "https://paste.coalserver.de",
+      "https://paste.tuxcloud.net",
+      "https://secrets.l25.cloud",
+      "https://privatebin.unige.ch",
+      "https://lukisko.eu/privbin",
+      "https://paste.skynetcloud.site",
       "https://paste.plus",
-      "https://paste.cracktek.eu",
-      "https://secure.4it.com.au",
-      "https://lukisko.eu/privbin"
+      "https://paste.ononoki.org",
+      "https://anonpaste.org",
+      "https://privatebin.oxidizer.de",
+      "https://paste.encrypt.co.il",
+      "https://paste.nerdvpn.de",
+      "https://0bin.ch",
+      "https://bonus01.hwb0307.com",
+      "https://zbin.io",
+      "https://privatebin.net",
+      "https://enjoys.rocks",
+      "https://paste.coalserver.de"
     ],
     "tor": [],
     "i2p": [],
