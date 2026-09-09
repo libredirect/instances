@@ -473,24 +473,27 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://secrets.l25.cloud",
-      "https://paste.plus",
-      "https://paste.ononoki.org",
-      "https://zbin.io",
-      "https://paste.nerdvpn.de",
-      "https://paste.helkor.eu",
-      "https://bonus01.hwb0307.com",
-      "https://enjoys.rocks",
-      "https://privatebin.net",
       "https://secure.4it.com.au",
+      "https://privatebin.unige.ch",
+      "https://privatebin.oxidizer.de",
+      "https://paste.helkor.eu",
       "https://paste.cracktek.eu",
       "https://encryp.ch/note",
-      "https://paste.encrypt.co.il",
-      "https://paste.tuxcloud.net",
-      "https://paste.coalserver.de",
-      "https://privatebin.wildberries.ru",
+      "https://zbin.io",
+      "https://0bin.ch",
       "https://lukisko.eu/privbin",
-      "https://0bin.ch"
+      "https://bonus01.hwb0307.com",
+      "https://privatebin.wildberries.ru",
+      "https://privatebin.net",
+      "https://enjoys.rocks",
+      "https://paste.ononoki.org",
+      "https://paste.encrypt.co.il",
+      "https://secrets.l25.cloud",
+      "https://anonpaste.org",
+      "https://paste.coalserver.de",
+      "https://paste.tuxcloud.net",
+      "https://paste.nerdvpn.de",
+      "https://paste.plus"
     ],
     "tor": [],
     "i2p": [],
@@ -845,7 +848,8 @@
       "https://soundcloak.thoughtcrime.st",
       "https://sc3.maid.zone",
       "https://sc.monochrome.tf",
-      "https://soundcloak.nadeko.net"
+      "https://soundcloak.nadeko.net",
+      "https://toene.hoffnungfuerdiezukunft.net"
     ],
     "tor": [
       "http://sc1.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion"
