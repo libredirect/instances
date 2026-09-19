@@ -2,19 +2,22 @@
 
 ## How to run
 
-Create a virtual environment
 ```bash
-$ python3 -m venv venv
+# create a virtual environment
+python3 -m venv venv
+
+# activate the virtual environment
+source venv/bin/activate
+
+# install dependencies
+pip install -r requirements.txt
+
+# to get instances list run this command
+python3 main.py
 ```
-Activate the virtual environment
-```bash
-$ source venv/bin/activate
-```
-Install dependencies
-```bash
-$ pip install -r requirements.txt
-```
-To get instances list run this command
-```bash
-$ python3 main.py
-```
+
+## Add new instances
+
+> [!WARNING]
+>
+> Do not edit `data.json`, it's a generated file.
