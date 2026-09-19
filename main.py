@@ -66,6 +66,8 @@ soundcloak(mightyList)
 vixipy(mightyList)
 litexiv(mightyList)
 mezzo(mightyList)
+gelbooruGo(mightyList)
+booruview(mightyList)
 
 
 mightyList = filterLastSlash(mightyList)
