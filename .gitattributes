@@ -1,0 +1,5 @@
+*                text=auto eol=lf
+*.json           linguist-detectable
+.git*            linguist-language=Shell
+data.json        linguist-generated
+requirements.txt linguist-detectable
