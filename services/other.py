@@ -73,6 +73,26 @@ def biblioReads(mightyList):
     )
 
 
+def gelbooruGo(mightyList):
+    fetchJsonList(
+        'gelbooru-go',
+        'https://codeberg.org/vlnst/gelbooru-go/raw/branch/main/instances.json',
+        'url',
+        False,
+        mightyList
+    )
+
+
+def booruview(mightyList):
+    mightyList['booruview'] = {
+        'clearnet': ['https://booruview.com'],
+        'tor': [],
+        'i2p': [],
+        'loki': []
+    }
+    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'booruview')
+
+
 def libremdb(mightyList):
     fetchJsonList(
         'libremdb',
