@@ -475,17 +475,22 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.oxidizer.de",
-      "https://privatebin.cc",
-      "https://paste.helkor.eu",
-      "https://lukisko.eu/privbin",
-      "https://0bin.ch",
-      "https://encryp.ch/note",
+      "https://paste.ononoki.org",
+      "https://paste.cracktek.eu",
       "https://anonpaste.org",
-      "https://paste.encrypt.co.il",
+      "https://secret.timeweb.ru",
+      "https://privatebin.wildberries.ru",
+      "https://paste.coalserver.de",
+      "https://paste.skynetcloud.site",
       "https://bonus01.hwb0307.com",
-      "https://enjoys.rocks",
-      "https://paste.coalserver.de"
+      "https://privatebin.net",
+      "https://paste.encrypt.co.il",
+      "https://encryp.ch/note",
+      "https://privatebin.oxidizer.de",
+      "https://0bin.ch",
+      "https://privatebin.cc",
+      "https://lukisko.eu/privbin",
+      "https://paste.helkor.eu"
     ],
     "tor": [],
     "i2p": [],
@@ -883,6 +888,23 @@
     "tor": [
       "http://tenorxfrvzsgjde6k3f64jen7fqr5mouk7qr7c3tptab5b5ohnwpniyd.onion"
     ],
+    "i2p": [],
+    "loki": []
+  },
+  "gelbooru-go": {
+    "clearnet": [
+      "https://gel.bloat.cat",
+      "https://gel.nadeko.net"
+    ],
+    "tor": [],
+    "i2p": [],
+    "loki": []
+  },
+  "booruview": {
+    "clearnet": [
+      "https://booruview.com"
+    ],
+    "tor": [],
     "i2p": [],
     "loki": []
   }
