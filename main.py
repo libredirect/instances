@@ -68,6 +68,7 @@ litexiv(mightyList)
 mezzo(mightyList)
 gelbooruGo(mightyList)
 booruview(mightyList)
+frontend4get(mightyList)
 
 
 mightyList = filterLastSlash(mightyList)

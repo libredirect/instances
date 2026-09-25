@@ -444,3 +444,22 @@ def mezzo(mightyList):
         False,
         mightyList
     )
+
+def frontend4get(mightyList):
+    frontend = '4get'
+    try:
+        r = requests.get('https://4get.ca/instances')
+        _list = {}
+        soup = BeautifulSoup(r.text, 'html.parser')
+
+        _list['clearnet'] = []
+        a_tags = soup.findAll("a", {"target" : "_BLANK"})
+        for a_tag in a_tags:
+            _list['clearnet'].append(a_tag['href'])
+
+        mightyList[frontend] = _list
+        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
+
+    except Exception:
+        fetchCache(frontend, mightyList)
+        logging.error(traceback.format_exc())
