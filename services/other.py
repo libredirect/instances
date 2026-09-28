@@ -76,7 +76,7 @@ def biblioReads(mightyList):
 def gelbooruGo(mightyList):
     fetchJsonList(
         'gelbooru-go',
-        'https://codeberg.org/vlnst/gelbooru-go/raw/branch/main/instances.json',
+        'https://git.bloat.cat/vlnst/gelbooru-go/raw/branch/main/instances.json',
         'url',
         False,
         mightyList
@@ -371,7 +371,7 @@ def skunkyArt(mightyList):
 def koub(mightyList):
     fetchJsonList(
         'koub',
-        'https://codeberg.org/gospodin/koub/raw/branch/master/instances.json',
+        'https://git.bloat.cat/gospodin/koub/raw/branch/master/instances.json',
         'url',
         False,
         mightyList
