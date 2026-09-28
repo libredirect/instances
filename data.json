@@ -474,21 +474,18 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.ononoki.org",
-      "https://anonpaste.org",
       "https://lukisko.eu/privbin",
-      "https://privatebin.cc",
-      "https://paste.encrypt.co.il",
-      "https://paste.cracktek.eu",
-      "https://enjoys.rocks",
       "https://0bin.ch",
-      "https://bonus01.hwb0307.com",
-      "https://privatebin.oxidizer.de",
-      "https://paste.coalserver.de",
+      "https://paste.skynetcloud.site",
+      "https://privatebin.cc",
       "https://encryp.ch/note",
       "https://paste.helkor.eu",
       "https://privatebin.net",
-      "https://paste.skynetcloud.site"
+      "https://paste.coalserver.de",
+      "https://enjoys.rocks",
+      "https://privatebin.wildberries.ru",
+      "https://bonus01.hwb0307.com",
+      "https://paste.cracktek.eu"
     ],
     "tor": [],
     "i2p": [],
@@ -800,8 +797,7 @@
   },
   "koub": {
     "clearnet": [
-      "https://koub.bloat.cat",
-      "https://koub2.bloat.cat"
+      "https://koub.bloat.cat"
     ],
     "tor": [],
     "i2p": [],
@@ -810,7 +806,6 @@
   "transLite": {
     "clearnet": [
       "https://tl.bloat.cat",
-      "https://tl2.bloat.cat",
       "https://tl.dc09.xyz",
       "https://tl.maid.zone",
       "http://t.opnxng.com"
