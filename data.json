@@ -474,18 +474,18 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://lukisko.eu/privbin",
-      "https://0bin.ch",
       "https://paste.skynetcloud.site",
-      "https://privatebin.cc",
-      "https://encryp.ch/note",
-      "https://paste.helkor.eu",
-      "https://privatebin.net",
-      "https://paste.coalserver.de",
+      "https://lukisko.eu/privbin",
+      "https://secret.timeweb.ru",
+      "https://paste.ononoki.org",
+      "https://privatebin.unige.ch",
+      "https://0bin.ch",
+      "https://paste.encrypt.co.il",
       "https://enjoys.rocks",
-      "https://privatebin.wildberries.ru",
+      "https://privatebin.cc",
       "https://bonus01.hwb0307.com",
-      "https://paste.cracktek.eu"
+      "https://privatebin.net",
+      "https://encryp.ch/note"
     ],
     "tor": [],
     "i2p": [],
@@ -703,22 +703,16 @@
       "https://tent.bloat.cat",
       "https://tent.canine.tools",
       "https://tent.deep-swarm.xyz",
-      "https://tent.lab8.cz",
-      "https://tent.nbh.ax",
       "https://tent.private.coffee",
       "https://tent.sny.sh",
-      "https://tn.dc09.ru",
-      "https://tn.maid.zone",
-      "https://tn.vern.cc"
+      "https://tn.maid.zone"
     ],
     "tor": [
       "http://tent.dswarmsikhttkg7jgsoyfiqpj3ighupfrvuz5ri3lu5q2dlqyrpgk7ad.onion",
-      "http://tn.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion",
-      "http://tn.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"
+      "http://tn.maidzonekwrk4xbbmynqnprq2lu7picruncfscfwmyzbmec6naurhyqd.onion"
     ],
     "i2p": [
-      "http://maidzong64yczoqm5wlg2hiodip6ktpldcfdvoxanqaxmonyim4q.b32.i2p",
-      "http://vernk23oml2talve3keetcqmjylmu7r7kdrcfciv36oxitgpos5a.b32.i2p"
+      "http://maidzong64yczoqm5wlg2hiodip6ktpldcfdvoxanqaxmonyim4q.b32.i2p"
     ],
     "loki": []
   },
