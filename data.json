@@ -1,11 +1,12 @@
 {
   "invidious": {
     "clearnet": [
-      "https://inv.nadeko.net",
       "https://invidious.nerdvpn.de",
       "https://invidious.f5.si",
       "https://yt.chocolatemoo53.com",
+      "https://inv.nadeko.net",
       "https://invidious.tiekoetter.com",
+      "https://inv.miningtcup.me",
       "https://inv-ygg.nadeko.net",
       "https://inv.nadeko.ygg"
     ],
@@ -162,8 +163,8 @@
     "clearnet": [
       "https://safereddit.com",
       "https://redlib.catsarch.com",
+      "https://redlib.r4fo.com",
       "https://red.artemislena.eu",
-      "https://redlib.cow.rip",
       "https://redlib.privacyredirect.com",
       "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
@@ -475,17 +476,19 @@
   "privateBin": {
     "clearnet": [
       "https://paste.skynetcloud.site",
-      "https://lukisko.eu/privbin",
+      "https://privatebin.cc",
+      "https://encryp.ch/note",
+      "https://paste.encrypt.co.il",
+      "https://paste.07f.de",
       "https://secret.timeweb.ru",
+      "https://anonpaste.org",
       "https://paste.ononoki.org",
+      "https://lukisko.eu/privbin",
+      "https://privatebin.net",
+      "https://paste.coalserver.de",
       "https://privatebin.unige.ch",
       "https://0bin.ch",
-      "https://paste.encrypt.co.il",
-      "https://enjoys.rocks",
-      "https://privatebin.cc",
-      "https://bonus01.hwb0307.com",
-      "https://privatebin.net",
-      "https://encryp.ch/note"
+      "https://bonus01.hwb0307.com"
     ],
     "tor": [],
     "i2p": [],
