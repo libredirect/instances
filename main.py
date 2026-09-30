@@ -70,7 +70,7 @@ mezzo(mightyList)
 gelbooruGo(mightyList)
 booruview(mightyList)
 frontend4get(mightyList)
-
+wikimore(mightyList)
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)

@@ -489,3 +489,12 @@ def frontend4get(mightyList):
         True,
         mightyList
     )
+
+def wikimore(mightyList):
+    fetchJsonList(
+            'wikimore',
+            'https://git.private.coffee/PrivateCoffee/wikimore/raw/commit/5409776184cf6b19d2c7538d0b730cc4b71b641f/instances.json',
+            'url',
+            False,
+            mightyList
+        )
