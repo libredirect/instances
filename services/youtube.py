@@ -97,7 +97,7 @@ def poke(mightyList):
     frontend = 'poke'
     try:
         r = requests.get(
-            'https://codeberg.org/ashley/poke/raw/branch/main/instances.json')
+            'https://codeberg.org/ashleyirispuppy/poke/raw/branch/main/instances.json')
         rJson = json.loads(r.text)
         _list = {
             'clearnet': [],
