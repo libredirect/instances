@@ -1,12 +1,11 @@
 {
   "invidious": {
     "clearnet": [
+      "https://inv.nadeko.net",
       "https://invidious.nerdvpn.de",
       "https://invidious.f5.si",
       "https://yt.chocolatemoo53.com",
-      "https://inv.nadeko.net",
       "https://invidious.tiekoetter.com",
-      "https://inv.miningtcup.me",
       "https://inv-ygg.nadeko.net",
       "https://inv.nadeko.ygg"
     ],
@@ -156,6 +155,36 @@
     "tor": [
       "http://nitter.catsarchywsyuss6jdxlypsw5dc7owd5u5tr6bujxb7o6xw2hipqehyd.onion"
     ],
+    "i2p": [],
+    "loki": []
+  },
+  "shitter": {
+    "clearnet": [
+      "https://shitter.thepixora.com",
+      "https://nitter.meowing.monster",
+      "https://nitter.netbub.com",
+      "https://shi.meowing.de",
+      "https://nitter.miningtcup.me",
+      "https://nitter.jaydenha.uk",
+      "https://nitter.click",
+      "https://nitter.xitter.cc",
+      "https://x.n0g.xyz",
+      "https://tw.eir-nya.gay",
+      "https://xcopy.uk",
+      "https://bitter.st",
+      "https://nitter.privacyredirect.com",
+      "https://nitter.catsarch.com",
+      "https://nitter.tiekoetter.com",
+      "https://nt.vern.cc",
+      "https://nitter.fullex.fr",
+      "https://nitter.anoxinon.de",
+      "https://nitter6.kabii.moe",
+      "https://nitter.zebes.info",
+      "https://nitter.wisq.net",
+      "https://nitter.teamqq.de",
+      "https://nitter.freedit.eu"
+    ],
+    "tor": [],
     "i2p": [],
     "loki": []
   },
@@ -475,20 +504,22 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.skynetcloud.site",
-      "https://privatebin.cc",
-      "https://encryp.ch/note",
-      "https://paste.encrypt.co.il",
-      "https://paste.07f.de",
-      "https://secret.timeweb.ru",
-      "https://anonpaste.org",
-      "https://paste.ononoki.org",
-      "https://lukisko.eu/privbin",
-      "https://privatebin.net",
       "https://paste.coalserver.de",
-      "https://privatebin.unige.ch",
+      "https://paste.helkor.eu",
+      "https://privatebin.cc",
+      "https://privatebin.net",
+      "https://secret.timeweb.ru",
+      "https://lukisko.eu/privbin",
+      "https://encryp.ch/note",
+      "https://paste.skynetcloud.site",
+      "https://paste.ononoki.org",
       "https://0bin.ch",
-      "https://bonus01.hwb0307.com"
+      "https://privatebin.wildberries.ru",
+      "https://bonus01.hwb0307.com",
+      "https://anonpaste.org",
+      "https://paste.cracktek.eu",
+      "https://paste.encrypt.co.il",
+      "https://privatebin.unige.ch"
     ],
     "tor": [],
     "i2p": [],
@@ -887,7 +918,6 @@
   },
   "4get": {
     "clearnet": [
-      "https://git.lolcat.ca/lolcat/4get",
       "https://4get.ca",
       "https://search.fischbytes.de",
       "https://4get.nadeko.net",
@@ -910,6 +940,23 @@
       "https://s.307200.xyz",
       "https://4get.privadency.com",
       "https://4get.eloy.ar"
-    ]
+    ],
+    "tor": [],
+    "i2p": [],
+    "loki": []
+  },
+  "wikimore": {
+    "clearnet": [
+      "https://wikimore.private.coffee",
+      "https://wm.bloat.cat",
+      "https://wp.dc09.ru",
+      "https://wikimore.privadency.com",
+      "https://wikimore.blitzw.in"
+    ],
+    "tor": [
+      "http://wikimore.coffee2m3bjsrrqqycx6ghkxrnejl2q6nl7pjw2j4clchjj6uk5zozad.onion"
+    ],
+    "i2p": [],
+    "loki": []
   }
 }
