@@ -7,7 +7,6 @@ from services.reddit import *
 from services.search import *
 from services.translate import *
 from services.utils import *
-from services.wolfram import *
 from services.youtube import *
 from services.pixiv import *
 
@@ -53,7 +52,6 @@ biblioReads(mightyList)
 suds(mightyList)
 poke(mightyList)
 gothub(mightyList)
-wolfreeAlpha(mightyList)
 jitsi(mightyList)
 tent(mightyList)
 laboratory(mightyList)
