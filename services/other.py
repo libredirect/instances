@@ -316,39 +316,18 @@ def nitter(mightyList):
 
 def shitter(mightyList):
     frontend = 'shitter'
-    try:
-        r = requests.get(
-            'https://codeberg.org/mv12star/shitter/wiki/raw/Instances.md')
-        _list = {}
-        md = MarkdownIt()
-        html_content = md.render(r.text)
-        soup = BeautifulSoup(html_content, 'html.parser')
-
-        _list['clearnet'] = []
-
-
-        for el in soup.find_all(['h1', 'h2', 'h3', 'li']):
-            if el.name in ['h1', 'h2', 'h3']:
-                capture = el.get_text(strip=True) in ("Working instances", "Active but rate limited")
-                continue
-
-            if capture and el.name == 'li':
-                text = el.get_text(" ", strip=True)
-                m = re.search(r'https?://\S+', text)
-                if m:
-                    _list['clearnet'].append(m.group(0))
-
-
-        _list['tor'] = []
-        _list['i2p'] = []
-        _list['loki'] = []
-
-        mightyList[frontend] = _list
-        print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + frontend)
-
-    except Exception:
-        fetchCache(frontend, mightyList)
-        logging.error(traceback.format_exc())
+    fetchJsonList(
+    'quetre',
+    'https://raw.codeberg.page/mv12star/shitter/@master/instances.json',
+    {
+        'clearnet': 'url',
+        'tor': 'tor',
+        'i2p': None,
+        'loki': None
+    },
+    False,
+    mightyList
+    )
 
 def send(mightyList):
     fetchRegexList(
