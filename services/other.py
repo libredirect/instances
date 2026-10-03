@@ -317,8 +317,8 @@ def nitter(mightyList):
 def shitter(mightyList):
     frontend = 'shitter'
     fetchJsonList(
-    'quetre',
-    'https://raw.codeberg.page/mv12star/shitter/@master/instances.json',
+    'shitter',
+    'https://codeberg.org/mv12star/shitter/raw/branch/master/instances.json',
     {
         'clearnet': 'url',
         'tor': 'tor',
