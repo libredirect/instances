@@ -3,16 +3,16 @@
 ## How to run
 
 ```bash
-# create a virtual environment
+# Create a virtual environment
 python3 -m venv venv
 
-# activate the virtual environment
+# Activate the virtual environment
 source venv/bin/activate
 
-# install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# to get instances list run this command
+# To get instances list run this command
 python3 main.py
 ```
 

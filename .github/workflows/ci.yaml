@@ -11,39 +11,36 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: Checkout repo
         uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
-          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v7.0.0
         with:
           python-version: '3.14'
+          cache: 'pip'
 
       - name: Install dependencies
-        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Run
+      - name: Fetch
         run: python main.py
 
-      - name: Setup Git
+      - name: Commit + Push
         run: |
-          git config --local user.email "action@github.com" 
-          git config --local user.name "GitHub Action"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -am "Update instances" || true
-
-      - name: Push
-        uses: ad-m/github-push-action@v1.3.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          if ! git diff --staged --quiet; then
+            git commit -m "ci: update instances"
+            git push origin HEAD:main
+          fi
 
       - name: Mirror to Codeberg
-        shell: bash
+        if: success()
         env:
           CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
-        run: git push https://manerakai:$CODEBERG_TOKEN@codeberg.org/LibRedirect/instances
+        run: git push https://manerakai:${CODEBERG_TOKEN}@codeberg.org/LibRedirect/instances.git HEAD:main
