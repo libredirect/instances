@@ -189,7 +189,9 @@
     "clearnet": [
       "https://safereddit.com",
       "https://redlib.catsarch.com",
+      "https://redlib.nohost.network",
       "https://redlib.r4fo.com",
+      "https://red.artemislena.eu",
       "https://redlib.cow.rip",
       "https://redlib.privacyredirect.com",
       "https://redlib.nadeko.net",
@@ -500,18 +502,19 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.encrypt.co.il",
-      "https://bonus01.hwb0307.com",
-      "https://0bin.ch",
+      "https://paste.coalserver.de",
+      "https://privatebin.oxidizer.de",
+      "https://enjoys.rocks",
       "https://privatebin.wildberries.ru",
       "https://privatebin.cc",
-      "https://paste.coalserver.de",
-      "https://paste.plus",
-      "https://privatebin.net",
       "https://paste.ononoki.org",
+      "https://anonpaste.org",
+      "https://privatebin.net",
       "https://encryp.ch/note",
       "https://paste.skynetcloud.site",
-      "https://privatebin.oxidizer.de"
+      "https://0bin.ch",
+      "https://secret.timeweb.ru",
+      "https://bonus01.hwb0307.com"
     ],
     "tor": [],
     "i2p": [],
