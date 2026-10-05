@@ -144,7 +144,7 @@ def dumb(mightyList):
 
 def suds(mightyList):
     fetchJsonList(
-        'suds', 'https://git.vern.cc/cobra/Suds/raw/branch/main/instances.json',
+        'suds', 'https://codeberg.org/cobra/Suds/raw/branch/main/instances.json',
         {
             'clearnet': 'clearnet',
             'tor': 'tor',
