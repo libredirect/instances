@@ -93,6 +93,15 @@ def pipedMaterial(mightyList):
     )
 
 
+def viewtube(mightyList):
+    fetchRegexList(
+        'viewtube',
+        'https://raw.githubusercontent.com/ViewTube/wiki/refs/heads/main/content/1.about/1.instances.md',
+        r"(?m)^\|.*?\]\((https?://[^)]+)\)",
+        mightyList
+    )
+
+
 def poke(mightyList):
     frontend = 'poke'
     try:
