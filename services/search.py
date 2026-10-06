@@ -54,3 +54,18 @@ def whoogle(mightyList):
         r"\| \[https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+\]\((https?:\/{2}(?:[^\s\/]+\.)*(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\) \| ",
         mightyList
     )
+
+
+def degoog(mightyList):
+    fetchJsonList(
+        'degoog',
+        'https://raw.githubusercontent.com/degoog-org/degoog/main/instances.json',
+        {
+            'clearnet': 'clearnet',
+            'tor': 'tor',
+            'i2p': 'i2p',
+            'loki': None
+        },
+        True,
+        mightyList
+    )
