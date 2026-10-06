@@ -503,18 +503,21 @@
   "privateBin": {
     "clearnet": [
       "https://paste.coalserver.de",
-      "https://privatebin.oxidizer.de",
-      "https://enjoys.rocks",
-      "https://privatebin.wildberries.ru",
+      "https://privatebin.unige.ch",
+      "https://paste.07f.de",
       "https://privatebin.cc",
-      "https://paste.ononoki.org",
-      "https://anonpaste.org",
       "https://privatebin.net",
-      "https://encryp.ch/note",
+      "https://privatebin.oxidizer.de",
+      "https://lukisko.eu/privbin",
       "https://paste.skynetcloud.site",
+      "https://pb.fbin.in",
+      "https://encryp.ch/note",
+      "https://bonus01.hwb0307.com",
+      "https://enjoys.rocks",
+      "https://anonpaste.org",
       "https://0bin.ch",
       "https://secret.timeweb.ru",
-      "https://bonus01.hwb0307.com"
+      "https://paste.ononoki.org"
     ],
     "tor": [],
     "i2p": [],
