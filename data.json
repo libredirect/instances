@@ -45,6 +45,15 @@
     "i2p": [],
     "loki": []
   },
+  "viewtube": {
+    "clearnet": [
+      "https://viewtube.io",
+      "https://vt.ra-phi.ch"
+    ],
+    "tor": [],
+    "i2p": [],
+    "loki": []
+  },
   "cloudtube": {
     "clearnet": [
       "https://tube.cadence.moe",
@@ -356,6 +365,17 @@
     "i2p": [],
     "loki": []
   },
+  "degoog": {
+    "clearnet": [
+      "https://degoog.org",
+      "https://mirnir.com",
+      "https://nepnir.com",
+      "https://degoog.ogservers.org"
+    ],
+    "tor": [],
+    "i2p": [],
+    "loki": []
+  },
   "rimgo": {
     "clearnet": [
       "https://ri.bcow.xyz",
@@ -501,19 +521,20 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.coalserver.de",
-      "https://anonpaste.org",
-      "https://secret.timeweb.ru",
-      "https://lukisko.eu/privbin",
-      "https://paste.skynetcloud.site",
-      "https://bonus01.hwb0307.com",
-      "https://paste.ononoki.org",
-      "https://privatebin.cc",
       "https://privatebin.oxidizer.de",
-      "https://pb.fbin.in",
-      "https://encryp.ch/note",
+      "https://anonpaste.org",
+      "https://privatebin.cc",
+      "https://bonus01.hwb0307.com",
+      "https://paste.coalserver.de",
+      "https://privatebin.wildberries.ru",
+      "https://secret.timeweb.ru",
+      "https://privatebin.net",
       "https://0bin.ch",
-      "https://privatebin.net"
+      "https://lukisko.eu/privbin",
+      "https://encryp.ch/note",
+      "https://paste.skynetcloud.site",
+      "https://paste.ononoki.org",
+      "https://pb.fbin.in"
     ],
     "tor": [],
     "i2p": [],
