@@ -1,5 +1,6 @@
 *                text=auto eol=lf
 *.json           linguist-detectable
 .git*            linguist-language=Shell
+blacklist.json   linguist-generated
 data.json        linguist-generated
 requirements.txt linguist-detectable
