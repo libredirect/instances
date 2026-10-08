@@ -17,28 +17,33 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
+
       - name: Setup Python
         uses: actions/setup-python@v7.0.0
         with:
           python-version: '3.14'
+
       - name: Install dependencies
         run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
       - name: Run
         run: python main.py
+
       - name: Setup Git
         run: |
           git config --local user.email "action@github.com" 
           git config --local user.name "GitHub Action"
           git add -A
           git commit -am "Update instances" || true
+
       - name: Push
         uses: ad-m/github-push-action@v1.3.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+
       - name: Mirror to Codeberg
         shell: bash
         env:
           CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
-        run: |
-          git push https://manerakai:$CODEBERG_TOKEN@codeberg.org/LibRedirect/instances
+        run: git push https://manerakai:$CODEBERG_TOKEN@codeberg.org/LibRedirect/instances
