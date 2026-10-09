@@ -28,7 +28,6 @@
   "piped": {
     "clearnet": [
       "https://adminforge.de",
-      "https://piped.ducks.party",
       "https://piped.private.coffee"
     ],
     "tor": [],
@@ -521,20 +520,23 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.oxidizer.de",
-      "https://anonpaste.org",
-      "https://privatebin.cc",
-      "https://bonus01.hwb0307.com",
-      "https://paste.coalserver.de",
       "https://privatebin.wildberries.ru",
-      "https://secret.timeweb.ru",
       "https://privatebin.net",
-      "https://0bin.ch",
-      "https://lukisko.eu/privbin",
-      "https://encryp.ch/note",
+      "https://pb.fbin.in",
+      "https://paste.cracktek.eu",
       "https://paste.skynetcloud.site",
+      "https://anonpaste.org",
+      "https://paste.coalserver.de",
+      "https://0bin.ch",
+      "https://paste.07f.de",
+      "https://paste.helkor.eu",
+      "https://lukisko.eu/privbin",
+      "https://bonus01.hwb0307.com",
       "https://paste.ononoki.org",
-      "https://pb.fbin.in"
+      "https://privatebin.oxidizer.de",
+      "https://encryp.ch/note",
+      "https://secret.timeweb.ru",
+      "https://privatebin.cc"
     ],
     "tor": [],
     "i2p": [],
