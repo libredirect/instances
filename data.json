@@ -370,6 +370,7 @@
       "https://degoog.utilibre.org",
       "https://degoog.org",
       "https://mirnir.com",
+      "https://search.drescher.network",
       "https://nepnir.com",
       "https://degoog.ogservers.org"
     ],
@@ -520,25 +521,37 @@
     "i2p": [],
     "loki": []
   },
+  "painterest": {
+    "clearnet": [
+      "https://pain.thirtysix.pw",
+      "https://pt.bloat.cat",
+      "https://pin.dc09.ru",
+      "https://painterest.franklyflawless.org"
+    ],
+    "tor": [],
+    "i2p": [],
+    "loki": []
+  },
   "privateBin": {
     "clearnet": [
-      "https://bonus01.hwb0307.com",
-      "https://privatebin.cc",
-      "https://privatebin.wildberries.ru",
-      "https://anonpaste.org",
-      "https://paste.cracktek.eu",
-      "https://privatebin.net",
-      "https://secret.timeweb.ru",
-      "https://lukisko.eu/privbin",
-      "https://pb.fbin.in",
-      "https://paste.skynetcloud.site",
       "https://encryp.ch/note",
-      "https://enjoys.rocks",
+      "https://paste.skynetcloud.site",
+      "https://bonus01.hwb0307.com",
+      "https://anonpaste.org",
+      "https://privatebin.cc",
+      "https://pb.fbin.in",
+      "https://paste.ononoki.org",
+      "https://paste.cracktek.eu",
+      "https://paste.plus",
+      "https://secret.timeweb.ru",
       "https://0bin.ch",
+      "https://privatebin.unige.ch",
+      "https://privatebin.net",
+      "https://enjoys.rocks",
+      "https://lukisko.eu/privbin",
       "https://privatebin.oxidizer.de",
       "https://paste.coalserver.de",
-      "https://privatebin.unige.ch",
-      "https://paste.ononoki.org"
+      "https://privatebin.wildberries.ru"
     ],
     "tor": [],
     "i2p": [],
@@ -698,7 +711,8 @@
       "https://reads.nezumi.party",
       "https://br.bloat.cat",
       "https://biblioreads.canine.tools",
-      "https://biblioreads.franklyflawless.org"
+      "https://biblioreads.franklyflawless.org",
+      "https://biblioreads.utilibre.org"
     ],
     "tor": [
       "http://bl.vernccvbvyi5qhfzyqengccj7lkove6bjot2xhh5kajhwvidqafczrad.onion"
