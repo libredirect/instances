@@ -127,6 +127,21 @@ def binternet(mightyList):
     )
 
 
+def painterest(mightyList):
+    fetchJsonList(
+        'painterest',
+        'https://codeberg.org/thirtysix/painterest/raw/branch/main/instances.json',
+        {
+            'clearnet': 'clearnet',
+            'tor': 'tor',
+            'i2p': 'i2p',
+            'loki': None
+        },
+        False,
+        mightyList
+    )
+
+
 def dumb(mightyList):
     fetchJsonList(
         'dumb',
