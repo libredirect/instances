@@ -203,7 +203,6 @@
       "https://redlib.cow.rip",
       "https://redlib.privacyredirect.com",
       "https://redlib.nadeko.net",
-      "https://redlib.reallyaweso.me",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -535,21 +534,19 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://anonpaste.org",
       "https://privatebin.net",
-      "https://paste.coalserver.de",
-      "https://paste.ononoki.org",
       "https://0bin.ch",
-      "https://encryp.ch/note",
-      "https://bonus01.hwb0307.com",
-      "https://enjoys.rocks",
+      "https://privatebin.unige.ch",
       "https://pb.fbin.in",
+      "https://paste.coalserver.de",
+      "https://enjoys.rocks",
+      "https://anonpaste.org",
+      "https://paste.ononoki.org",
       "https://privatebin.wildberries.ru",
-      "https://paste.skynetcloud.site",
+      "https://paste.utilibre.org",
       "https://privatebin.cc",
       "https://secret.timeweb.ru",
-      "https://paste.cracktek.eu",
-      "https://lukisko.eu/privbin"
+      "https://bonus01.hwb0307.com"
     ],
     "tor": [],
     "i2p": [],
@@ -867,7 +864,8 @@
       "https://tl.bloat.cat",
       "https://tl.dc09.xyz",
       "https://tl.maid.zone",
-      "http://t.opnxng.com"
+      "http://t.opnxng.com",
+      "https://translate.utilibre.org"
     ],
     "tor": [],
     "i2p": [],
