@@ -93,7 +93,8 @@
       "https://kg.lus.lu",
       "https://kg.meowing.de",
       "https://kittygram.nadeko.net",
-      "https://kittygram.pussthecat.org"
+      "https://kittygram.pussthecat.org",
+      "https://gram.utilibre.org"
     ],
     "tor": [
       "http://instab6cpzrbczpkrvjj3gutly5qx3o2xzpyhlmtwthtzjmjw4tppvad.onion",
@@ -170,10 +171,13 @@
   "shitter": {
     "clearnet": [
       "https://shitter.thepixora.com",
+      "https://nitter.pp.ua",
       "https://nitter.miningtcup.me",
       "https://nitter.meowing.monster",
       "https://nitter.netbub.com",
       "https://shi.meowing.de",
+      "https://nitter.tiekoetter.com",
+      "https://xnologin.com",
       "https://nitter.jaydenha.uk",
       "https://nitter.click",
       "https://nitter.xitter.cc",
@@ -203,6 +207,7 @@
       "https://redlib.cow.rip",
       "https://redlib.privacyredirect.com",
       "https://redlib.nadeko.net",
+      "https://redlib.reallyaweso.me",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -534,17 +539,22 @@
   },
   "privateBin": {
     "clearnet": [
+      "https://pb.fbin.in",
       "https://privatebin.net",
-      "https://paste.coalserver.de",
+      "https://paste.utilibre.org",
+      "https://enjoys.rocks",
+      "https://encryp.ch/note",
+      "https://anonpaste.org",
+      "https://paste.cracktek.eu",
       "https://privatebin.unige.ch",
+      "https://paste.coalserver.de",
+      "https://lukisko.eu/privbin",
+      "https://secret.timeweb.ru",
       "https://privatebin.cc",
       "https://bonus01.hwb0307.com",
       "https://0bin.ch",
-      "https://secret.timeweb.ru",
-      "https://anonpaste.org",
-      "https://paste.skynetcloud.site",
-      "https://paste.07f.de",
-      "https://encryp.ch/note"
+      "https://paste.ononoki.org",
+      "https://paste.helkor.eu"
     ],
     "tor": [],
     "i2p": [],
