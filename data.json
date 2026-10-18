@@ -203,11 +203,8 @@
       "https://safereddit.com",
       "https://redlib.catsarch.com",
       "https://redlib.r4fo.com",
-      "https://red.artemislena.eu",
-      "https://redlib.cow.rip",
       "https://redlib.privacyredirect.com",
       "https://redlib.nadeko.net",
-      "https://redlib.reallyaweso.me",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -539,20 +536,20 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://anonpaste.org",
-      "https://encryp.ch/note",
       "https://0bin.ch",
-      "https://enjoys.rocks",
-      "https://paste.ononoki.org",
-      "https://privatebin.unige.ch",
+      "https://anonpaste.org",
       "https://paste.utilibre.org",
-      "https://secret.timeweb.ru",
-      "https://bonus01.hwb0307.com",
-      "https://privatebin.net",
+      "https://privatebin.wildberries.ru",
+      "https://enjoys.rocks",
+      "https://privatebin.oxidizer.de",
+      "https://paste.skynetcloud.site",
       "https://paste.coalserver.de",
-      "https://privatebin.cc",
-      "https://pb.fbin.in",
-      "https://privatebin.wildberries.ru"
+      "https://encryp.ch/note",
+      "https://secret.timeweb.ru",
+      "https://privatebin.unige.ch",
+      "https://paste.ononoki.org",
+      "https://paste.07f.de",
+      "https://privatebin.net"
     ],
     "tor": [],
     "i2p": [],
