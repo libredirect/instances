@@ -3,9 +3,9 @@
     "clearnet": [
       "https://inv.nadeko.net",
       "https://invidious.nerdvpn.de",
-      "https://invidious.f5.si",
       "https://yt.chocolatemoo53.com",
       "https://invidious.tiekoetter.com",
+      "https://invidious.f5.si",
       "https://inv-ygg.nadeko.net",
       "https://inv.nadeko.ygg"
     ],
@@ -172,12 +172,13 @@
     "clearnet": [
       "https://shitter.thepixora.com",
       "https://nitter.pp.ua",
-      "https://nitter.miningtcup.me",
       "https://nitter.meowing.monster",
       "https://nitter.netbub.com",
       "https://shi.meowing.de",
       "https://nitter.tiekoetter.com",
       "https://xnologin.com",
+      "https://nitter.mie.foundation",
+      "https://nitter.miningtcup.me",
       "https://nitter.jaydenha.uk",
       "https://nitter.click",
       "https://nitter.xitter.cc",
@@ -191,8 +192,8 @@
       "https://twiiit.com"
     ],
     "tor": [
-      "http://nitter.dog5267ah4m4f4677r33b2pzq667lwhsqupojioqz4rg6e2q74p3xtyd.onion",
       "http://nitter.lesboswza6waq3itqo46rvf5a7dibxih32f2umwg6fpssxj66spmclyd.onion",
+      "http://nitter.dog5267ah4m4f4677r33b2pzq667lwhsqupojioqz4rg6e2q74p3xtyd.onion",
       "http://dhgjnhkxtgesvcddfwzqm4d4zmyz2x2jud6huweu5iywuvoo7qaqpjid.onion"
     ],
     "i2p": [],
@@ -203,6 +204,7 @@
       "https://safereddit.com",
       "https://redlib.catsarch.com",
       "https://redlib.r4fo.com",
+      "https://red.artemislena.eu",
       "https://redlib.privacyredirect.com",
       "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
@@ -536,19 +538,20 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.wildberries.ru",
+      "https://privatebin.net",
+      "https://privatebin.unige.ch",
       "https://secret.timeweb.ru",
-      "https://paste.ononoki.org",
-      "https://anonpaste.org",
       "https://0bin.ch",
       "https://bonus01.hwb0307.com",
-      "https://enjoys.rocks",
-      "https://privatebin.cc",
-      "https://privatebin.unige.ch",
-      "https://paste.coalserver.de",
+      "https://paste.skynetcloud.site",
       "https://paste.utilibre.org",
-      "https://privatebin.net",
-      "https://encryp.ch/note"
+      "https://pb.fbin.in",
+      "https://enjoys.rocks",
+      "https://paste.ononoki.org",
+      "https://privatebin.wildberries.ru",
+      "https://encryp.ch/note",
+      "https://anonpaste.org",
+      "https://privatebin.oxidizer.de"
     ],
     "tor": [],
     "i2p": [],
