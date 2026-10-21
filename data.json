@@ -3,9 +3,9 @@
     "clearnet": [
       "https://inv.nadeko.net",
       "https://invidious.nerdvpn.de",
+      "https://invidious.f5.si",
       "https://yt.chocolatemoo53.com",
       "https://invidious.tiekoetter.com",
-      "https://invidious.f5.si",
       "https://inv-ygg.nadeko.net",
       "https://inv.nadeko.ygg"
     ],
@@ -538,20 +538,16 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.net",
       "https://privatebin.unige.ch",
-      "https://secret.timeweb.ru",
       "https://0bin.ch",
-      "https://bonus01.hwb0307.com",
-      "https://paste.skynetcloud.site",
-      "https://paste.utilibre.org",
+      "https://privatebin.net",
+      "https://privatebin.cc",
       "https://pb.fbin.in",
-      "https://enjoys.rocks",
-      "https://paste.ononoki.org",
-      "https://privatebin.wildberries.ru",
+      "https://secret.timeweb.ru",
+      "https://paste.coalserver.de",
       "https://encryp.ch/note",
-      "https://anonpaste.org",
-      "https://privatebin.oxidizer.de"
+      "https://secure.4it.com.au",
+      "https://enjoys.rocks"
     ],
     "tor": [],
     "i2p": [],
