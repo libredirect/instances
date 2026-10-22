@@ -204,7 +204,7 @@
       "https://safereddit.com",
       "https://redlib.catsarch.com",
       "https://redlib.r4fo.com",
-      "https://red.artemislena.eu",
+      "https://redlib.cow.rip",
       "https://redlib.privacyredirect.com",
       "https://redlib.nadeko.net",
       "https://redlib.privadency.com"
@@ -517,10 +517,12 @@
       "https://binternet.ducks.party",
       "https://binternet.4o1x5.dev",
       "https://binternet.canine.tools",
-      "https://binternet.privadency.com"
+      "https://binternet.privadency.com",
+      "https://binternet.utilibre.org"
     ],
     "tor": [
-      "http://binternet.nadeko24jhlqccyfnmvynwkojcfzmub53m74y5b7l5e6hn55jlml4pqd.onion"
+      "http://binternet.nadeko24jhlqccyfnmvynwkojcfzmub53m74y5b7l5e6hn55jlml4pqd.onion",
+      "http://ued2jl2ahvngdegugysin2fa6malo6omyf33j5tpfgex47erv453wbad.onion"
     ],
     "i2p": [],
     "loki": []
@@ -538,16 +540,13 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.unige.ch",
+      "https://enjoys.rocks",
+      "https://paste.skynetcloud.site",
       "https://0bin.ch",
-      "https://privatebin.net",
+      "https://bonus01.hwb0307.com",
+      "https://paste.ononoki.org",
       "https://privatebin.cc",
-      "https://pb.fbin.in",
-      "https://secret.timeweb.ru",
-      "https://paste.coalserver.de",
-      "https://encryp.ch/note",
-      "https://secure.4it.com.au",
-      "https://enjoys.rocks"
+      "https://paste.utilibre.org"
     ],
     "tor": [],
     "i2p": [],
