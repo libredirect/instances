@@ -540,13 +540,17 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://enjoys.rocks",
-      "https://paste.skynetcloud.site",
-      "https://0bin.ch",
+      "https://anonpaste.org",
+      "https://privatebin.cc",
+      "https://privatebin.net",
+      "https://p.bittenbyt.es",
+      "https://encryp.ch/note",
       "https://bonus01.hwb0307.com",
       "https://paste.ononoki.org",
-      "https://privatebin.cc",
-      "https://paste.utilibre.org"
+      "https://privatebin.lol",
+      "https://0bin.ch",
+      "https://paste.skynetcloud.site",
+      "https://enjoys.rocks"
     ],
     "tor": [],
     "i2p": [],
