@@ -464,7 +464,7 @@ def phantom(mightyList):
 def mezzo(mightyList):
     fetchJsonList(
         'mezzo',
-        'https://gitfield.org/fsky/mezzo-instances/raw/branch/main/instances.json',
+        'https://gitfield.org/api/v1/repos/fsky/mezzo-instances/raw/instances.json',
         {
             'clearnet': 'clearnet',
             'tor': 'tor',
