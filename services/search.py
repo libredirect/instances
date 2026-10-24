@@ -69,3 +69,18 @@ def degoog(mightyList):
         True,
         mightyList
     )
+
+
+def librey(mightyList):
+    fetchJsonList(
+        'librey',
+        'https://raw.githubusercontent.com/Ahwxorg/librey/main/instances.json',
+        {
+            'clearnet': 'clearnet',
+            'tor': 'tor',
+            'i2p': 'i2p',
+            'loki': None
+        },
+        True,
+        mightyList
+    )
