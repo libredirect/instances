@@ -74,6 +74,7 @@ frontend4get(mightyList)
 wikimore(mightyList)
 freetar(mightyList)
 intellectual(mightyList)
+structables(mightyList)
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)

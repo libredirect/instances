@@ -514,3 +514,12 @@ def intellectual(mightyList):
         False,
         mightyList
     )
+
+def structables(mightyList):
+    fetchJsonList(
+        'structables',
+        'https://raw.githubusercontent.com/PrivateCoffee/structables/main/instances.json',
+        'url',
+        False,
+        mightyList
+    )
