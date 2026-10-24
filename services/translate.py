@@ -4,8 +4,8 @@ from .utils import fetchJsonList, fetchRegexList
 def libreTranslate(mightyList):
     fetchRegexList(
         'libreTranslate',
-        'https://raw.githubusercontent.com/LibreTranslate/LibreTranslate/main/README.md',
-        r"\[(?:[^\s\/]+\.)+[a-zA-Z0-9]+\]\((https?:\/{2}(?:[^\s\/]+\.)+[a-zA-Z0-9]+)\/?\)\|",
+        'https://raw.githubusercontent.com/LibreTranslate/Documentation/main/src/content/docs/community/mirrors.md',
+        r"(?m)^\| \[[^\]]+\]\((https?://[^)]+)\)",
         mightyList
     )
 
