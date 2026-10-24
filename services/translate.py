@@ -1,16 +1,6 @@
 from .utils import fetchJsonList, fetchRegexList
 
 
-def linvgatranslate(mightyList):
-    fetchJsonList(
-        'lingva',
-        'https://raw.githubusercontent.com/TheDavidDelta/lingva-translate/main/instances.json',
-        None,
-        False,
-        mightyList
-    )
-
-
 def libreTranslate(mightyList):
     fetchRegexList(
         'libreTranslate',
