@@ -34,15 +34,6 @@ def ruralDictionary(mightyList):
     )
 
 
-def laboratory(mightyList):
-    fetchRegexList(
-        'laboratory',
-        'https://git.vitali64.duckdns.org/utils/laboratory.git/plain/README.md',
-        r"\| (https:\/{2}.*?) \|",
-        mightyList
-    )
-
-
 def gothub(mightyList):
     fetchJsonList(
         'gothub',
