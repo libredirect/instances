@@ -1,52 +1,62 @@
 import pandas
 import re
 import requests
-from .utils import fetchRegexList
+from .utils import fetchRegexList, fetchCache
+import logging
+import traceback
 
 def pixivFe(mightyList):
-    df = pandas.read_csv(
-        'https://gitlab.com/pixivfe/pixivfe-docs/-/raw/master/data/instances.csv?ref_type=heads')
+    try:
+        df = pandas.read_csv(
+            'https://gitlab.com/pixivfe/pixivfe-docs/-/raw/master/data/instances.csv?ref_type=heads')
 
-    clearnet = []
-    for value in df['URL']:
-        r = re.findall(r"\((.*?)\)", value)
-        if r:
-            clearnet.append(r[0])
+        clearnet = []
+        for value in df['URL']:
+            r = re.findall(r"\((.*?)\)", value)
+            if r:
+                clearnet.append(r[0])
 
-    mightyList['pixivFe'] = {
-        "clearnet": clearnet,
-        "tor": [],
-        "i2p": [],
-        "loki": []
-    }
+        mightyList['pixivFe'] = {
+            "clearnet": clearnet,
+            "tor": [],
+            "i2p": [],
+            "loki": []
+        }
+    except Exception:
+        fetchCache('pixivFe', mightyList)
+        logging.error(traceback.format_exc())
 
 def vixipy(mightyList):
-    res = requests.get(
-        "https://maid.zone/vixipy/instances.json",
-        # set user agent for transparency sake
-        headers={
-            "User-Agent": "https://codeberg.org/libredirect/instances"
+    try:
+        res = requests.get(
+            "https://maid.zone/vixipy/instances.json",
+            # set user agent for transparency sake
+            headers={
+                "User-Agent": "https://codeberg.org/libredirect/instances"
+            }
+        ).json()
+
+        tor = []
+        i2p = []
+        clearnet = []
+
+        for i in res:
+            if i["URL"] != "":
+                clearnet.append(i["URL"])
+            if i["I2P"] != "":
+                i2p.append(i["I2P"])
+            if i["Onion"] != "":
+                tor.append(i["Onion"])
+
+        mightyList['vixipy'] = {
+            "clearnet": clearnet,
+            "tor": tor,
+            "i2p": i2p,
+            "loki": []
         }
-    ).json()
-
-    tor = []
-    i2p = []
-    clearnet = []
-
-    for i in res:
-        if i["URL"] != "":
-            clearnet.append(i["URL"])
-        if i["I2P"] != "":
-            i2p.append(i["I2P"])
-        if i["Onion"] != "":
-            tor.append(i["Onion"])
-    
-    mightyList['vixipy'] = {
-        "clearnet": clearnet,
-        "tor": tor,
-        "i2p": i2p,
-        "loki": []
-    }
+    except Exception:
+        fetchCache('vixipy', mightyList)
+        logging.error(traceback.format_exc())
 
 def litexiv(mightyList):
     fetchRegexList(
