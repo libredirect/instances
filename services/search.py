@@ -5,7 +5,6 @@ import re
 from .utils import torRegex, i2pRegex, fetchRegexList, fetchJsonList, fetchCache
 import logging
 import traceback
-import yaml
 
 
 def searxng(mightyList):
@@ -32,25 +31,6 @@ def searxng(mightyList):
     except Exception:
         fetchCache('searxng', mightyList)
         logging.error(traceback.format_exc())
-
-
-def searx(mightyList):
-    searxList = {}
-    searxList['clearnet'] = []
-    searxList['tor'] = []
-    searxList['i2p'] = []
-    searxList['loki'] = []
-    r = requests.get(
-        'https://raw.githubusercontent.com/searx/searx-instances/master/searxinstances/instances.yml')
-    data = yaml.safe_load(r.text)
-    for key in data:
-        searxList['clearnet'].append(key)
-        if 'additional_urls' in data[key]:
-            for additional_url in data[key]['additional_urls']:
-                if data[key]['additional_urls'][additional_url] == "Hidden Service":
-                    searxList['tor'].append(additional_url)
-    mightyList['searx'] = searxList
-    print(Fore.GREEN + 'Fetched ' + Style.RESET_ALL + 'SearX')
 
 
 def whoogle(mightyList):
