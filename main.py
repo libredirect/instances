@@ -73,6 +73,7 @@ booruview(mightyList)
 frontend4get(mightyList)
 wikimore(mightyList)
 freetar(mightyList)
+intellectual(mightyList)
 
 mightyList = filterLastSlash(mightyList)
 mightyList = idnaEncode(mightyList)

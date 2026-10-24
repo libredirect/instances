@@ -500,3 +500,17 @@ def freetar(mightyList):
         r"(?m)^- (https?://\S+)",
         mightyList
     )
+
+def intellectual(mightyList):
+    fetchJsonList(
+        'intellectual',
+        'https://raw.githubusercontent.com/Insprill/intellectual/master/instances.json',
+        {
+            'clearnet': 'clearnet',
+            'tor': 'tor',
+            'i2p': 'i2p',
+            'loki': None
+        },
+        False,
+        mightyList
+    )
