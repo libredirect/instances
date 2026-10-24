@@ -103,7 +103,7 @@ def viewtube(mightyList):
 
 
 def poke(mightyList):
-    frontend = 'poke'
+    frontend = 'poketube'
     try:
         r = requests.get(
             'https://codeberg.org/ashleyirispuppy/poke/raw/branch/main/instances.json')
