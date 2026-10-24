@@ -492,3 +492,11 @@ def wikimore(mightyList):
             False,
             mightyList
         )
+
+def freetar(mightyList):
+    fetchRegexList(
+        'freetar',
+        'https://raw.githubusercontent.com/kmille/freetar/main/README.md',
+        r"(?m)^- (https?://\S+)",
+        mightyList
+    )
