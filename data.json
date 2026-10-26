@@ -2,8 +2,8 @@
   "invidious": {
     "clearnet": [
       "https://inv.nadeko.net",
-      "https://yt.chocolatemoo53.com",
       "https://invidious.nerdvpn.de",
+      "https://yt.chocolatemoo53.com",
       "https://invidious.tiekoetter.com",
       "https://inv-ygg.nadeko.net",
       "https://inv.nadeko.ygg"
@@ -202,13 +202,11 @@
     "clearnet": [
       "https://safereddit.com",
       "https://redlib.catsarch.com",
-      "https://redlib.r4fo.com",
       "https://redlib.ducks.party",
       "https://red.artemislena.eu",
       "https://redlib.cow.rip",
-      "https://redlib.privacyredirect.com",
-      "https://redlib.nadeko.net",
       "https://redlib.reallyaweso.me",
+      "https://reddit.rtrace.io",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -378,7 +376,8 @@
       "https://mirnir.com",
       "https://search.drescher.network",
       "https://nepnir.com",
-      "https://degoog.ogservers.org"
+      "https://degoog.ogservers.org",
+      "https://search.coffeelover.uk"
     ],
     "tor": [],
     "i2p": [],
@@ -542,20 +541,21 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://p.bittenbyt.es",
-      "https://0bin.ch",
-      "https://bonus01.hwb0307.com",
-      "https://paste.utilibre.org",
-      "https://privatebin.unige.ch",
-      "https://enjoys.rocks",
-      "https://paste.coalserver.de",
-      "https://lukisko.eu/privbin",
-      "https://privatebin.net",
-      "https://privatebin.lol",
-      "https://encryp.ch/note",
+      "https://paste.loryy.dev",
       "https://privatebin.cc",
+      "https://lukisko.eu/privbin",
+      "https://paste.webevolutions.ch",
+      "https://bonus01.hwb0307.com",
+      "https://anonpaste.org",
+      "https://paste.helkor.eu",
+      "https://paste.ononoki.org",
+      "https://paste.coalserver.de",
+      "https://encryp.ch/note",
       "https://paste.skynetcloud.site",
-      "https://paste.webevolutions.ch"
+      "https://enjoys.rocks",
+      "https://paste.utilibre.org",
+      "https://privatebin.net",
+      "https://0bin.ch"
     ],
     "tor": [],
     "i2p": [],
