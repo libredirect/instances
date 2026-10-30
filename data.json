@@ -201,10 +201,6 @@
   },
   "redlib": {
     "clearnet": [
-      "https://safereddit.com",
-      "https://redlib.catsarch.com",
-      "https://redlib.cow.rip",
-      "https://reddit.rtrace.io",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -539,25 +535,26 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://bonus01.hwb0307.com",
+      "https://paste.utilibre.org",
+      "https://privatebin.unige.ch",
+      "https://enjoys.rocks",
       "https://paste.webevolutions.ch\\",
+      "https://paste.ononoki.org",
+      "https://encryp.ch/note",
+      "https://privatebin.cc",
+      "https://privatebin.lol",
+      "https://anonpaste.org",
+      "https://privatebin.net",
+      "https://0bin.ch",
+      "https://paste.skynetcloud.site",
+      "https://bonus01.hwb0307.com",
+      "https://paste.coalserver.de",
+      "https://privatebin.oxidizer.de",
       "https://p.bittenbyt.es",
       "https://lukisko.eu/privbin",
-      "https://privatebin.lol",
-      "https://paste.ononoki.org",
-      "https://0bin.ch",
-      "https://paste.loryy.dev",
-      "https://paste.plus",
-      "https://paste.utilibre.org",
-      "https://paste.webevolutions.ch",
-      "https://paste.coalserver.de",
-      "https://enjoys.rocks",
-      "https://privatebin.cc",
-      "https://privatebin.unige.ch",
+      "https://paste.helkor.eu",
       "https://paste.webevolutions.ch\\dwpa-replay-4045416",
-      "https://privatebin.net",
-      "https://privatebin.oxidizer.de",
-      "https://paste.skynetcloud.site"
+      "https://paste.webevolutions.ch"
     ],
     "tor": [],
     "i2p": [],
