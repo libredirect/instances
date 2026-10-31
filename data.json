@@ -535,26 +535,23 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.utilibre.org",
-      "https://privatebin.unige.ch",
-      "https://enjoys.rocks",
       "https://paste.webevolutions.ch\\",
-      "https://paste.ononoki.org",
-      "https://encryp.ch/note",
+      "https://paste.webevolutions.ch",
+      "https://paste.coalserver.de",
+      "https://privatebin.unige.ch",
+      "https://paste.webevolutions.ch\\dwpa-replay-4045416",
       "https://privatebin.cc",
+      "https://paste.utilibre.org",
+      "https://bonus01.hwb0307.com",
       "https://privatebin.lol",
-      "https://anonpaste.org",
+      "https://paste.skynetcloud.site",
+      "https://paste.ononoki.org",
+      "https://privatebin.oxidizer.de",
+      "https://secure.4it.com.au",
       "https://privatebin.net",
       "https://0bin.ch",
-      "https://paste.skynetcloud.site",
-      "https://bonus01.hwb0307.com",
-      "https://paste.coalserver.de",
-      "https://privatebin.oxidizer.de",
-      "https://p.bittenbyt.es",
-      "https://lukisko.eu/privbin",
-      "https://paste.helkor.eu",
-      "https://paste.webevolutions.ch\\dwpa-replay-4045416",
-      "https://paste.webevolutions.ch"
+      "https://anonpaste.org",
+      "https://p.bittenbyt.es"
     ],
     "tor": [],
     "i2p": [],
@@ -927,7 +924,8 @@
   "mezzo": {
     "clearnet": [
       "https://tenor.fsky.io",
-      "https://tenor.nadeko.net"
+      "https://tenor.nadeko.net",
+      "https://mezzo.libre.tw"
     ],
     "tor": [
       "http://tenorxfrvzsgjde6k3f64jen7fqr5mouk7qr7c3tptab5b5ohnwpniyd.onion"
