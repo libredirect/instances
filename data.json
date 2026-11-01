@@ -201,6 +201,7 @@
   },
   "redlib": {
     "clearnet": [
+      "https://redlib.cow.rip",
       "https://redlib.privadency.com"
     ],
     "tor": [
@@ -535,23 +536,27 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.webevolutions.ch\\",
-      "https://paste.webevolutions.ch",
-      "https://paste.coalserver.de",
-      "https://privatebin.unige.ch",
-      "https://paste.webevolutions.ch\\dwpa-replay-4045416",
-      "https://privatebin.cc",
-      "https://paste.utilibre.org",
-      "https://bonus01.hwb0307.com",
-      "https://privatebin.lol",
-      "https://paste.skynetcloud.site",
-      "https://paste.ononoki.org",
-      "https://privatebin.oxidizer.de",
-      "https://secure.4it.com.au",
-      "https://privatebin.net",
+      "https://enjoys.rocks",
       "https://0bin.ch",
-      "https://anonpaste.org",
-      "https://p.bittenbyt.es"
+      "https://privatebin.wildberries.ru",
+      "https://privatebin.lol",
+      "https://encryp.ch/note",
+      "https://paste.webevolutions.ch\\dwpa-replay-4045416",
+      "https://lukisko.eu/privbin",
+      "https://paste.skynetcloud.site",
+      "https://privatebin.cc",
+      "https://bonus01.hwb0307.com",
+      "https://p.bittenbyt.es",
+      "https://paste.helkor.eu",
+      "https://paste.coalserver.de",
+      "https://paste.ononoki.org",
+      "https://paste.utilibre.org",
+      "https://paste.plus",
+      "https://paste.webevolutions.ch\\",
+      "https://privatebin.net",
+      "https://privatebin.oxidizer.de",
+      "https://paste.webevolutions.ch",
+      "https://anonpaste.org"
     ],
     "tor": [],
     "i2p": [],
