@@ -201,8 +201,7 @@
   },
   "redlib": {
     "clearnet": [
-      "https://redlib.cow.rip",
-      "https://redlib.privadency.com"
+      "https://redlib.cow.rip"
     ],
     "tor": [
       "http://red.lpoaj7z2zkajuhgnlltpeqh3zyq7wk2iyeggqaduhgxhyajtdt2j7wad.onion"
@@ -537,22 +536,19 @@
   "privateBin": {
     "clearnet": [
       "https://paste.ononoki.org",
-      "https://paste.webevolutions.ch\\dwpa-replay-4045416",
-      "https://0bin.ch",
-      "https://anonpaste.org",
-      "https://paste.webevolutions.ch\\",
-      "https://paste.utilibre.org",
+      "https://privatebin.oxidizer.de",
       "https://paste.coalserver.de",
-      "https://enjoys.rocks",
-      "https://privatebin.cc",
-      "https://p.bittenbyt.es",
       "https://bonus01.hwb0307.com",
-      "https://privatebin.unige.ch",
-      "https://encryp.ch/note",
+      "https://0bin.ch",
+      "https://privatebin.net",
+      "https://p.bittenbyt.es",
+      "https://privatebin.cc",
+      "https://paste.webevolutions.ch\\",
       "https://privatebin.lol",
+      "https://enjoys.rocks",
       "https://paste.webevolutions.ch",
-      "https://paste.skynetcloud.site",
-      "https://privatebin.net"
+      "https://paste.webevolutions.ch\\dwpa-replay-4045416",
+      "https://paste.skynetcloud.site"
     ],
     "tor": [],
     "i2p": [],
