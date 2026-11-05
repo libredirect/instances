@@ -1,14 +1,15 @@
+import io
 import pandas
 import re
-import requests
-from .utils import fetchRegexList, fetchCache
+from .utils import fetchRegexList, fetchCache, get
 import logging
 import traceback
 
 def pixivFe(mightyList):
     try:
-        df = pandas.read_csv(
+        res = get(
             'https://gitlab.com/pixivfe/pixivfe-docs/-/raw/master/data/instances.csv?ref_type=heads')
+        df = pandas.read_csv(io.StringIO(res.text))
 
         clearnet = []
         for value in df['URL']:
@@ -28,7 +29,7 @@ def pixivFe(mightyList):
 
 def vixipy(mightyList):
     try:
-        res = requests.get(
+        res = get(
             "https://maid.zone/vixipy/instances.json",
             # set user agent for transparency sake
             headers={

@@ -1,6 +1,5 @@
-import requests
 import json
-from .utils import fetchJsonList, fetchRegexList, fetchCache
+from .utils import fetchJsonList, fetchRegexList, fetchCache, get
 from colorama import Fore, Style
 import logging
 import traceback
@@ -187,7 +186,7 @@ def proxigram(mightyList):
 
 def rimgo(mightyList):
     try:
-        r = requests.get('https://rimgo.codeberg.page/api.json')
+        r = get('https://rimgo.codeberg.page/api.json')
         rJson = json.loads(r.text)
         _list = {
             'clearnet': [],
@@ -225,7 +224,7 @@ def jitsi(mightyList):
 
 def anonymousOverflow(mightyList):
     try:
-        r = requests.get(
+        r = get(
             'https://raw.githubusercontent.com/httpjamesm/AnonymousOverflow/main/instances.json')
         rJson: dict = r.json()
         all_instances = dict()
@@ -276,7 +275,7 @@ def safetwitch(mightyList):
 def nitter(mightyList):
     frontend = 'nitter'
     try:
-        r = requests.get(
+        r = get(
             'https://raw.githubusercontent.com/wiki/zedeus/nitter/Instances.md')
         _list = {}
         md = MarkdownIt().enable('table')
@@ -371,7 +370,7 @@ def privateBin(mightyList):
 
 def skunkyArt(mightyList):
     try:
-        r = requests.get(
+        r = get(
             'https://git.macaw.me/skunky/SkunkyArt/raw/branch/master/instances.json')
         rJson: dict = r.json()
         clearnet = []
@@ -411,7 +410,7 @@ def transLite(mightyList):
 
 def soundcloak(mightyList):
     try:
-        r = requests.get('https://maid.zone/soundcloak/instances.json')
+        r = get('https://maid.zone/soundcloak/instances.json')
         clearnet = []
         tor = []
         i2p = []
@@ -437,7 +436,7 @@ def soundcloak(mightyList):
 
 def phantom(mightyList):
     try:
-        r = requests.get('https://codeberg.org/phantom-org/phantom-instances/raw/branch/master/instances.json')
+        r = get('https://codeberg.org/phantom-org/phantom-instances/raw/branch/master/instances.json')
         rJson = json.loads(r.text)
         _list = {
             'clearnet': [],

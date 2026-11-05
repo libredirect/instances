@@ -1,15 +1,14 @@
-import requests
 from colorama import Fore, Style
 import json
 import re
-from .utils import torRegex, i2pRegex, fetchRegexList, fetchJsonList, fetchCache
+from .utils import torRegex, i2pRegex, fetchRegexList, fetchJsonList, fetchCache, get
 import logging
 import traceback
 
 
 def searxng(mightyList):
     try:
-        r = requests.get(
+        r = get(
             'https://searx.space/data/instances.json')
         rJson = json.loads(r.text)
         searxngList = {}

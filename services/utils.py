@@ -16,8 +16,12 @@ lokiRegex = startRegex + "loki" + endRegex
 authRegex = r"https?:\/{2}\S+:\S+@(?:[^\s\/]+\.)*[a-zA-Z0-9]+" + endRegex
 
 
+def get(url, timeout=30, **kwargs):
+    return requests.get(url, timeout=timeout, **kwargs)
+
+
 def get_cloudflare_ips():
-    r = requests.get('https://www.cloudflare.com/ips-v4')
+    r = get('https://www.cloudflare.com/ips-v4')
     return r.text.split('\n')
 
 
@@ -118,7 +122,7 @@ with open('networks.json', 'rt') as tmp:
 
 def fetchJsonList(frontend, url, urlItem, jsonObject, mightyList):
     try:
-        r = requests.get(url)
+        r = get(url)
         rJson = json.loads(r.text)
         if jsonObject:
             rJson = rJson['instances']
@@ -161,7 +165,7 @@ def fetchJsonList(frontend, url, urlItem, jsonObject, mightyList):
 
 def fetchRegexList(frontend, url, regex, mightyList):
     try:
-        r = requests.get(url)
+        r = get(url)
         _list = {}
         for network in networks:
             _list[network] = []
@@ -195,13 +199,13 @@ def fetchTextList(frontend, url, prepend):
         if type(url) == dict:
             for network in networks:
                 if url[network] is not None:
-                    r = requests.get(url[network])
+                    r = get(url[network])
                     tmp = r.text.strip().split('\n')
                     for item in tmp:
                         item = prepend[network] + item
                         _list[network].append(item)
         else:
-            r = requests.get(url)
+            r = get(url)
             tmp = r.text.strip().split('\n')
 
             for item in tmp:

@@ -1,5 +1,4 @@
-from .utils import fetchRegexList, fetchCache, fetchJsonList
-import requests
+from .utils import fetchRegexList, fetchCache, fetchJsonList, get
 import json
 from colorama import Fore, Style
 import logging
@@ -17,7 +16,7 @@ def invidious(mightyList):
         _list['tor'] = []
         _list['i2p'] = []
         _list['loki'] = []
-        r = requests.get(url)
+        r = get(url)
         rJson = json.loads(r.text)
         for instance in rJson:
             if instance[1]['type'] == 'https':
@@ -41,7 +40,7 @@ def piped(mightyList):
         _list['tor'] = []
         _list['i2p'] = []
         _list['loki'] = []
-        r = requests.get(
+        r = get(
             'https://raw.githubusercontent.com/TeamPiped/documentation/main/content/docs/public-instances/index.md')
 
         tmp = re.findall(
@@ -52,7 +51,7 @@ def piped(mightyList):
                     Fore.GREEN + 'Fetching ' + Style.RESET_ALL + item,
                     end=' '
                 )
-                url = requests.get(item, timeout=5).url
+                url = get(item, timeout=5).url
                 if url.strip("/") == item:
                     print(Fore.RED + '𐄂')
                     continue
@@ -105,7 +104,7 @@ def viewtube(mightyList):
 def poke(mightyList):
     frontend = 'poketube'
     try:
-        r = requests.get(
+        r = get(
             'https://codeberg.org/ashleyirispuppy/poke/raw/branch/main/instances.json')
         rJson = json.loads(r.text)
         _list = {
