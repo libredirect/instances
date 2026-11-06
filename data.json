@@ -201,7 +201,8 @@
   },
   "redlib": {
     "clearnet": [
-      "https://redlib.cow.rip"
+      "https://redlib.cow.rip",
+      "https://redlib.privadency.com"
     ],
     "tor": [
       "http://red.lpoaj7z2zkajuhgnlltpeqh3zyq7wk2iyeggqaduhgxhyajtdt2j7wad.onion"
@@ -654,19 +655,22 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://p.bittenbyt.es",
-      "https://bonus01.hwb0307.com",
-      "https://privatebin.oxidizer.de",
-      "https://paste.ononoki.org",
-      "https://paste.webevolutions.ch\\",
-      "https://paste.skynetcloud.site",
       "https://anonpaste.org",
-      "https://privatebin.net",
-      "https://0bin.ch",
-      "https://paste.webevolutions.ch\\dwpa-replay-4045416",
+      "https://lukisko.eu/privbin",
+      "https://privatebin.cc",
       "https://paste.coalserver.de",
+      "https://paste.skynetcloud.site",
+      "https://enjoys.rocks",
+      "https://privatebin.unige.ch",
+      "https://0bin.ch",
       "https://paste.webevolutions.ch",
-      "https://lukisko.eu/privbin"
+      "https://privatebin.net",
+      "https://bonus01.hwb0307.com",
+      "https://paste.ononoki.org",
+      "https://privatebin.oxidizer.de",
+      "https://privatebin.lol",
+      "https://paste.utilibre.org",
+      "https://p.bittenbyt.es"
     ],
     "tor": [],
     "i2p": [],
@@ -898,12 +902,6 @@
     ],
     "loki": []
   },
-  "laboratory": {
-    "clearnet": [],
-    "tor": [],
-    "i2p": [],
-    "loki": []
-  },
   "twineo": {
     "clearnet": [
       "https://twineo.exozy.me",
@@ -1133,6 +1131,20 @@
     "i2p": [
       "http://ahysxi4w2wl7vf7ghy3hbqibvdg4e7je3s2lrsrb6xpukklevrka.b32.i2p"
     ],
+    "loki": []
+  },
+  "structables": {
+    "clearnet": [
+      "https://structables.private.coffee",
+      "https://structables.bloat.cat",
+      "https://structables.darkness.services",
+      "https://structables.franklyflawless.org"
+    ],
+    "tor": [
+      "http://structables.coffee2m3bjsrrqqycx6ghkxrnejl2q6nl7pjw2j4clchjj6uk5zozad.onion",
+      "http://structables.darknessrdor43qkl2ngwitj72zdavfz2cead4t5ed72bybgauww5lyd.onion"
+    ],
+    "i2p": [],
     "loki": []
   }
 }
