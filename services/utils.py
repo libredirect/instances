@@ -6,6 +6,8 @@ from urllib.parse import urlparse
 import re
 from colorama import Fore, Style
 import socket
+import sys
+import os
 
 
 startRegex = r"https?:\/{2}(?:[^\s\/]+\.)*"
@@ -98,7 +100,11 @@ def idnaEncode(urlList):
     return tmp
 
 
+fetchErrors = {}
+
+
 def fetchCache(frontend, mightyList):
+    fetchErrors[frontend] = type(sys.exc_info()[1]).__name__
     try:
         with open('./data.json') as file:
             mightyList[frontend] = json.load(file)[frontend]
@@ -106,6 +112,22 @@ def fetchCache(frontend, mightyList):
     except Exception:
         print(Fore.RED + 'Failed' + Style.RESET_ALL +
               ' to get cached ' + frontend)
+
+
+def writeErrorLog(mightyList):
+    for frontend, instances in mightyList.items():
+        if not any(instances.values()):
+            fetchErrors.setdefault(frontend, 'no instances found')
+
+    if not fetchErrors:
+        if os.path.exists('./errors.log'):
+            os.remove('./errors.log')
+        return
+
+    with open('./errors.log', 'w') as file:
+        for frontend in sorted(fetchErrors):
+            file.write(frontend + ': ' + fetchErrors[frontend] + '\n')
+    print(Fore.BLUE + 'wrote ' + Style.RESET_ALL + 'instances/errors.log')
 
 
 def fetchFromFile(frontend, mightyList):

@@ -92,6 +92,8 @@ blacklist = {
     'cloudflare': cloudflare
 }
 
+writeErrorLog(mightyList)
+
 json_object = json.dumps(mightyList, ensure_ascii=False, indent=2)
 with open('./data.json', 'w') as outfile:
     outfile.write(json_object)
