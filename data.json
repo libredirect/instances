@@ -182,7 +182,6 @@
       "https://nitter.jaydenha.uk",
       "https://nitter.click",
       "https://nitter.xitter.cc",
-      "https://x.n0g.xyz",
       "https://tw.eir-nya.gay",
       "https://xcopy.uk",
       "https://nitter.kareem.one",
@@ -360,6 +359,7 @@
       "https://search.mizuki.st",
       "https://search.pereira.is",
       "https://search.pi.vps.pw",
+      "https://search.privacyredirect.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
       "https://search.serpensin.com",
@@ -407,7 +407,6 @@
       "https://www.gruble.de",
       "https://www.isci.si",
       "https://xka.cz",
-      "https://privacyredirect.com",
       "https://auth.seddens.net/?rd=https://search.seddens.net"
     ],
     "tor": [
@@ -423,24 +422,6 @@
       "http://lhdp2wkdwynwfxogmhqndgzfepwu4nbzllfompppmbetrcp732rxrbqd.onion",
       "http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion",
       "http://b352n7tub42bhdsta3lzksshayuvp6or2jbwdsw5spme65af6tetq4id.onion"
-    ],
-    "i2p": [],
-    "loki": []
-  },
-  "searx": {
-    "clearnet": [
-      "https://search.stinpriza.org",
-      "https://searx.dresden.network",
-      "https://searx.gnu.style",
-      "https://searx.mastodontech.de",
-      "https://searx.mxchange.org",
-      "https://searx.nixnet.services",
-      "https://searx.roflcopter.fr",
-      "https://searx.ru",
-      "https://searx.zapashcanon.fr"
-    ],
-    "tor": [
-      "http://z5vawdol25vrmorm4yydmohsd4u6rdoj2sylvoi3e3nqvxkvpqul7bqd.onion"
     ],
     "i2p": [],
     "loki": []
@@ -655,22 +636,23 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://anonpaste.org",
-      "https://paste.skynetcloud.site",
       "https://lukisko.eu/privbin",
-      "https://paste.ononoki.org",
-      "https://paste.webevolutions.ch",
-      "https://enjoys.rocks",
-      "https://privatebin.cc",
-      "https://paste.coalserver.de",
-      "https://privatebin.unige.ch",
-      "https://privatebin.wildberries.ru",
-      "https://privatebin.lol",
       "https://p.bittenbyt.es",
-      "https://privatebin.oxidizer.de",
-      "https://bonus01.hwb0307.com",
+      "https://privatebin.wildberries.ru",
+      "https://paste.ononoki.org",
+      "https://paste.coalserver.de",
+      "https://paste.webevolutions.ch",
       "https://0bin.ch",
-      "https://privatebin.net"
+      "https://paste.skynetcloud.site",
+      "https://privatebin.lol",
+      "https://enjoys.rocks",
+      "https://paste.helkor.eu",
+      "https://paste.utilibre.org",
+      "https://bonus01.hwb0307.com",
+      "https://anonpaste.org",
+      "https://privatebin.net",
+      "https://privatebin.unige.ch",
+      "https://privatebin.cc"
     ],
     "tor": [],
     "i2p": [],
