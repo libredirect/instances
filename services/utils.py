@@ -8,6 +8,7 @@ from colorama import Fore, Style
 import socket
 import sys
 import os
+from datetime import datetime, UTC
 
 
 startRegex = r"https?:\/{2}(?:[^\s\/]+\.)*"
@@ -125,6 +126,7 @@ def writeErrorLog(mightyList):
         return
 
     with open('./errors.log', 'w') as file:
+        file.write(datetime.now(UTC).strftime('%Y-%m-%d %H:%M UTC') + '\n')
         for frontend in sorted(fetchErrors):
             file.write(frontend + ': ' + fetchErrors[frontend] + '\n')
     print(Fore.BLUE + 'wrote ' + Style.RESET_ALL + 'instances/errors.log')
