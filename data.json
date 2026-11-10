@@ -171,8 +171,9 @@
     "clearnet": [
       "https://shitter.thepixora.com",
       "https://nitter.pp.ua",
-      "https://nitter.meowing.monster",
       "https://nitter.netbub.com",
+      "https://nitter.catsarch.com",
+      "https://nitter.mizuki.st",
       "https://nitter.r4fo.com",
       "https://shi.meowing.de",
       "https://nitter.tiekoetter.com",
@@ -191,6 +192,7 @@
       "https://twiiit.com"
     ],
     "tor": [
+      "http://nitter.catsarchywsyuss6jdxlypsw5dc7owd5u5tr6bujxb7o6xw2hipqehyd.onion",
       "http://nitter.lesboswza6waq3itqo46rvf5a7dibxih32f2umwg6fpssxj66spmclyd.onion",
       "http://nitter.dog5267ah4m4f4677r33b2pzq667lwhsqupojioqz4rg6e2q74p3xtyd.onion",
       "http://dhgjnhkxtgesvcddfwzqm4d4zmyz2x2jud6huweu5iywuvoo7qaqpjid.onion"
@@ -200,6 +202,7 @@
   },
   "redlib": {
     "clearnet": [
+      "https://redlib.freedit.eu",
       "https://redlib.cow.rip",
       "https://redlib.privadency.com"
     ],
@@ -362,6 +365,7 @@
       "https://search.privacyredirect.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
+      "https://search.seddens.net",
       "https://search.serpensin.com",
       "https://search.spiralab.org",
       "https://search.undertale.uk",
@@ -406,8 +410,7 @@
       "https://sx.xo.st",
       "https://www.gruble.de",
       "https://www.isci.si",
-      "https://xka.cz",
-      "https://auth.seddens.net/?rd=https://search.seddens.net"
+      "https://xka.cz"
     ],
     "tor": [
       "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
@@ -636,20 +639,21 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.cc",
-      "https://anonpaste.org",
-      "https://paste.ononoki.org",
-      "https://0bin.ch",
-      "https://enjoys.rocks",
-      "https://paste.utilibre.org",
-      "https://paste.webevolutions.ch",
-      "https://p.bittenbyt.es",
-      "https://paste.coalserver.de",
-      "https://privatebin.net",
-      "https://paste.skynetcloud.site",
       "https://privatebin.lol",
       "https://bonus01.hwb0307.com",
-      "https://privatebin.unige.ch"
+      "https://anonpaste.org",
+      "https://paste.plus",
+      "https://enjoys.rocks",
+      "https://0bin.ch",
+      "https://privatebin.unige.ch",
+      "https://paste.webevolutions.ch",
+      "https://paste.skynetcloud.site",
+      "https://privatebin.net",
+      "https://paste.ononoki.org",
+      "https://privatebin.cc",
+      "https://paste.utilibre.org",
+      "https://paste.coalserver.de",
+      "https://p.bittenbyt.es"
     ],
     "tor": [],
     "i2p": [],
