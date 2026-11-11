@@ -365,7 +365,6 @@
       "https://search.privacyredirect.com",
       "https://search.rhscz.eu",
       "https://search.rowie.at",
-      "https://search.seddens.net",
       "https://search.serpensin.com",
       "https://search.spiralab.org",
       "https://search.undertale.uk",
@@ -410,7 +409,8 @@
       "https://sx.xo.st",
       "https://www.gruble.de",
       "https://www.isci.si",
-      "https://xka.cz"
+      "https://xka.cz",
+      "https://auth.seddens.net/?rd=https://search.seddens.net"
     ],
     "tor": [
       "http://kantanrucloofzrfn7vqlsxbhipkqv55qygn4oxogbnjpfex54bw4gad.onion",
@@ -639,21 +639,24 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://privatebin.lol",
-      "https://bonus01.hwb0307.com",
-      "https://anonpaste.org",
-      "https://paste.plus",
-      "https://enjoys.rocks",
       "https://0bin.ch",
-      "https://privatebin.unige.ch",
-      "https://paste.webevolutions.ch",
-      "https://paste.skynetcloud.site",
-      "https://privatebin.net",
-      "https://paste.ononoki.org",
       "https://privatebin.cc",
-      "https://paste.utilibre.org",
+      "https://paste.skynetcloud.site",
+      "https://bonus01.hwb0307.com",
+      "https://privatebin.net",
+      "https://encryp.ch/note",
       "https://paste.coalserver.de",
-      "https://p.bittenbyt.es"
+      "https://paste.utilibre.org",
+      "https://privatebin.wildberries.ru",
+      "https://paste.plus",
+      "https://privatebin.unige.ch",
+      "https://anonpaste.org",
+      "https://privatebin.lol",
+      "https://lukisko.eu/privbin",
+      "https://zbin.io",
+      "https://paste.ononoki.org",
+      "https://p.bittenbyt.es",
+      "https://enjoys.rocks"
     ],
     "tor": [],
     "i2p": [],
@@ -1008,10 +1011,8 @@
   },
   "liteXiv": {
     "clearnet": [
-      "https://litexiv.qunn.link",
       "https://litexiv.bloat.cat",
-      "https://lxv.dc09.ru",
-      "https://lite.ext4.xyz"
+      "https://lxv.dc09.xyz"
     ],
     "tor": [],
     "i2p": [],
