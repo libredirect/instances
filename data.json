@@ -452,7 +452,9 @@
       "https://mirnir.com",
       "https://nepnir.com",
       "https://degoog.ogservers.org",
-      "https://search.coffeelover.uk"
+      "https://search.coffeelover.uk",
+      "https://degoo.gl",
+      "https://degoog.gl"
     ],
     "tor": [],
     "i2p": [],
@@ -507,7 +509,6 @@
       "https://imgur.nerdvpn.de",
       "https://rimgo.canine.tools",
       "https://r.opnxng.com",
-      "https://rg.kuuro.net",
       "https://rimgo.proxik.cloud",
       "https://anaimg.starbeamrainbowlabs.com",
       "https://rimgo.wuemeli.com",
@@ -517,8 +518,7 @@
       "http://rimgo.micohauwkjbyw5meacrb4ipicwvwg4xtzl7y7viv53kig2mdcsvwkyyd.onion",
       "http://rimgo.nadekonw7plitnjuawu6ytjsl7jlglk2t6pyq6eftptmiv3dvqndwvyd.onion",
       "http://rimgo.catsarchywsyuss6jdxlypsw5dc7owd5u5tr6bujxb7o6xw2hipqehyd.onion",
-      "http://imgurolljpstjc2w5gb6lgcxhvdsndmurvbbkvpv6s5pif3kkhe5ptad.onion",
-      "http://rg.kuu7oukh73yy4pn5iahfnm3k6vppyseqtt6xn3xs33big5cnlv2fr5yd.onion"
+      "http://imgurolljpstjc2w5gb6lgcxhvdsndmurvbbkvpv6s5pif3kkhe5ptad.onion"
     ]
   },
   "pixivFe": {
@@ -645,22 +645,20 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://paste.probablyvpn.com",
-      "https://0bin.ch",
-      "https://bonus01.hwb0307.com",
-      "https://paste.encrypt.co.il",
-      "https://anonpaste.org",
-      "https://paste.utilibre.org",
-      "https://enjoys.rocks",
-      "https://paste.webevolutions.ch",
-      "https://paste.plus",
       "https://paste.ononoki.org",
-      "https://privatebin.oxidizer.de",
-      "https://privatebin.cc",
-      "https://lukisko.eu/privbin",
-      "https://privatebin.net",
+      "https://paste.utilibre.org",
       "https://p.bittenbyt.es",
-      "https://privatebin.unige.ch"
+      "https://paste.webevolutions.ch",
+      "https://paste.coalserver.de",
+      "https://privatebin.wildberries.ru",
+      "https://lukisko.eu/privbin",
+      "https://anonpaste.org",
+      "https://paste.encrypt.co.il",
+      "https://privatebin.net",
+      "https://bonus01.hwb0307.com",
+      "https://privatebin.oxidizer.de",
+      "https://paste.probablyvpn.com",
+      "https://paste.helkor.eu"
     ],
     "tor": [],
     "i2p": [],
