@@ -1,8 +1,21 @@
 {
   "invidious": {
-    "clearnet": [],
-    "tor": [],
-    "i2p": [],
+    "clearnet": [
+      "https://inv.nadeko.net",
+      "https://invidious.nerdvpn.de",
+      "https://yt.chocolatemoo53.com",
+      "https://invidious.tiekoetter.com",
+      "https://inv-ygg.nadeko.net",
+      "https://inv.nadeko.ygg"
+    ],
+    "tor": [
+      "http://inv.nadekonw7plitnjuawu6ytjsl7jlglk2t6pyq6eftptmiv3dvqndwvyd.onion",
+      "http://nerdvpneaggggfdiurknszkbmhvjndks5z5k3g5yp4nhphflh3n3boad.onion"
+    ],
+    "i2p": [
+      "http://nadekoohummkxncchcsylr3eku36ze4waq4kdrhcqupckc3pe5qq.b32.i2p",
+      "http://invidious-nerdvpn.i2p"
+    ],
     "loki": []
   },
   "materialious": {
@@ -361,7 +374,7 @@
       "https://search.yuri.llc",
       "https://search.zina.dev",
       "https://searx.dresden.network",
-      "https://searx.githo.st",
+      "https://searx.idler.me",
       "https://searx.linxx.net",
       "https://searx.mbuf.net",
       "https://searx.mxchange.org",
@@ -604,7 +617,8 @@
       "https://binternet.4o1x5.dev",
       "https://binternet.canine.tools",
       "https://binternet.privadency.com",
-      "https://binternet.utilibre.org"
+      "https://binternet.utilibre.org",
+      "https://binternet.notbig.business"
     ],
     "tor": [
       "http://binternet.nadeko24jhlqccyfnmvynwkojcfzmub53m74y5b7l5e6hn55jlml4pqd.onion",
@@ -626,31 +640,28 @@
   },
   "privateBin": {
     "clearnet": [
-      "https://anonpaste.org",
-      "https://zbin.io",
+      "https://p.bittenbyt.es",
+      "https://enjoys.rocks",
       "https://privatebin.unige.ch",
-      "https://paste.skynetcloud.site",
+      "https://anonpaste.org",
+      "https://privatebin.qualityaustria.com",
+      "https://encryp.ch/note",
+      "https://paste.coalserver.de",
       "https://privatebin.wildberries.ru",
       "https://paste.plus",
-      "https://secure.4it.com.au",
-      "https://privatebin.lol",
       "https://paste.utilibre.org",
-      "https://paste.coalserver.de",
-      "https://bonus01.hwb0307.com",
+      "https://paste.webevolutions.ch",
       "https://paste.helkor.eu",
       "https://0bin.ch",
-      "https://encryp.ch/note",
-      "https://paste.webevolutions.ch",
-      "https://p.bittenbyt.es",
-      "https://paste.tuxcloud.net",
-      "https://privatebin.net",
-      "https://privatebin.qualityaustria.com",
+      "https://privatebin.lol",
       "https://paste.ononoki.org",
+      "https://privatebin.net",
+      "https://privatebin.oxidizer.de",
+      "https://bonus01.hwb0307.com",
+      "https://paste.skynetcloud.site",
       "https://privatebin.cc",
-      "https://enjoys.rocks",
-      "https://paste.encrypt.co.il",
-      "https://paste.probablyvpn.com",
-      "https://lukisko.eu/privbin"
+      "https://lukisko.eu/privbin",
+      "https://paste.encrypt.co.il"
     ],
     "tor": [],
     "i2p": [],
@@ -869,6 +880,7 @@
       "https://tent.bloat.cat",
       "https://tent.canine.tools",
       "https://tent.deep-swarm.xyz",
+      "https://tent.notbig.business",
       "https://tent.private.coffee",
       "https://tent.sny.sh",
       "https://tent.xnand.xyz",
